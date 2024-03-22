@@ -1,0 +1,37 @@
+#blackBackground{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    position: relative;
+}
+
+header>div>nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#home{
+    font-size: 20px;
+    color: white;
+}
+
+#aboutMe{
+    font-size: 20px;
+    color: white;
+}
+
+#works{
+    font-size: 20px;
+    color: white;
+}
+
+#story{
+    font-size: 20px;
+    color: white;
+}
+
+#contact{
+    font-size: 20px;
+    color: white;
+}
