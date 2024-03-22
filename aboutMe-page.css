@@ -7,31 +7,169 @@
 
 header>div>nav{
     position: absolute;
-    top: 0;
+    top: 10px;
+    bottom: 0;
     right: 0;
+    left: 50%;
+    margin: auto;
+}
+
+header>div>img{
+    position: relative;
+    width: 80px;
+    height: 70px;
+    top: 5px;
+    left: 5px;
 }
 
 #home{
     font-size: 20px;
     color: white;
+    position: relative;
+    right: 200px;
 }
 
 #aboutMe{
     font-size: 20px;
     color: white;
+    position: relative;
+    right: 160px;
 }
 
 #works{
     font-size: 20px;
     color: white;
+    position: relative;
+    right: 120px;
 }
 
 #story{
     font-size: 20px;
     color: white;
+    position: relative;
+    right: 70px;
 }
 
 #contact{
     font-size: 20px;
     color: white;
+    position: relative;
+    right: 20px;
+}
+
+#whoIs{
+    font-size: 50px;
+    position: relative;
+    top: 60px;
+    bottom: 0;
+    right: 0;
+    left: -8%;
+    margin: auto;
+    color: white;
+}
+
+#veshon{
+    font-size: 50px;
+    color: white;
+    padding: 0;
+    position: relative;
+    top: 70px;
+    bottom: 0;
+    right: 0;
+    left: -10%;
+    margin: auto;
+}
+
+main>div{
+    height: 0;
+}
+
+main>div>p{
+    position: relative;
+    top: 30px;
+    left: 700px;
+    padding: 0;
+    margin: 0;
+    max-width: 640px;
+}
+
+main>div>img{
+    position: relative;
+    top: 40px;
+    left: 700px;
+    padding: 0;
+    margin: 0;
+    max-width: 640px;
+}
+
+main>img{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+#vision{
+    position: relative;
+    top: 20px;
+    left: 15%;
+}
+
+.vision{
+    position: relative;
+    top: 20px;
+    left: 10%;
+}
+
+#mission{
+    position: relative;
+    top: -170px;
+    left: 48%;
+}
+
+.mission{
+    position: relative;
+    top: -170px;
+    left: 45%;
+}
+
+#quotes{
+    position: relative;
+    top: -359px;
+    left: 80%;
+}
+
+.quotes{
+    position: relative;
+    top: -359px;
+    left: 80%;
+}
+
+#designer{
+    position: relative;
+    top: -200px;
+    left: 150px;
+}
+
+.designer{
+    position: relative;
+    top: -200px;
+    left: 100px;
+}
+
+#pieChart{
+    position: relative;
+    top: -340px;
+    left: 43%;
+}
+
+#coder{
+    position: relative;
+    top: -570px;
+    left: 1100px;
+}
+
+.coder{
+    position: relative;
+    top: -570px;
+    left: 1050px;
 }
