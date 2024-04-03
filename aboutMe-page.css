@@ -252,3 +252,63 @@ main>img{
     /*position: relative;*/
     /*left: 50px;*/
 }
+
+footer>h2{
+    color: white;
+    position: relative;
+    top: -220px;
+    left: 45%;
+    max-width: 200px;
+}
+
+
+#logoFooter{
+    width: 180px;
+    height: 160px;
+    position: absolute;
+    bottom: -3315px;
+    right: 30px;
+}
+
+#infoLink{
+    color: white;
+    position: absolute;
+    top: 3910px;
+    left: 39%;
+}
+
+#infoLink>a{
+    color:white;
+}
+
+#phoneIcon{
+    width: 25px;
+    aspect-ratio: 1/1;
+    max-width: 25px;
+    max-height: 25px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+
+#FooterBlackBackground>div>#mobileNo{
+    color: white;
+    position: relative;
+    top: 7px;
+    left: 140px;
+}
+
+#mailIcon{
+    width: 25px;
+    aspect-ratio: 1/1;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+#FooterBlackBackground>div>#email{
+    color: white;
+    position: relative;
+    top: -40px;
+    left: 140px;
+}
