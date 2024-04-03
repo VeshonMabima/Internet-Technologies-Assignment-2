@@ -149,7 +149,8 @@ main>img{
     position: relative;
     top: 100px;
     left: 15%;
-    max-width: 640px;
+    max-width: fit-content;
+    font-size: 25px;
 }
 
 .vision{
@@ -166,14 +167,15 @@ main>img{
 
 #mission{
     position: relative;
-    top: -24px;
+    top: -32px;
     left: 48%;
-    max-width: 100px;
+    max-width: fit-content;
+    font-size: 25px;
 }
 
 .mission{
     position: relative;
-    top: -26px;
+    top: -32px;
     left: 45%;
     max-width: 300px;
     font-family: "Junge", cursive;
@@ -185,14 +187,15 @@ main>img{
 
 #quotes{
     position: relative;
-    top: -224px;
+    top: -239px;
     left: 80%;
-    max-width: 120px;
+    max-width: fit-content;
+    font-size: 25px;
 }
 
 .quotes{
     position: relative;
-    top: -225px;
+    top: -239px;
     left: 80%;
     max-width: 180px;
     font-family: "Junge", cursive;
@@ -205,14 +208,24 @@ main>img{
 #designer{
     position: absolute;
     top: 1320px;
-    left: 250px;
-    max-width: 200px;
+    left: 210px;
+    max-width: fit-content;
+    font-size: 32px;
+}
+
+#designer>hr{
+    width: 110px;
+    height: 5px;
+    position: relative;
+    top: -15px;
+    left: -43px;
+    opacity: 50%;
 }
 
 .designer{
     position: absolute;
-    top: 1370px;
-    left: 200px;
+    top: 1400px;
+    left: 185px;
     max-width: 200px;
 }
 
@@ -234,13 +247,23 @@ main>img{
 #coder{
     position: absolute;
     top: 1320px;
-    left: 1060px;
+    left: 1040px;
     max-width: 200px;
+    font-size: 32px;
+}
+
+#coder>hr{
+    width: 110px;
+    height: 5px;
+    position: relative;
+    top: -15px;
+    left: -20px;
+    opacity: 50%;
 }
 
 .coder{
     position: absolute;
-    top: 1370px;
+    top: 1400px;
     left: 1000px;
     max-width: 200px;
 }
@@ -274,6 +297,15 @@ main>img{
     font-weight: bolder;
     font-style: normal;
     opacity: 65%;
+}
+
+#hobbies>hr{
+    height: 5px;
+    color: black;
+    position: relative;
+    top: -17px;
+    left: -15px;
+    opacity: 50%;
 }
 
 #vrticlHobbies>hr{
