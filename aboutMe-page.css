@@ -261,6 +261,19 @@ footer>h2{
     max-width: 200px;
 }
 
+#middleFooter>nav>#links>li>a{
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#middleFooter>nav>#links{
+    color: white;
+    position: relative;
+    top: -225px;
+    left: 620px;
+}
 
 #logoFooter{
     width: 180px;
@@ -288,13 +301,13 @@ footer>h2{
     max-height: 25px;
     position: relative;
     top: 70px;
-    left: 100px;
+    left: 105px;
 }
 
 #FooterBlackBackground>div>#mobileNo{
     color: white;
-    position: relative;
-    top: 7px;
+    position: absolute;
+    top: 40px;
     left: 140px;
 }
 
@@ -302,13 +315,13 @@ footer>h2{
     width: 25px;
     aspect-ratio: 1/1;
     position: relative;
-    top: 20px;
-    left: 100px;
+    top: 135px;
+    left: 75px;
 }
 
 #FooterBlackBackground>div>#email{
     color: white;
-    position: relative;
-    top: -40px;
+    position: absolute;
+    top: 105px;
     left: 140px;
 }
