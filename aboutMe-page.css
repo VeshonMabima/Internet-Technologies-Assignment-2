@@ -67,25 +67,25 @@ header>div>img{
 }
 
 #whoIs{
-    font-size: 50px;
+    font-size: 65px;
     position: relative;
     top: 60px;
     bottom: 0;
     right: 0;
-    left: -8%;
+    left: -13%;
     margin: auto;
     color: white;
 }
 
 #veshon{
-    font-size: 50px;
+    font-size: 65px;
     color: white;
     padding: 0;
     position: relative;
-    top: 70px;
+    top: 60px;
     bottom: 0;
     right: 0;
-    left: -10%;
+    left: -100px;
     margin: auto;
 }
 
@@ -105,14 +105,14 @@ main>div{
     font-optical-sizing: auto;
     font-weight: bolder;
     font-style: normal;
-    opacity: 65%;
+    opacity: 90%;
 }
 
 #vrticlAbout>hr{
     position: relative;
     top: -20px;
     left: 95px;
-    opacity: 65%;
+    opacity: 90%;
 }
 
 main>div>p{
@@ -296,7 +296,7 @@ main>img{
     font-optical-sizing: auto;
     font-weight: bolder;
     font-style: normal;
-    opacity: 65%;
+    opacity: 90%;
 }
 
 #hobbies>hr{
@@ -312,7 +312,7 @@ main>img{
     position: relative;
     top: -20px;
     left: 95px;
-    opacity: 65%;
+    opacity: 90%;
 }
 
 #hobbies{
@@ -391,14 +391,14 @@ main>img{
     font-optical-sizing: auto;
     font-weight: bolder;
     font-style: normal;
-    opacity: 65%;
+    opacity: 90%;
 }
 
 #vrticlGoals>hr{
     position: relative;
     top: -20px;
     left: 80px;
-    opacity: 65%;
+    opacity: 90%;
 }
 
 #blurGoals{
