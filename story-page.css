@@ -99,3 +99,14 @@ header>div>img{
     font-style: normal;
     font-size: 20px;
 }
+
+#heroLeft>h5{
+    font-size: 17px;
+    font-family: "Junge", cursive;
+    font-weight: bold;
+    font-style: normal;
+    position: absolute;
+    top: 580px;
+    left: 80px;
+    line-height: 30px;
+}
