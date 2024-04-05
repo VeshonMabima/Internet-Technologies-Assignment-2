@@ -152,7 +152,7 @@ header>div>img{
     height: 50vh;
     background-color: black;
     position: absolute;
-    top: 2400px;
+    top: 1050px;
 }
 
 #FooterBlackBackground>div>h6 {
@@ -165,7 +165,7 @@ header>div>img{
 
 #bottomMiddleFooter>h2{
     position: absolute;
-    top: 2430px;
+    top: 1070px;
     bottom: 0;
     right: 0;
     left: 46%;
@@ -181,7 +181,7 @@ header>div>img{
 
 #bottomMiddleFooter>nav>#links{
     position: absolute;
-    top: 2465px;
+    top: 1110px;
     bottom: 0;
     right: 0;
     left: 46%;
@@ -199,14 +199,14 @@ header>div>img{
     width: 180px;
     height: 160px;
     position: absolute;
-    top: 2450px;
+    top: 1100px;
     right: 50px;
 }
 
 #infoLink{
     color: white;
     position: absolute;
-    top: 2650px;
+    top: 1300px;
     left: 32%;
     font-family: "Inter Tight", sans-serif;
     font-optical-sizing: auto;
