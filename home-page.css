@@ -15,6 +15,10 @@ header>div>nav{
     word-spacing: 5px;
 }
 
+header>div>nav>a{
+    text-decoration: none
+}
+
 header>div>img{
     position: relative;
     width: 80px;
