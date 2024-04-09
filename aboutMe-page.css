@@ -736,7 +736,7 @@ main>img{
         position: relative;
         top: 99px;
         left: 2%;
-        max-width: 640px;
+        max-width: fit-content;
         font-family: "Junge", cursive;
         font-weight: bold;
         font-style: normal;
@@ -756,12 +756,13 @@ main>img{
         position: relative;
         top: 40px;
         left: 36%;
-        max-width: 300px;
+        max-width: fit-content;
         font-family: "Junge", cursive;
         font-weight: bold;
         font-style: normal;
         font-size: 7px;
         line-height: 13px;
+
     }
 
     #quotes{
@@ -776,7 +777,7 @@ main>img{
         position: relative;
         top: -63px;
         left: 74%;
-        max-width: 180px;
+        max-width: fit-content;
         font-family: "Junge", cursive;
         font-weight: bold;
         font-style: normal;
@@ -968,6 +969,7 @@ main>img{
         font-style: normal;
         opacity: 17%;
         letter-spacing: 10px;
+        max-width: fit-content;
     }
 
     #goals{
