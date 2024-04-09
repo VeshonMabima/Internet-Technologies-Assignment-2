@@ -431,7 +431,7 @@ main>img{
     font-size: 14px;
 }
 
-@media only screen and (max-width: 320px){
+@media screen and (max-width: 320px){
 
     header{
         max-width: fit-content;

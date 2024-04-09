@@ -551,8 +551,13 @@ main>img{
 }
 
 @media screen and (max-width: 320px) {
+
+    header{
+        max-width: fit-content;
+    }
+
     #blackBackground{
-        width: 311px;
+        width: 310px;
         height: 50vh;
         background-color: black;
         position: relative;
@@ -635,7 +640,7 @@ main>img{
     #whoIs{
         font-size: 30px;
         position: absolute;
-        top: 35px;
+        top: 45px;
         bottom: 0;
         right: 0;
         left: -50px;
@@ -648,7 +653,7 @@ main>img{
         color: white;
         padding: 0;
         position: relative;
-        top: 50px;
+        top: 80px;
         bottom: 0;
         right: 0;
         left: -60px;
@@ -656,9 +661,9 @@ main>img{
 
     #mirrorSelfi{
         position: relative;
-        width: 120px;
-        height: 150px;
-        top: 15px;
+        width: 160px;
+        height: 200px;
+        top: 30px;
         left: 5px;
     }
 
@@ -666,7 +671,7 @@ main>img{
         width: 100px;
         position: relative;
         top: 30px;
-        left: 190px;
+        left: 208px;
         padding: 0;
         margin: 0;
         max-width: fit-content;
@@ -679,7 +684,7 @@ main>img{
         height: 10px;
         position: relative;
         top:45px;
-        left: 190px;
+        left: 210px;
         padding: 0;
         margin: 0;
         max-width: 640px;
@@ -690,8 +695,8 @@ main>img{
         transform-origin: 50% 50%;
         color: black;
         position: absolute;
-        top: 177px;
-        left: 130px;
+        top: 235px;
+        left: 150px;
         /*letter-spacing: 6px;*/
         font-family: "Karla", sans-serif;
         font-optical-sizing: auto;
@@ -708,4 +713,137 @@ main>img{
         left: 55px;
         opacity: 90%;
     }
+
+    #vision{
+        position: relative;
+        top: 100px;
+        left: 10%;
+        max-width: fit-content;
+        font-size: 12px;
+    }
+
+    .vision{
+        position: relative;
+        top: 99px;
+        left: 2%;
+        max-width: 640px;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 7px;
+        line-height: 10px;
+    }
+
+    #mission{
+        position: relative;
+        top: 42px;
+        left: 43%;
+        max-width: fit-content;
+        font-size: 12px;
+    }
+
+    .mission{
+        position: relative;
+        top: 40px;
+        left: 36%;
+        max-width: 300px;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 7px;
+        line-height: 13px;
+    }
+
+    #quotes{
+        position: relative;
+        top: -61px;
+        left: 74%;
+        max-width: fit-content;
+        font-size: 12px;
+    }
+
+    .quotes{
+        position: relative;
+        top: -63px;
+        left: 74%;
+        max-width: 180px;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 7px;
+        line-height: 13px;
+    }
+
+    #designer{
+        position: absolute;
+        top: 620px;
+        left: 5px;
+        max-width: fit-content;
+        font-size: 11px;
+    }
+
+    #designer>hr{
+        width: 40px;
+        height: 3px;
+        position: relative;
+        top: -5px;
+        left: -15px;
+        opacity: 50%;
+    }
+
+    .designer{
+        position: absolute;
+        top: 645px;
+        left: -30px;
+        max-width: 200px;
+    }
+
+    .designer>li{
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 7px;
+        line-height: 15px;
+    }
+
+    #pieChart{
+        position: absolute;
+        width: 130px;
+        height: 110px;
+        top: 630px;
+        left: 27%;
+    }
+
+    #coder{
+        position: absolute;
+        top: 620px;
+        left: 220px;
+        max-width: fit-content;
+        font-size: 11px;
+    }
+
+    #coder>hr{
+        width: 40px;
+        height: 3px;
+        position: relative;
+        top: -5px;
+        left: -6px;
+        opacity: 50%;
+    }
+
+    .coder{
+        position: absolute;
+        top: 645px;
+        left: 180px;
+        max-width: fit-content;
+    }
+
+    .coder>li{
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 7px;
+        line-height: 13px;
+    }
+
 }
