@@ -550,3 +550,162 @@ main>img{
     display: none;
 }
 
+@media screen and (max-width: 320px) {
+    #blackBackground{
+        width: 311px;
+        height: 50vh;
+        background-color: black;
+        position: relative;
+    }
+
+    header>div>nav{
+        position: absolute;
+        top: 10px;
+        bottom: 0;
+        right: 0;
+        left: 50%;
+        margin: auto;
+        word-spacing: 5px;
+    }
+
+    header>div>img{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        top: 5px;
+        left: 5px;
+    }
+
+
+    #home{
+        font-size: 7px;
+        color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: -100px;
+        margin: auto;
+    }
+
+    #aboutMe{
+        font-size: 7px;
+        color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: -60px;
+        margin: auto;
+    }
+
+    #works{
+        font-size: 7px;
+        color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    #story{
+        font-size: 7px;
+        color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 50px;
+        margin: auto;
+    }
+
+    #contact{
+        font-size: 7px;
+        color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 90px;
+        margin: auto;
+    }
+
+    #whoIs{
+        font-size: 30px;
+        position: absolute;
+        top: 35px;
+        bottom: 0;
+        right: 0;
+        left: -50px;
+        margin: auto;
+        color: white;
+    }
+
+    #veshon {
+        font-size: 30px;
+        color: white;
+        padding: 0;
+        position: relative;
+        top: 50px;
+        bottom: 0;
+        right: 0;
+        left: -60px;
+    }
+
+    #mirrorSelfi{
+        position: relative;
+        width: 120px;
+        height: 150px;
+        top: 15px;
+        left: 5px;
+    }
+
+    main>div>p{
+        width: 100px;
+        position: relative;
+        top: 30px;
+        left: 190px;
+        padding: 0;
+        margin: 0;
+        max-width: fit-content;
+        font-size: 8px;
+        line-height: 15px;
+    }
+
+    #upMain>div>img{
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top:45px;
+        left: 190px;
+        padding: 0;
+        margin: 0;
+        max-width: 640px;
+    }
+
+    #vrticlAbout{
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+        color: black;
+        position: absolute;
+        top: 177px;
+        left: 130px;
+        /*letter-spacing: 6px;*/
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 90%;
+        font-size: 6px;
+    }
+
+    #vrticlAbout>hr{
+        width: 25px;
+        position: relative;
+        top: -7px;
+        left: 55px;
+        opacity: 90%;
+    }
+}

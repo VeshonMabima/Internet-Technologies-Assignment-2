@@ -229,7 +229,6 @@ main>img{
     opacity: 90%;
 }
 
-
 .gallery>div>img:first-child{
     width: 342px;
     height: 470px;
@@ -434,8 +433,12 @@ main>img{
 
 @media only screen and (max-width: 320px){
 
+    header{
+        max-width: fit-content;
+    }
+
     #blackBackground{
-        width: 311px;
+        width: 310px;
         height: 50vh;
         background-color: black;
         position: relative;
@@ -573,7 +576,7 @@ main>img{
         transform-origin: 50% 50%;
         color: black;
         position: absolute;
-        top: 177px;
+        top: 235px;
         left: 130px;
         /*letter-spacing: 6px;*/
         font-family: "Karla", sans-serif;
@@ -592,20 +595,9 @@ main>img{
         opacity: 90%;
     }
 
-    .gallery>div>img:first-child{
-        width: 270px;
-        height: 370px;
-        position: absolute;
-        top: 1270px;
-        bottom: 0;
-        right: 0;
-        left: 900px;
-        margin: auto;
-    }
-
     #blurGallery{
         position: absolute;
-        top: 350px;
+        top: 430px;
         bottom: 0;
         right: 0;
         left: 10%;
@@ -631,7 +623,7 @@ main>img{
         font-weight: bolder;
         font-style: normal;
         position: absolute;
-        top: 400px;
+        top: 470px;
         left: 5px;
     }
 
@@ -643,6 +635,7 @@ main>img{
         left: 2px;
         opacity: 50%;
     }
+
     #vrticlGallery{
         transform: rotate(90deg);
         transform-origin: 50% 50%;
@@ -695,7 +688,7 @@ main>img{
         width: 90px;
         height: 125px;
         position: absolute;
-        top: 440px;
+        top: 530px;
         bottom: 0;
         right: 0;
         left: 210px;
@@ -707,10 +700,10 @@ main>img{
         width: 135px;
         height: 85px;
         position: absolute;
-        top: 490px;
+        top: 570px;
         bottom: 0;
         right: 0;
-        left: -20px;
+        left: -18px;
         margin: auto;
     }
 
@@ -718,7 +711,7 @@ main>img{
         width: 73px;
         height: 106px;
         position: absolute;
-        top: 520px;
+        top: 600px;
         bottom: 0;
         right: 0;
         left: -230px;
@@ -729,7 +722,7 @@ main>img{
         width: 190px;
         height: 120px;
         position: absolute;
-        top: 640px;
+        top: 725px;
         bottom: 0;
         right: 0;
         left: 0;
@@ -740,7 +733,7 @@ main>img{
         width: 95px;
         height: 130px;
         position: absolute;
-        top: 770px;
+        top: 860px;
         bottom: 0;
         right: 0;
         left: -203px;
@@ -751,7 +744,7 @@ main>img{
         width: 85px;
         height: 130px;
         position: absolute;
-        top: 770px;
+        top: 860px;
         bottom: 0;
         right: 0;
         left: 10px;
@@ -762,7 +755,7 @@ main>img{
         width: 80px;
         height: 130px;
         position: absolute;
-        top: 770px;
+        top: 860px;
         bottom: 0;
         right: 0;
         left: 205px;
@@ -770,11 +763,11 @@ main>img{
     }
 
     #FooterBlackBackground{
-        width: 312px;
-        height: 50vh;
+        width: 310px;
+        height: 40vh;
         background-color: black;
         position: absolute;
-        top: 900px;
+        top: 960px;
 
     }
 
@@ -788,7 +781,7 @@ main>img{
 
     #bottomMiddleFooter>h2{
         position: absolute;
-        top: 910px;
+        top: 970px;
         bottom: 0;
         right: 0;
         left: 46.5%;
@@ -804,10 +797,10 @@ main>img{
 
     #bottomMiddleFooter>nav>#links{
         position: absolute;
-        top: 930px;
+        top: 990px;
         bottom: 0;
         right: 0;
-        left: 120px;
+        left: 20px;
         margin: auto;
         color: white;
         letter-spacing: 2px;
@@ -816,20 +809,21 @@ main>img{
         font-weight: bold;
         font-style: normal;
         font-size: 5px;
+        max-width: fit-content;
     }
 
     #logoFooter{
         width: 45px;
         height: 40px;
         position: absolute;
-        top: 930px;
+        top: 990px;
         right: 20px;
     }
 
     #infoLink{
         color: white;
         position: absolute;
-        top: 1000px;
+        top: 1060px;
         left: 30px;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;
