@@ -976,11 +976,12 @@ main>img{
         position: absolute;
         top: 1450px;
         left: 5PX;
-        max-width: 700px;
         font-family: "Junge", cursive;
         font-weight: 400;
         font-style: normal;
         font-size: 8px;
+        max-width: fit-content;
+
     }
 
     #goals>div>h1>hr{
