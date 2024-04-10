@@ -1,288 +1,300 @@
-#blackBackground{
-    width: 100%;
-    height: 60vh;
-    background-color: black;
-    position: relative;
-}
+@media (max-width: 1440px) and (min-width: 1021px) {
 
-header>div>nav{
-    position: absolute;
-    top: 10px;
-    bottom: 0;
-    right: 0;
-    left: 50%;
-    margin: auto;
-    word-spacing: 5px;
-}
+    #blackBackground {
+        width: 100%;
+        height: 60vh;
+        background-color: black;
+        position: relative;
+    }
 
-header>div>nav>a{
-    text-decoration: none
-}
+    header > div > nav {
+        position: absolute;
+        top: 10px;
+        bottom: 0;
+        right: 0;
+        left: 50%;
+        margin: auto;
+        word-spacing: 5px;
+    }
 
-header>div>img{
-    position: relative;
-    width: 80px;
-    height: 70px;
-    top: 5px;
-    left: 80px;
-}
+    header > div > nav > a {
+        text-decoration: none
+    }
 
-#home{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 200px;
-}
+    header > div > img {
+        position: relative;
+        width: 80px;
+        height: 70px;
+        top: 5px;
+        left: 80px;
+    }
 
-#aboutMe{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 160px;
-}
+    #home {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 200px;
+    }
 
-#works{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 120px;
-}
+    #aboutMe {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 160px;
+    }
 
-#story{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 70px;
-}
+    #works {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 120px;
+    }
 
-#contact{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 20px;
-}
+    #story {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 70px;
+    }
 
-#myStory{
-    font-size: 90px;
-    position: relative;
-    top: 100px;
-    bottom: 0;
-    right: 0;
-    left: -25%;
-    margin: auto;
-    color: white;
-}
+    #contact {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 20px;
+    }
 
-.hero>h3:first-child{
-    max-width: fit-content;
-    max-height: fit-content;
-    position: absolute;
-    top: 230px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    font-family: "Junge", cursive;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 30px;
-    line-height: 25px;
-}
+    #myStory {
+        font-size: 90px;
+        position: relative;
+        top: 100px;
+        bottom: 0;
+        right: 0;
+        left: -25%;
+        margin: auto;
+        color: white;
+    }
 
-#heroLeft>h4:first-child{
-    max-width: fit-content;
-    max-height: fit-content;
-    position: absolute;
-    top: 480px;
-    bottom: 0;
-    right: 0;
-    left: 80px;
-    font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-style: normal;
-    font-size: 20px;
-}
+    .hero > h3:first-child {
+        max-width: fit-content;
+        max-height: fit-content;
+        position: absolute;
+        top: 230px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 25px;
+    }
 
-#vrticlStory{
-    transform: rotate(90deg);
-    transform-origin: 50% 50%;
-    color: black;
-    position: absolute;
-    top: 680px;
-    left: -35px;
-    letter-spacing: 6px;
-    font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-style: normal;
-    opacity: 90%;
-}
+    #heroLeft > h4:first-child {
+        max-width: fit-content;
+        max-height: fit-content;
+        position: absolute;
+        top: 480px;
+        bottom: 0;
+        right: 0;
+        left: 80px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 20px;
+    }
 
-#vrticlStory>hr{
-    position: relative;
-    top: -20px;
-    left: 100px;
-    opacity: 90%;
-}
+    #vrticlStory {
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+        color: black;
+        position: absolute;
+        top: 680px;
+        left: -35px;
+        letter-spacing: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 90%;
+    }
 
-#heroLeft>h5{
-    font-size: 17px;
-    font-family: "Junge", cursive;
-    font-weight: bold;
-    font-style: normal;
-    position: absolute;
-    top: 580px;
-    left: 80px;
-    line-height: 30px;
-}
+    #vrticlStory > hr {
+        position: relative;
+        top: -20px;
+        left: 100px;
+        opacity: 90%;
+    }
 
-#firstPic>img{
-    max-width: fit-content;
-    max-height: fit-content;
-    width: 460px;
-    height: 656px;
-    position: absolute;
-    top: 512px;
-    right: 80px;
-}
+    #heroLeft > h5 {
+        font-size: 17px;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        position: absolute;
+        top: 550px;
+        left: 80px;
+        line-height: 30px;
+    }
 
-#secondPic>img{
-    max-width: fit-content;
-    max-height: fit-content;
-    width: 490px;
-    height: 600px;
-    position: absolute;
-    top: 1200px;
-    right: 80px;
-}
+    #ul1{
+        display: none;
+    }
 
-#FooterBlackBackground{
-    width: 100%;
-    height: 50vh;
-    background-color: black;
-    position: absolute;
-    top: 2400px;
-}
+    #ul2{
+        display: none;
+    }
 
-#FooterBlackBackground>div>h6 {
-    color: white;
-    font-size: 15px;
-    position: relative;
-    left: 50px;
-    max-width: 300px;
-}
+    #firstPic > img {
+        max-width: fit-content;
+        max-height: fit-content;
+        width: 460px;
+        height: 656px;
+        position: absolute;
+        top: 512px;
+        right: 80px;
+    }
 
-#bottomMiddleFooter>h2{
-    position: absolute;
-    top: 2430px;
-    bottom: 0;
-    right: 0;
-    left: 46%;
-    margin: auto;
-    color: white;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 18px;
-    letter-spacing: 2px;
-}
+    #secondPic > img {
+        max-width: fit-content;
+        max-height: fit-content;
+        width: 490px;
+        height: 600px;
+        position: absolute;
+        top: 1200px;
+        right: 80px;
+    }
 
-#bottomMiddleFooter>nav>#links{
-    position: absolute;
-    top: 2465px;
-    bottom: 0;
-    right: 0;
-    left: 46%;
-    margin: auto;
-    color: white;
-    letter-spacing: 2px;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 14px;
-}
+    #FooterBlackBackground {
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        position: absolute;
+        top: 2400px;
+    }
 
-#logoFooter{
-    width: 180px;
-    height: 160px;
-    position: absolute;
-    top: 2450px;
-    right: 50px;
-}
+    #FooterBlackBackground > div > h6 {
+        color: white;
+        font-size: 15px;
+        position: relative;
+        left: 50px;
+        max-width: 300px;
+    }
 
-#infoLink{
-    color: white;
-    position: absolute;
-    top: 2650px;
-    left: 32%;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    letter-spacing: 2px;
-    font-size: 14px;
-}
+    #bottomMiddleFooter > h2 {
+        position: absolute;
+        top: 2430px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
 
-#infoLink>a{
-    color:white;
-}
+    #bottomMiddleFooter > nav > #links {
+        position: absolute;
+        top: 2465px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        letter-spacing: 2px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
 
-#infoLink>img{
-    width: 20px;
-    aspect-ratio: 1/1;
-    position: relative;
-    top: 4px;
-}
+    #logoFooter {
+        width: 180px;
+        height: 160px;
+        position: absolute;
+        top: 2450px;
+        right: 50px;
+    }
 
-#phoneIcon{
-    width: 25px;
-    aspect-ratio: 1/1;
-    max-width: 25px;
-    max-height: 25px;
-    position: relative;
-    top: 90px;
-    left: 70px;
-}
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 2650px;
+        left: 32%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
 
-#FooterBlackBackground>div>#mobileNo{
-    color: white;
-    position: absolute;
-    top: 60px;
-    left: 113px;
-    letter-spacing: 1px;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 14px;
-}
+    #infoLink > a {
+        color: white;
+    }
 
-#mailIcon{
-    width: 25px;
-    aspect-ratio: 1/1;
-    position: relative;
-    top: 145px;
-    left: 40px;
-}
+    #infoLink > img {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 4px;
+    }
 
-#FooterBlackBackground>div>#email{
-    color: white;
-    position: absolute;
-    top: 115px;
-    left: 110px;
-    letter-spacing: 1px;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 14px;
-}
+    #phoneIcon {
+        width: 25px;
+        aspect-ratio: 1/1;
+        max-width: 25px;
+        max-height: 25px;
+        position: relative;
+        top: 90px;
+        left: 70px;
+    }
 
-#middleFooter{
-    display: none;
+    #FooterBlackBackground > div > #mobileNo {
+        color: white;
+        position: absolute;
+        top: 60px;
+        left: 113px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    #mailIcon {
+        width: 25px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 145px;
+        left: 40px;
+    }
+
+    #FooterBlackBackground > div > #email {
+        color: white;
+        position: absolute;
+        top: 115px;
+        left: 110px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    #middleFooter {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 320px) {
@@ -438,15 +450,29 @@ header>div>img{
         display: none;
     }
 
+    #fh5 {
+        font-size: 17px;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        position: absolute;
+        top: 600px;
+        left: 80px;
+        line-height: 30px;
+        display: none;
+    }
+
     #ul1{
         font-size: 7px;
         font-family: "Junge", cursive;
         font-weight: bold;
         font-style: normal;
         position: absolute;
-        top: -350px;
-        left: -100px;
+        top: 260px;
+        left: -20px;
         line-height: 15px;
+        z-index: 1;
+        max-width: fit-content;
         width: 150px;
     }
 
@@ -456,11 +482,11 @@ header>div>img{
         font-weight: bold;
         font-style: normal;
         position: absolute;
-        top: 85px;
-        left: -100px;
+        top: 700px;
+        left: -20px;
         line-height: 15px;
-        width: 300px;
-        max-width: 270px;
+        z-index: 1;
+        max-width: fit-content;
     }
 
     #firstPic>img{
@@ -471,7 +497,6 @@ header>div>img{
         position: absolute;
         top: 250px;
         right: 5px;
-
     }
 
     #secondPic>img{
