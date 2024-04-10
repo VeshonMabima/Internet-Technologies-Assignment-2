@@ -378,7 +378,7 @@ header>div>img{
         top: 60px;
         bottom: 0;
         right: 0;
-        left: -50px;
+        left: -70px;
         margin: auto;
         color: white;
     }
@@ -447,7 +447,6 @@ header>div>img{
         top: -350px;
         left: -100px;
         line-height: 15px;
-        z-index: 1;
         width: 150px;
     }
 
@@ -460,8 +459,8 @@ header>div>img{
         top: 85px;
         left: -100px;
         line-height: 15px;
-        z-index: 1;
         width: 300px;
+        max-width: 270px;
     }
 
     #firstPic>img{
@@ -491,7 +490,7 @@ header>div>img{
         height: 35vh;
         background-color: black;
         position: absolute;
-        top: 1200px;
+        top: 1250px;
 
     }
 
@@ -505,7 +504,7 @@ header>div>img{
 
     #bottomMiddleFooter>h2{
         position: absolute;
-        top: 1210px;
+        top: 1260px;
         bottom: 0;
         right: 0;
         left: 44%;
@@ -521,7 +520,7 @@ header>div>img{
 
     #bottomMiddleFooter>nav>#links{
         position: absolute;
-        top: 1230px;
+        top: 1280px;
         bottom: 0;
         right: 0;
         left: 0;
@@ -540,14 +539,14 @@ header>div>img{
         width: 45px;
         height: 40px;
         position: absolute;
-        top: 1230px;
+        top: 1280px;
         right: 20px;
     }
 
     #infoLink{
         color: white;
         position: absolute;
-        top: 1305px;
+        top: 1350px;
         left: 30px;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;
