@@ -444,11 +444,11 @@ header>div>img{
         font-weight: bold;
         font-style: normal;
         position: absolute;
-        top: -330px;
-        left: -50px;
+        top: -350px;
+        left: -100px;
         line-height: 15px;
         z-index: 1;
-        max-width: fit-content;
+        width: 150px;
     }
 
     #ul2{
@@ -457,12 +457,11 @@ header>div>img{
         font-weight: bold;
         font-style: normal;
         position: absolute;
-        top: 250px;
-        left: -20px;
+        top: 85px;
+        left: -100px;
         line-height: 15px;
         z-index: 1;
-        max-width: fit-content;
-        display: none;
+        width: 300px;
     }
 
     #firstPic>img{
