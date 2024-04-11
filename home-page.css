@@ -2130,7 +2130,7 @@ main>img{
     }
 
     #FooterBlackBackground {
-        width: 750px;
+        width: 100%;
         height: 40vh;
         background-color: black;
         position: absolute;
