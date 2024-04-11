@@ -1373,7 +1373,7 @@ main>img{
     #designer{
         position: absolute;
         top: 640px;
-        left: 5px;
+        left: 20px;
         max-width: fit-content;
         font-size: 11px;
     }
@@ -1390,7 +1390,7 @@ main>img{
     .designer{
         position: absolute;
         top: 665px;
-        left: -30px;
+        left: -15px;
         max-width: 200px;
     }
 
@@ -1407,13 +1407,13 @@ main>img{
         width: 130px;
         height: 110px;
         top: 650px;
-        left: 27%;
+        left: 30%;
     }
 
     #coder{
         position: absolute;
         top: 640px;
-        left: 220px;
+        left: 260px;
         max-width: fit-content;
         font-size: 11px;
     }
@@ -1430,7 +1430,7 @@ main>img{
     .coder{
         position: absolute;
         top: 665px;
-        left: 180px;
+        left: 225px;
         max-width: fit-content;
     }
 
@@ -1447,7 +1447,7 @@ main>img{
         top: 840px;
         bottom: 0;
         right: 0;
-        left: 5%;
+        left: 10%;
         margin: auto;
         color: black;
         font-size: 45px;
@@ -1602,5 +1602,132 @@ main>img{
         display: none;
     }
 
+
+    #FooterBlackBackground{
+        width: 363px;
+        height: 35vh;
+        background-color: black;
+        position: absolute;
+        top: 1900px;
+    }
+
+    #FooterBlackBackground>div>h6 {
+        color: white;
+        font-size: 7px;
+        position: relative;
+        left: 50px;
+        max-width: 300px;
+    }
+
+    #bottomMiddleFooter>h2{
+        position: absolute;
+        top: 1910px;
+        bottom: 0;
+        right: 0;
+        left: 44%;
+        margin: auto;
+        color: white;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    #bottomMiddleFooter>nav>#links{
+        position: absolute;
+        top: 1930px;
+        bottom: 0;
+        right: 0;
+        left: 20px;
+        margin: auto;
+        color: white;
+        letter-spacing: 2px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 7px;
+        max-width: fit-content;
+    }
+
+    #logoFooter{
+        width: 55px;
+        height: 50px;
+        position: absolute;
+        top: 1930px;
+        right: 20px;
+    }
+
+    #infoLink{
+        color: white;
+        position: absolute;
+        top: 2020px;
+        left: 30px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 7px;
+    }
+
+    #infoLink>a{
+        color:white;
+        text-decoration: none;
+    }
+
+    #infoLink>img{
+        width: 10px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 2px;
+        left: 2px;
+    }
+
+    #phoneIcon{
+        width: 10px;
+        aspect-ratio: 1/1;
+        max-width: 25px;
+        max-height: 25px;
+        position: relative;
+        top: 40px;
+        left: 10px;
+    }
+
+    #FooterBlackBackground>div>#mobileNo{
+        color: white;
+        position: absolute;
+        top: 30px;
+        left: 25px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 7px;
+    }
+
+    #mailIcon{
+        width: 10px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 65px;
+        left: -4px;
+    }
+
+    #FooterBlackBackground>div>#email{
+        color: white;
+        position: absolute;
+        top: 55px;
+        left: 25px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 7px;
+    }
 
 }
