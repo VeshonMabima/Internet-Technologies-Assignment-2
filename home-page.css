@@ -2064,24 +2064,24 @@ main>img{
     }
 
     .gallery>div>img:nth-child(2){
-        width: 320px;
-        height: 195px;
+        width: 330px;
+        height: 200px;
         position: absolute;
         top: 1250px;
         bottom: 0;
         right: 0;
-        left: -20px;
+        left: -30px;
         margin: auto;
     }
 
     .gallery>div>img:nth-child(3){
-        width: 200px;
+        width: 195px;
         height: 280px;
         position: absolute;
         top: 1380px;
         bottom: 0;
         right: 0;
-        left: -540px;
+        left: -550px;
         margin: auto;
     }
 
