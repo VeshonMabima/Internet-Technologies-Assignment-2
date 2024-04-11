@@ -1408,6 +1408,108 @@
         margin: auto;
     }
 
+    #myStory {
+        font-size: 60px;
+        position: relative;
+        top: 100px;
+        bottom: 0;
+        right: 0;
+        left: -25%;
+        margin: auto;
+        color: white;
+    }
+
+    .hero > h3:first-child {
+        max-width: fit-content;
+        max-height: fit-content;
+        position: absolute;
+        top: 230px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 23px;
+        line-height: 25px;
+    }
+
+    #heroLeft > h4:first-child {
+        max-width: fit-content;
+        max-height: fit-content;
+        position: absolute;
+        top: 480px;
+        bottom: 0;
+        right: 0;
+        left: 20px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 20px;
+    }
+
+    #vrticlStory {
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+        color: black;
+        position: absolute;
+        top: 680px;
+        left: -35px;
+        letter-spacing: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 90%;
+        display: none;
+    }
+
+    #vrticlStory > hr {
+        position: relative;
+        top: -20px;
+        left: 100px;
+        opacity: 90%;
+        display: none;
+    }
+
+    #heroLeft > h5 {
+        font-size: 14px;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        position: absolute;
+        top: 550px;
+        left: 0;
+        line-height: 30px;
+    }
+
+    #ul1{
+        display: none;
+    }
+
+    #ul2{
+        display: none;
+    }
+
+    #firstPic > img {
+
+        width: 250px;
+        height: 390px;
+        position: absolute;
+        top: 512px;
+        right: 5px;
+    }
+
+    #secondPic > img {
+
+        width: 250px;
+        height: 350px;
+        position: absolute;
+        top: 940px;
+        right: 5px;
+    }
 
     #FooterBlackBackground{
         width: 100%;
@@ -1469,7 +1571,7 @@
         color: white;
         position: absolute;
         top: 2650px;
-        left: 20%;
+        left: 15%;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;
         font-weight: bold;
