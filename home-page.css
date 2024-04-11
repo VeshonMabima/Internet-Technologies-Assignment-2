@@ -2053,24 +2053,24 @@ main>img{
     }
 
     .gallery>div>img:first-child{
-        width: 200px;
-        height: 280px;
+        width: 220px;
+        height: 295px;
         position: absolute;
         top: 1160px;
         bottom: 0;
         right: 0;
-        left: 540px;
+        left: 520px;
         margin: auto;
     }
 
     .gallery>div>img:nth-child(2){
-        width: 340px;
-        height: 200px;
+        width: 320px;
+        height: 195px;
         position: absolute;
         top: 1250px;
         bottom: 0;
         right: 0;
-        left: 0;
+        left: -20px;
         margin: auto;
     }
 
@@ -2089,7 +2089,7 @@ main>img{
         width: 550px;
         height: 340px;
         position: absolute;
-        top: 1700px;
+        top: 1710px;
         bottom: 0;
         right: 0;
         left: 0;
