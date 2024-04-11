@@ -1812,7 +1812,7 @@ main>img{
     }
 
     #blackBackground {
-        width: 740px;
+        width: 750px;
         height: 50vh;
         background-color: black;
         position: relative;
@@ -2130,7 +2130,7 @@ main>img{
     }
 
     #FooterBlackBackground {
-        width: 740px;
+        width: 750px;
         height: 40vh;
         background-color: black;
         position: absolute;
