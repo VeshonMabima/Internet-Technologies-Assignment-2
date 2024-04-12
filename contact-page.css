@@ -1,276 +1,278 @@
-#blackBackground{
-    width: 100%;
-    height: 102px;
-    background-color: black;
-    position: relative;
-}
+@media (max-width: 1440px) and (min-width: 1020px) {
 
-header>div>nav{
-    position: absolute;
-    top: 10px;
-    bottom: 0;
-    right: 0;
-    left: 50%;
-    margin: auto;
-    word-spacing: 5px;
-}
+    #blackBackground {
+        width: 100%;
+        height: 102px;
+        background-color: black;
+        position: relative;
+    }
 
-header>div>nav>a{
-    text-decoration: none
-}
+    header > div > nav {
+        position: absolute;
+        top: 10px;
+        bottom: 0;
+        right: 0;
+        left: 50%;
+        margin: auto;
+        word-spacing: 5px;
+    }
 
-header>div>img{
-    width: 80px;
-    height: 70px;
-    position: absolute;
-    top: 0px;
-    bottom: 0;
-    right: 0;
-    left: -1110px;
-    margin: auto;
-}
+    header > div > nav > a {
+        text-decoration: none
+    }
 
-#home{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 200px;
-}
+    header > div > img {
+        width: 80px;
+        height: 70px;
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        right: 0;
+        left: -1110px;
+        margin: auto;
+    }
 
-#aboutMe{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 160px;
-}
+    #home {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 200px;
+    }
 
-#works{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 120px;
-}
+    #aboutMe {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 160px;
+    }
 
-#story{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 70px;
-}
+    #works {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 120px;
+    }
 
-#contact{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 20px;
-}
+    #story {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 70px;
+    }
 
-#whoIs{
-    font-size: 65px;
-    position: relative;
-    top: 60px;
-    bottom: 0;
-    right: 0;
-    left: -13%;
-    margin: auto;
-    color: white;
-}
+    #contact {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 20px;
+    }
 
-#veshon{
-    font-size: 65px;
-    color: white;
-    padding: 0;
-    position: relative;
-    top: 60px;
-    bottom: 0;
-    right: 0;
-    left: -100px;
-    margin: auto;
-}
+    #whoIs {
+        font-size: 65px;
+        position: relative;
+        top: 60px;
+        bottom: 0;
+        right: 0;
+        left: -13%;
+        margin: auto;
+        color: white;
+    }
 
-.hero>div:first-child>img:first-child{
-    width: 100%;
-    height: 400px;
-}
+    #veshon {
+        font-size: 65px;
+        color: white;
+        padding: 0;
+        position: relative;
+        top: 60px;
+        bottom: 0;
+        right: 0;
+        left: -100px;
+        margin: auto;
+    }
 
-#talk{
-    max-width: fit-content;
-    max-height: fit-content;
-    position: absolute;
-    top: 0px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    font-size: 90px;
-    color: white;
-}
+    .hero > div:first-child > img:first-child {
+        width: 100%;
+        height: 400px;
+    }
 
-#location{
-    max-width: fit-content;
-    max-height: fit-content;
-    position: relative;
-    top: -4px;
-}
+    #talk {
+        max-width: fit-content;
+        max-height: fit-content;
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        font-size: 90px;
+        color: white;
+    }
 
-#meetUs{
-    width: 450px;
-    aspect-ratio: 1/1;
-    max-width: fit-content;
-    max-height: fit-content;
-    background-color: white;
-    position: absolute;
-    top: 722px;
-    bottom: 0;
-    right: 0;
-    left: 110px;
-    margin: auto;
-    font-size: 30px;
-    text-align: left;
-}
+    #location {
+        max-width: fit-content;
+        max-height: fit-content;
+        position: relative;
+        top: -4px;
+    }
 
-#pitchUs{
-    width: 350px;
-    aspect-ratio: 1/1;
-    max-width: fit-content;
-    max-height: fit-content;
-    position: absolute;
-    top: 680px;
-    bottom: 0;
-    right: 0;
-    left: 985px;
-    margin: auto;
-    font-size: 20px;
-}
+    #meetUs {
+        width: 450px;
+        aspect-ratio: 1/1;
+        max-width: fit-content;
+        max-height: fit-content;
+        background-color: white;
+        position: absolute;
+        top: 722px;
+        bottom: 0;
+        right: 0;
+        left: 110px;
+        margin: auto;
+        font-size: 30px;
+        text-align: left;
+    }
 
-#pitchUs>h3{
-    font-size: 30px;
-}
+    #pitchUs {
+        width: 350px;
+        aspect-ratio: 1/1;
+        max-width: fit-content;
+        max-height: fit-content;
+        position: absolute;
+        top: 680px;
+        bottom: 0;
+        right: 0;
+        left: 985px;
+        margin: auto;
+        font-size: 20px;
+    }
 
-#FooterBlackBackground{
-    width: 100%;
-    height: 50vh;
-    background-color: black;
-    position: absolute;
-    top: 1050px;
-}
+    #pitchUs > h3 {
+        font-size: 30px;
+    }
 
-#FooterBlackBackground>div>h6 {
-    color: white;
-    font-size: 15px;
-    position: relative;
-    left: 50px;
-    max-width: 300px;
-}
+    #FooterBlackBackground {
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        position: absolute;
+        top: 1050px;
+    }
 
-#bottomMiddleFooter>h2{
-    position: absolute;
-    top: 1070px;
-    bottom: 0;
-    right: 0;
-    left: 46%;
-    margin: auto;
-    color: white;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 18px;
-    letter-spacing: 2px;
-}
+    #FooterBlackBackground > div > h6 {
+        color: white;
+        font-size: 15px;
+        position: relative;
+        left: 50px;
+        max-width: 300px;
+    }
 
-#bottomMiddleFooter>nav>#links{
-    position: absolute;
-    top: 1110px;
-    bottom: 0;
-    right: 0;
-    left: 46%;
-    margin: auto;
-    color: white;
-    letter-spacing: 2px;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 14px;
-}
+    #bottomMiddleFooter > h2 {
+        position: absolute;
+        top: 1070px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
 
-#logoFooter{
-    width: 180px;
-    height: 160px;
-    position: absolute;
-    top: 1100px;
-    right: 50px;
-}
+    #bottomMiddleFooter > nav > #links {
+        position: absolute;
+        top: 1110px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        letter-spacing: 2px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
 
-#infoLink{
-    color: white;
-    position: absolute;
-    top: 1300px;
-    left: 32%;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    letter-spacing: 2px;
-    font-size: 14px;
-}
+    #logoFooter {
+        width: 180px;
+        height: 160px;
+        position: absolute;
+        top: 1100px;
+        right: 50px;
+    }
 
-#infoLink>a{
-    color:white;
-}
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 1300px;
+        left: 32%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
 
-#infoLink>img{
-    width: 20px;
-    aspect-ratio: 1/1;
-    position: relative;
-    top: 4px;
-}
+    #infoLink > a {
+        color: white;
+    }
 
-#phoneIcon{
-    width: 25px;
-    aspect-ratio: 1/1;
-    max-width: 25px;
-    max-height: 25px;
-    position: relative;
-    top: 90px;
-    left: 70px;
-}
+    #infoLink > img {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 4px;
+    }
 
-#FooterBlackBackground>div>#mobileNo{
-    color: white;
-    position: absolute;
-    top: 60px;
-    left: 113px;
-    letter-spacing: 1px;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 14px;
-}
+    #phoneIcon {
+        width: 25px;
+        aspect-ratio: 1/1;
+        max-width: 25px;
+        max-height: 25px;
+        position: relative;
+        top: 90px;
+        left: 70px;
+    }
 
-#mailIcon{
-    width: 25px;
-    aspect-ratio: 1/1;
-    position: relative;
-    top: 145px;
-    left: 40px;
-}
+    #FooterBlackBackground > div > #mobileNo {
+        color: white;
+        position: absolute;
+        top: 60px;
+        left: 113px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
 
-#FooterBlackBackground>div>#email{
-    color: white;
-    position: absolute;
-    top: 115px;
-    left: 110px;
-    letter-spacing: 1px;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 14px;
-}
+    #mailIcon {
+        width: 25px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 145px;
+        left: 40px;
+    }
 
+    #FooterBlackBackground > div > #email {
+        color: white;
+        position: absolute;
+        top: 115px;
+        left: 110px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
+}
 
 @media screen and (max-width: 320px) {
     #blackBackground{

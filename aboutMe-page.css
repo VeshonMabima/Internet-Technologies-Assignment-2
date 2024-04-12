@@ -1,562 +1,567 @@
-#blackBackground{
-    width: 100%;
-    height: 40vh;
-    background-color: black;
-    position: relative;
-}
+@media (max-width: 1440px) and (min-width: 1020px) {
 
-header>div>nav{
-    position: absolute;
-    top: 10px;
-    bottom: 0;
-    right: 0;
-    left: 50%;
-    margin: auto;
-    word-spacing: 5px;
-}
+    #blackBackground {
+        width: 100%;
+        height: 40vh;
+        background-color: black;
+        position: relative;
+    }
 
-header>div>nav>a{
-    text-decoration: none
-}
+    header > div > nav {
+        position: absolute;
+        top: 10px;
+        bottom: 0;
+        right: 0;
+        left: 50%;
+        margin: auto;
+        word-spacing: 5px;
+    }
 
-header>div>img{
-    position: relative;
-    width: 80px;
-    height: 70px;
-    top: 5px;
-    left: 80px;
-}
+    header > div > nav > a {
+        text-decoration: none
+    }
 
-#mirrorSelfi{
-    position: relative;
-    width: 430px;
-    height: 547px;
-    top: 30px;
-    left: 80px;
-}
+    header > div > img {
+        position: relative;
+        width: 80px;
+        height: 70px;
+        top: 5px;
+        left: 80px;
+    }
 
-#home{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 200px;
-}
+    #mirrorSelfi {
+        position: relative;
+        width: 430px;
+        height: 547px;
+        top: 30px;
+        left: 80px;
+    }
 
-#aboutMe{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 160px;
-}
+    #home {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 200px;
+    }
 
-#works{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 120px;
-}
+    #aboutMe {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 160px;
+    }
 
-#story{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 70px;
-}
+    #works {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 120px;
+    }
 
-#contact{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 20px;
-}
+    #story {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 70px;
+    }
 
-#whoIs{
-    font-size: 65px;
-    position: relative;
-    top: 60px;
-    bottom: 0;
-    right: 0;
-    left: -13%;
-    margin: auto;
-    color: white;
-}
+    #contact {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 20px;
+    }
 
-#veshon{
-    font-size: 65px;
-    color: white;
-    padding: 0;
-    position: relative;
-    top: 60px;
-    bottom: 0;
-    right: 0;
-    left: -100px;
-    margin: auto;
-}
+    #whoIs {
+        font-size: 65px;
+        position: relative;
+        top: 60px;
+        bottom: 0;
+        right: 0;
+        left: -13%;
+        margin: auto;
+        color: white;
+    }
 
-main>div{
-    height: 0;
-}
+    #veshon {
+        font-size: 65px;
+        color: white;
+        padding: 0;
+        position: relative;
+        top: 60px;
+        bottom: 0;
+        right: 0;
+        left: -100px;
+        margin: auto;
+    }
 
-#vrticlAbout{
-    transform: rotate(90deg);
-    transform-origin: 50% 50%;
-    color: black;
-    position: absolute;
-    top: 380px;
-    left: 670px;
-    letter-spacing: 6px;
-    font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-style: normal;
-    opacity: 90%;
-}
+    main > div {
+        height: 0;
+    }
 
-#vrticlAbout>hr{
-    position: relative;
-    top: -20px;
-    left: 95px;
-    opacity: 90%;
-}
+    #vrticlAbout {
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+        color: black;
+        position: absolute;
+        top: 380px;
+        left: 670px;
+        letter-spacing: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 90%;
+    }
 
-main>div>p{
-    position: relative;
-    top: 100px;
-    left: 800px;
-    padding: 0;
-    margin: 0;
-    max-width: fit-content;
-}
+    #vrticlAbout > hr {
+        position: relative;
+        top: -20px;
+        left: 95px;
+        opacity: 90%;
+    }
 
-#upMain>div>img{
-    position: relative;
-    top:150px;
-    left: 800px;
-    padding: 0;
-    margin: 0;
-    max-width: 640px;
-}
+    main > div > p {
+        position: relative;
+        top: 100px;
+        left: 800px;
+        padding: 0;
+        margin: 0;
+        max-width: fit-content;
+    }
 
-main>img{
-    position: relative;
-    top: 20px;
-    left: 20px;
-}
+    #upMain > div > img {
+        position: relative;
+        top: 150px;
+        left: 800px;
+        padding: 0;
+        margin: 0;
+        max-width: 640px;
+    }
 
-.middle>div>h3{
-    font-family: Electrolize, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-}
+    main > img {
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
 
-#vision{
-    position: relative;
-    top: 100px;
-    left: 15%;
-    max-width: fit-content;
-    font-size: 25px;
-}
+    .middle > div > h3 {
+        font-family: Electrolize, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
 
-.vision{
-    position: relative;
-    top: 100px;
-    left: 10%;
-    max-width: 640px;
-    font-family: "Junge", cursive;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 25px;
-}
+    #vision {
+        position: relative;
+        top: 100px;
+        left: 15%;
+        max-width: fit-content;
+        font-size: 25px;
+    }
 
-#mission{
-    position: relative;
-    top: -32px;
-    left: 48%;
-    max-width: fit-content;
-    font-size: 25px;
-}
+    .vision {
+        position: relative;
+        top: 100px;
+        left: 10%;
+        max-width: 640px;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 25px;
+    }
 
-.mission{
-    position: relative;
-    top: -32px;
-    left: 45%;
-    max-width: 300px;
-    font-family: "Junge", cursive;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 25px;
-}
+    #mission {
+        position: relative;
+        top: -32px;
+        left: 48%;
+        max-width: fit-content;
+        font-size: 25px;
+    }
 
-#quotes{
-    position: relative;
-    top: -239px;
-    left: 80%;
-    max-width: fit-content;
-    font-size: 25px;
-}
+    .mission {
+        position: relative;
+        top: -32px;
+        left: 45%;
+        max-width: 300px;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 25px;
+    }
 
-.quotes{
-    position: relative;
-    top: -239px;
-    left: 80%;
-    max-width: 180px;
-    font-family: "Junge", cursive;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 25px;
-}
+    #quotes {
+        position: relative;
+        top: -239px;
+        left: 80%;
+        max-width: fit-content;
+        font-size: 25px;
+    }
 
-#designer{
-    position: absolute;
-    top: 1320px;
-    left: 210px;
-    max-width: fit-content;
-    font-size: 32px;
-}
+    .quotes {
+        position: relative;
+        top: -239px;
+        left: 80%;
+        max-width: 180px;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 25px;
+    }
 
-#designer>hr{
-    width: 110px;
-    height: 5px;
-    position: relative;
-    top: -15px;
-    left: -43px;
-    opacity: 50%;
-}
+    #designer {
+        position: absolute;
+        top: 1320px;
+        left: 210px;
+        max-width: fit-content;
+        font-size: 32px;
+    }
 
-.designer{
-    position: absolute;
-    top: 1400px;
-    left: 185px;
-    max-width: 200px;
-}
+    #designer > hr {
+        width: 110px;
+        height: 5px;
+        position: relative;
+        top: -15px;
+        left: -43px;
+        opacity: 50%;
+    }
 
-.designer>li{
-    font-family: "Junge", cursive;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 16px;
-}
+    .designer {
+        position: absolute;
+        top: 1400px;
+        left: 185px;
+        max-width: 200px;
+    }
 
-#pieChart{
-    position: absolute;
-    width: 400px;
-    height: 350px;
-    top: 1275px;
-    left: 38%;
-}
+    .designer > li {
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 16px;
+    }
 
-#coder{
-    position: absolute;
-    top: 1320px;
-    left: 1040px;
-    max-width: 200px;
-    font-size: 32px;
-}
+    #pieChart {
+        position: absolute;
+        width: 400px;
+        height: 350px;
+        top: 1275px;
+        left: 38%;
+    }
 
-#coder>hr{
-    width: 110px;
-    height: 5px;
-    position: relative;
-    top: -15px;
-    left: -20px;
-    opacity: 50%;
-}
+    #coder {
+        position: absolute;
+        top: 1320px;
+        left: 1040px;
+        max-width: 200px;
+        font-size: 32px;
+    }
 
-.coder{
-    position: absolute;
-    top: 1400px;
-    left: 1000px;
-    max-width: 200px;
-}
+    #coder > hr {
+        width: 110px;
+        height: 5px;
+        position: relative;
+        top: -15px;
+        left: -20px;
+        opacity: 50%;
+    }
 
-#coding{
-    width: 375px;
-    position: absolute;
-    top: 1920px;
-    left: 70%;
-    right: 100px;
-    max-width: 200px;
-    z-index: 3;
-}
+    .coder {
+        position: absolute;
+        top: 1400px;
+        left: 1000px;
+        max-width: 200px;
+    }
 
-#coding2{
-    display: none;
-}
+    #coding>img {
+        width: 550px;
+        height: 720px;
+        position: absolute;
+        top: 1920px;
+        left: 58%;
+        right: 0;
 
-.coder>li{
-    font-family: "Junge", cursive;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 16px;
-}
+        z-index: 3;
+    }
 
-#vrticlHobbies{
-    transform: rotate(90deg);
-    transform-origin: 50% 50%;
-    color: black;
-    position: absolute;
-    top: 2080px;
-    left: -27px;
-    letter-spacing: 6px;
-    font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-style: normal;
-    opacity: 90%;
-}
+    #coding2 {
+        display: none;
+    }
 
-#hobbies>hr{
-    height: 5px;
-    color: black;
-    position: relative;
-    top: -17px;
-    left: -15px;
-    opacity: 50%;
-}
+    .coder > li {
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 16px;
+    }
 
-#vrticlHobbies>hr{
-    position: relative;
-    top: -20px;
-    left: 95px;
-    opacity: 90%;
-}
+    #vrticlHobbies {
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+        color: black;
+        position: absolute;
+        top: 2080px;
+        left: -27px;
+        letter-spacing: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 90%;
+    }
 
-#hobbies{
-    position: absolute;
-    top: 1950px;
-    left: 100px;
-    max-width: 500px;
-}
+    #hobbies > hr {
+        height: 5px;
+        color: black;
+        position: relative;
+        top: -17px;
+        left: -15px;
+        opacity: 50%;
+    }
 
-#blurHobbies{
-    position: absolute;
-    top: 1800px;
-    bottom: 0;
-    right: 0;
-    left: 30%;
-    margin: auto;
-    color: black;
-    font-size: 150px;
-    font-family: Electrolize, sans-serif;
-    font-weight: bolder;
-    font-style: normal;
-    opacity: 17%;
-    letter-spacing: 20px;
-}
+    #vrticlHobbies > hr {
+        position: relative;
+        top: -20px;
+        left: 95px;
+        opacity: 90%;
+    }
 
-.hobbies{
-    position: absolute;
-    top: 2040px;
-    left: 100px;
-    max-width: 700px;
-    font-family: "Junge", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-}
+    #hobbies {
+        position: absolute;
+        top: 1950px;
+        left: 100px;
+        max-width: 500px;
+    }
 
-.hobbies>h3{
-    font-size: 20px;
-}
+    #blurHobbies {
+        position: absolute;
+        top: 1800px;
+        bottom: 0;
+        right: 0;
+        left: 25%;
+        margin: auto;
+        color: black;
+        font-size: 150px;
+        font-family: Electrolize, sans-serif;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 17%;
+        letter-spacing: 20px;
+        z-index: 2;
+    }
 
-#goalsPNG{
-    width: 470px;
-    height: 1000px;
-    position: absolute;
-    top: 2960px;
-    left: 100px;
-    max-width: 1000px;
-    z-index: 3;
-}
+    .hobbies {
+        position: absolute;
+        top: 2040px;
+        left: 100px;
+        max-width: 700px;
+        font-family: "Junge", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+    }
 
-#goals{
-    position: absolute;
-    top: 3000px;
-    left: 45%;
-    max-width: 700px;
-    font-family: "Junge", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-}
+    .hobbies > h3 {
+        font-size: 20px;
+    }
 
-#goals>div>h1>hr{
-    height: 5px;
-    position: absolute;
-    top: 40px;
-    left: 5px;
-    opacity: 50%;
-}
+    #goalsPNG {
+        width: 470px;
+        height: 1000px;
+        position: absolute;
+        top: 2960px;
+        left: 100px;
+        max-width: 1000px;
+        z-index: 3;
+    }
+
+    #goals {
+        position: absolute;
+        top: 3000px;
+        left: 45%;
+        max-width: 700px;
+        font-family: "Junge", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+    }
+
+    #goals > div > h1 > hr {
+        height: 5px;
+        position: absolute;
+        top: 40px;
+        left: 5px;
+        opacity: 50%;
+    }
 
 
-#vrticlGoals{
-    transform: rotate(90deg);
-    transform-origin: 50% 50%;
-    color: black;
-    position: absolute;
-    top: 3150px;
-    left: -10px;
-    letter-spacing: 6px;
-    font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-style: normal;
-    opacity: 90%;
-}
+    #vrticlGoals {
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+        color: black;
+        position: absolute;
+        top: 3150px;
+        left: -10px;
+        letter-spacing: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 90%;
+    }
 
-#vrticlGoals>hr{
-    position: relative;
-    top: -20px;
-    left: 80px;
-    opacity: 90%;
-}
+    #vrticlGoals > hr {
+        position: relative;
+        top: -20px;
+        left: 80px;
+        opacity: 90%;
+    }
 
-#blurGoals{
-    position: absolute;
-    top: -200px;
-    bottom: 0;
-    right: 0;
-    left: -30%;
-    margin: auto;
-    color: black;
-    font-size: 200px;
-    font-family: Electrolize, sans-serif;
-    font-weight: bolder;
-    font-style: normal;
-    opacity: 17%;
-    letter-spacing: 20px;
-}
+    #blurGoals {
+        position: absolute;
+        top: -200px;
+        bottom: 0;
+        right: 0;
+        left: -30%;
+        margin: auto;
+        color: black;
+        font-size: 200px;
+        font-family: Electrolize, sans-serif;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 17%;
+        letter-spacing: 20px;
+    }
 
-#FooterBlackBackground{
-    width: 100%;
-    height: 50vh;
-    background-color: black;
-    position: absolute;
-    top: 3800px;
+    #FooterBlackBackground {
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        position: absolute;
+        top: 3800px;
 
-}
+    }
 
-#FooterBlackBackground>div>h6 {
-    color: white;
-    font-size: 15px;
-    position: relative;
-    left: 50px;
-    max-width: 300px;
-}
+    #FooterBlackBackground > div > h6 {
+        color: white;
+        font-size: 15px;
+        position: relative;
+        left: 50px;
+        max-width: 300px;
+    }
 
-#bottomMiddleFooter>h2{
-    position: absolute;
-    top: 3810px;
-    bottom: 0;
-    right: 0;
-    left: 46%;
-    margin: auto;
-    color: white;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 18px;
-    letter-spacing: 2px;
-}
+    #bottomMiddleFooter > h2 {
+        position: absolute;
+        top: 3810px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
 
-#bottomMiddleFooter>nav>#links{
-    position: absolute;
-    top: 3852px;
-    bottom: 0;
-    right: 0;
-    left: 46%;
-    margin: auto;
-    color: white;
-    letter-spacing: 2px;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 14px;
-}
+    #bottomMiddleFooter > nav > #links {
+        position: absolute;
+        top: 3852px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        letter-spacing: 2px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
 
-#logoFooter{
-    width: 180px;
-    height: 160px;
-    position: absolute;
-    top: 3860px;
-    right: 50px;
-}
+    #logoFooter {
+        width: 180px;
+        height: 160px;
+        position: absolute;
+        top: 3860px;
+        right: 50px;
+    }
 
-#infoLink{
-    color: white;
-    position: absolute;
-    top: 4050px;
-    left: 32%;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    letter-spacing: 2px;
-    font-size: 14px;
-}
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 4050px;
+        left: 32%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
 
-#infoLink>a{
-    color:white;
-}
+    #infoLink > a {
+        color: white;
+    }
 
-#infoLink>img{
-    width: 20px;
-    aspect-ratio: 1/1;
-    position: relative;
-    top: 4px;
-}
+    #infoLink > img {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 4px;
+    }
 
-#phoneIcon{
-    width: 25px;
-    aspect-ratio: 1/1;
-    max-width: 25px;
-    max-height: 25px;
-    position: relative;
-    top: 90px;
-    left: 70px;
-}
+    #phoneIcon {
+        width: 25px;
+        aspect-ratio: 1/1;
+        max-width: 25px;
+        max-height: 25px;
+        position: relative;
+        top: 90px;
+        left: 70px;
+    }
 
-#FooterBlackBackground>div>#mobileNo{
-    color: white;
-    position: absolute;
-    top: 60px;
-    left: 113px;
-    letter-spacing: 1px;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 14px;
-}
+    #FooterBlackBackground > div > #mobileNo {
+        color: white;
+        position: absolute;
+        top: 60px;
+        left: 113px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
 
-#mailIcon{
-    width: 25px;
-    aspect-ratio: 1/1;
-    position: relative;
-    top: 145px;
-    left: 40px;
-}
+    #mailIcon {
+        width: 25px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 145px;
+        left: 40px;
+    }
 
-#FooterBlackBackground>div>#email{
-    color: white;
-    position: absolute;
-    top: 115px;
-    left: 110px;
-    letter-spacing: 1px;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 14px;
-}
+    #FooterBlackBackground > div > #email {
+        color: white;
+        position: absolute;
+        top: 115px;
+        left: 110px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
 
-#middleFooter{
-    display: none;
+    #middleFooter {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 320px) {

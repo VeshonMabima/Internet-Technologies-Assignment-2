@@ -1,434 +1,437 @@
-#blackBackground{
-    width: 100%;
-    height: 40vh;
-    background-color: black;
-    position: relative;
-}
+@media (max-width: 1440px) and (min-width: 1020px) {
 
-header>div>nav{
-    position: absolute;
-    top: 10px;
-    bottom: 0;
-    right: 0;
-    left: 50%;
-    margin: auto;
-    word-spacing: 5px;
-}
+    #blackBackground {
+        width: 100%;
+        height: 40vh;
+        background-color: black;
+        position: relative;
+    }
 
-header>div>nav>a{
-    text-decoration: none
-}
+    header > div > nav {
+        position: absolute;
+        top: 10px;
+        bottom: 0;
+        right: 0;
+        left: 50%;
+        margin: auto;
+        word-spacing: 5px;
+    }
 
-header>div>img{
-    position: relative;
-    width: 80px;
-    height: 70px;
-    top: 5px;
-    left: 80px;
-}
+    header > div > nav > a {
+        text-decoration: none
+    }
 
-#mirrorSelfi{
-    position: relative;
-    width: 430px;
-    height: 547px;
-    top: 30px;
-    left: 80px;
-}
+    header > div > img {
+        position: relative;
+        width: 80px;
+        height: 70px;
+        top: 5px;
+        left: 80px;
+    }
 
-#home{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 200px;
-}
+    #mirrorSelfi {
+        position: relative;
+        width: 430px;
+        height: 547px;
+        top: 30px;
+        left: 80px;
+    }
 
-#aboutMe{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 160px;
-}
+    #home {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 200px;
+    }
 
-#works{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 120px;
-}
+    #aboutMe {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 160px;
+    }
 
-#story{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 70px;
-}
+    #works {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 120px;
+    }
 
-#contact{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    right: 20px;
-}
+    #story {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 70px;
+    }
+
+    #contact {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        right: 20px;
+    }
 
 
-#whoIs{
-    font-size: 65px;
-    position: relative;
-    top: 60px;
-    bottom: 0;
-    right: 0;
-    left: -13%;
-    margin: auto;
-    color: white;
-}
+    #whoIs {
+        font-size: 65px;
+        position: relative;
+        top: 60px;
+        bottom: 0;
+        right: 0;
+        left: -13%;
+        margin: auto;
+        color: white;
+    }
 
-#veshon {
-    font-size: 65px;
-    color: white;
-    padding: 0;
-    position: relative;
-    top: 17px;
-    bottom: 0;
-    right: 0;
-    left: -100px;
-}
+    #veshon {
+        font-size: 65px;
+        color: white;
+        padding: 0;
+        position: relative;
+        top: 17px;
+        bottom: 0;
+        right: 0;
+        left: -100px;
+    }
 
-main>div{
-    height: 0;
-}
+    main > div {
+        height: 0;
+    }
 
-#vrticlAbout{
-    transform: rotate(90deg);
-    transform-origin: 50% 50%;
-    color: black;
-    position: absolute;
-    top: 380px;
-    left: 670px;
-    letter-spacing: 6px;
-    font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-style: normal;
-    opacity: 90%;
-}
+    #vrticlAbout {
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+        color: black;
+        position: absolute;
+        top: 380px;
+        left: 670px;
+        letter-spacing: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 90%;
+    }
 
-#vrticlAbout>hr{
-    position: relative;
-    top: -20px;
-    left: 95px;
-    opacity: 90%;
-}
+    #vrticlAbout > hr {
+        position: relative;
+        top: -20px;
+        left: 95px;
+        opacity: 90%;
+    }
 
-main>div>p{
-    position: relative;
-    top: 100px;
-    left: 800px;
-    padding: 0;
-    margin: 0;
-    max-width: fit-content;
-    line-height: 30px;
-}
+    main > div > p {
+        position: relative;
+        top: 100px;
+        left: 800px;
+        padding: 0;
+        margin: 0;
+        max-width: fit-content;
+        line-height: 30px;
+    }
 
-#upMain>div>img{
-    position: relative;
-    top:150px;
-    left: 800px;
-    padding: 0;
-    margin: 0;
-    max-width: 640px;
-}
+    #upMain > div > img {
+        position: relative;
+        top: 150px;
+        left: 800px;
+        padding: 0;
+        margin: 0;
+        max-width: 640px;
+    }
 
-main>img{
-    position: relative;
-    top: 20px;
-    left: 20px;
-}
+    main > img {
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
 
-.middle>div>h3{
-    font-family: Electrolize, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-}
+    .middle > div > h3 {
+        font-family: Electrolize, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
 
-#gallery{
-    font-size: 32px;
-    font-family: Electrolize, sans-serif;
-    font-weight: bolder;
-    font-style: normal;
-    position: absolute;
-    top: 1003px;
-    left: 80px;
-}
+    #gallery {
+        font-size: 32px;
+        font-family: Electrolize, sans-serif;
+        font-weight: bolder;
+        font-style: normal;
+        position: absolute;
+        top: 1003px;
+        left: 80px;
+    }
 
-#gallery>hr{
-    width: 80px;
-    height: 5px;
-    position: absolute;
-    top: 20px;
-    left: 4px;
-    opacity: 50%;
-}
+    #gallery > hr {
+        width: 80px;
+        height: 5px;
+        position: absolute;
+        top: 20px;
+        left: 4px;
+        opacity: 50%;
+    }
 
-#blurGallery{
-    position: absolute;
-    top: 930px;
-    bottom: 0;
-    right: 0;
-    left: 23%;
-    margin: auto;
-    color: black;
-    font-size: 150px;
-    font-family: Electrolize, sans-serif;
-    font-weight: bolder;
-    font-style: normal;
-    opacity: 17%;
-    letter-spacing: 20px;
-}
+    #blurGallery {
+        position: absolute;
+        top: 930px;
+        bottom: 0;
+        right: 0;
+        left: 23%;
+        margin: auto;
+        color: black;
+        font-size: 150px;
+        font-family: Electrolize, sans-serif;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 17%;
+        letter-spacing: 20px;
+    }
 
-#vrticlGallery{
-    transform: rotate(90deg);
-    transform-origin: 50% 50%;
-    color: black;
-    position: absolute;
-    top: 1400px;
-    left: -30px;
-    letter-spacing: 6px;
-    font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-style: normal;
-    opacity: 90%;
-}
+    #vrticlGallery {
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+        color: black;
+        position: absolute;
+        top: 1400px;
+        left: -30px;
+        letter-spacing: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 90%;
+    }
 
-#vrticlGallery>hr{
-    position: relative;
-    top: -20px;
-    left: 95px;
-    opacity: 90%;
-}
+    #vrticlGallery > hr {
+        position: relative;
+        top: -20px;
+        left: 95px;
+        opacity: 90%;
+    }
 
-#vrticlGallery2{
-    transform: rotate(90deg);
-    transform-origin: 50% 50%;
-    color: black;
-    position: absolute;
-    top: 2300px;
-    left: -30px;
-    letter-spacing: 6px;
-    font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bolder;
-    font-style: normal;
-    opacity: 90%;
-}
+    #vrticlGallery2 {
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+        color: black;
+        position: absolute;
+        top: 2300px;
+        left: -30px;
+        letter-spacing: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 90%;
+    }
 
-#vrticlGallery2>hr{
-    position: relative;
-    top: -20px;
-    left: 95px;
-    opacity: 90%;
-}
+    #vrticlGallery2 > hr {
+        position: relative;
+        top: -20px;
+        left: 95px;
+        opacity: 90%;
+    }
 
-.gallery>div>img:first-child{
-    width: 342px;
-    height: 470px;
-    position: absolute;
-    top: 1270px;
-    bottom: 0;
-    right: 0;
-    left: 900px;
-    margin: auto;
-}
+    .gallery > div > img:first-child {
+        width: 342px;
+        height: 470px;
+        position: absolute;
+        top: 1270px;
+        bottom: 0;
+        right: 0;
+        left: 900px;
+        margin: auto;
+    }
 
-.gallery>div>img:nth-child(2){
-    width: 500px;
-    height: 300px;
-    position: absolute;
-    top: 1250px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-}
+    .gallery > div > img:nth-child(2) {
+        width: 500px;
+        height: 300px;
+        position: absolute;
+        top: 1250px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
 
-.gallery>div>img:nth-child(3){
-    width: 300px;
-    height: 440px;
-    position: absolute;
-    top: 1430px;
-    bottom: 0;
-    right: 0;
-    left: -880px;
-    margin: auto;
-}
+    .gallery > div > img:nth-child(3) {
+        width: 300px;
+        height: 440px;
+        position: absolute;
+        top: 1430px;
+        bottom: 0;
+        right: 0;
+        left: -880px;
+        margin: auto;
+    }
 
-.gallery>div>img:nth-child(4){
-    width: 760px;
-    height: 498px;
-    position: absolute;
-    top: 1930px;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-}
+    .gallery > div > img:nth-child(4) {
+        width: 760px;
+        height: 498px;
+        position: absolute;
+        top: 1930px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
 
-.gallery>div>img:nth-child(5){
-    width: 478px;
-    height: 619px;
-    position: absolute;
-    top: 2530px;
-    bottom: 0;
-    right: 0;
-    left: -710px;
-    margin: auto;
-}
+    .gallery > div > img:nth-child(5) {
+        width: 478px;
+        height: 619px;
+        position: absolute;
+        top: 2530px;
+        bottom: 0;
+        right: 0;
+        left: -710px;
+        margin: auto;
+    }
 
-.gallery>div>img:nth-child(6){
-    width: 390px;
-    height: 619px;
-    position: absolute;
-    top: 2530px;
-    bottom: 0;
-    right: 0;
-    left: 168px;
-    margin: auto;
-}
+    .gallery > div > img:nth-child(6) {
+        width: 390px;
+        height: 619px;
+        position: absolute;
+        top: 2530px;
+        bottom: 0;
+        right: 0;
+        left: 168px;
+        margin: auto;
+    }
 
-.gallery>div>img:nth-child(7){
-    width: 350px;
-    height: 619px;
-    position: absolute;
-    top: 2530px;
-    bottom: 0;
-    right: 0;
-    left: 920px;
-    margin: auto;
-}
+    .gallery > div > img:nth-child(7) {
+        width: 350px;
+        height: 619px;
+        position: absolute;
+        top: 2530px;
+        bottom: 0;
+        right: 0;
+        left: 920px;
+        margin: auto;
+    }
 
-#FooterBlackBackground{
-    width: 100%;
-    height: 50vh;
-    background-color: black;
-    position: absolute;
-    top: 2900px;
+    #FooterBlackBackground {
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        position: absolute;
+        top: 2900px;
 
-}
+    }
 
-#FooterBlackBackground>div>h6 {
-    color: white;
-    font-size: 15px;
-    position: relative;
-    left: 50px;
-    max-width: 300px;
-}
+    #FooterBlackBackground > div > h6 {
+        color: white;
+        font-size: 15px;
+        position: relative;
+        left: 50px;
+        max-width: 300px;
+    }
 
-#bottomMiddleFooter>h2{
-    position: absolute;
-    top: 2920px;
-    bottom: 0;
-    right: 0;
-    left: 46.5%;
-    margin: auto;
-    color: white;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 18px;
-    letter-spacing: 2px;
-}
+    #bottomMiddleFooter > h2 {
+        position: absolute;
+        top: 2920px;
+        bottom: 0;
+        right: 0;
+        left: 46.5%;
+        margin: auto;
+        color: white;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
 
-#bottomMiddleFooter>nav>#links{
-    position: absolute;
-    top: 2960px;
-    bottom: 0;
-    right: 0;
-    left: 46%;
-    margin: auto;
-    color: white;
-    letter-spacing: 2px;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 14px;
-}
+    #bottomMiddleFooter > nav > #links {
+        position: absolute;
+        top: 2960px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        letter-spacing: 2px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
 
-#logoFooter{
-    width: 180px;
-    height: 160px;
-    position: absolute;
-    top: 2950px;
-    right: 50px;
-}
+    #logoFooter {
+        width: 180px;
+        height: 160px;
+        position: absolute;
+        top: 2950px;
+        right: 50px;
+    }
 
-#infoLink{
-    color: white;
-    position: absolute;
-    top: 3155px;
-    left: 32%;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    letter-spacing: 2px;
-    font-size: 14px;
-}
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 3155px;
+        left: 32%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
 
-#infoLink>a{
-    color:white;
-}
+    #infoLink > a {
+        color: white;
+    }
 
-#infoLink>img{
-    width: 20px;
-    aspect-ratio: 1/1;
-    position: relative;
-    top: 4px;
-}
+    #infoLink > img {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 4px;
+    }
 
-#phoneIcon{
-    width: 25px;
-    aspect-ratio: 1/1;
-    max-width: 25px;
-    max-height: 25px;
-    position: relative;
-    top: 90px;
-    left: 70px;
-}
+    #phoneIcon {
+        width: 25px;
+        aspect-ratio: 1/1;
+        max-width: 25px;
+        max-height: 25px;
+        position: relative;
+        top: 90px;
+        left: 70px;
+    }
 
-#FooterBlackBackground>div>#mobileNo{
-    color: white;
-    position: absolute;
-    top: 60px;
-    left: 113px;
-    letter-spacing: 1px;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 14px;
-}
+    #FooterBlackBackground > div > #mobileNo {
+        color: white;
+        position: absolute;
+        top: 60px;
+        left: 113px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
 
-#mailIcon{
-    width: 25px;
-    aspect-ratio: 1/1;
-    position: relative;
-    top: 145px;
-    left: 40px;
-}
+    #mailIcon {
+        width: 25px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 145px;
+        left: 40px;
+    }
 
-#FooterBlackBackground>div>#email{
-    color: white;
-    position: absolute;
-    top: 115px;
-    left: 110px;
-    letter-spacing: 1px;
-    font-family: "Inter Tight", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 14px;
+    #FooterBlackBackground > div > #email {
+        color: white;
+        position: absolute;
+        top: 115px;
+        left: 110px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 320px){
