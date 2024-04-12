@@ -1640,3 +1640,78 @@
     }
 
 }
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    #blackBackground {
+        width: 1000px;
+        height: 50vh;
+        background-color: black;
+        position: relative;
+    }
+
+    header > div > nav {
+        position: absolute;
+        top: 10px;
+        bottom: 0;
+        right: 0;
+        left: 45%;
+        margin: auto;
+        word-spacing: 5px;
+    }
+
+    header > div > img {
+        position: relative;
+        width: 80px;
+        height: 70px;
+        top: 5px;
+        left: 20px;
+    }
+
+    #myStory {
+        font-size: 90px;
+        position: relative;
+        top: 100px;
+        bottom: 0;
+        right: 0;
+        left: -30%;
+        margin: auto;
+        color: white;
+    }
+
+    #heroLeft > h5 {
+        font-size: 17px;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        position: absolute;
+        top: 530px;
+        left: 70px;
+        line-height: 30px;
+    }
+
+    #ul1{
+        display: none;
+    }
+
+    #ul2{
+        display: none;
+    }
+
+    #firstPic > img {
+        width: 600px;
+        height: 610px;
+        position: absolute;
+        top: 512px;
+        right: 10px;
+    }
+
+    #secondPic > img {
+        width: 360px;
+        height: 500px;
+        position: absolute;
+        top: 1200px;
+        right: 10px;
+    }
+
+}
