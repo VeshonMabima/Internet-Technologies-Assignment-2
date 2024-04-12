@@ -1342,71 +1342,35 @@ header>div>img{
 }
 
 
-/*
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 768px) {
 
-    #blackBackground{
-        width: 1020px;
+    #blackBackground {
+        width: 1005px;
         height: 102px;
         background-color: black;
         position: relative;
     }
 
-    header>div>nav{
+    header > div > nav {
         position: absolute;
         top: 10px;
         bottom: 0;
         right: 0;
-        left: 50%;
+        left: 45%;
         margin: auto;
-        word-spacing: 3px;
+        word-spacing: 5px;
     }
 
-    header>div>img{
+    header > div > img {
         position: relative;
         width: 80px;
         height: 70px;
         top: 5px;
-        left: 5px;
-    }
-
-    #home{
-        font-size: 20px;
-        color: white;
-        position: relative;
-        right: 200px;
-    }
-
-    #aboutMe{
-        font-size: 20px;
-        color: white;
-        position: relative;
-        right: 160px;
-    }
-
-    #works{
-        font-size: 20px;
-        color: white;
-        position: relative;
-        right: 120px;
-    }
-
-    #story{
-        font-size: 20px;
-        color: white;
-        position: relative;
-        right: 70px;
-    }
-
-    #contact{
-        font-size: 20px;
-        color: white;
-        position: relative;
-        right: 20px;
+        left: 20px;
     }
 
     .hero>div:first-child>img:first-child{
-        width: 1020px;
+        width: 100%;
         height: 416px;
     }
 
@@ -1448,7 +1412,7 @@ header>div>img{
     }
 
     #FooterBlackBackground{
-        width: 1020px;
+        width: 100%;
         height: 50vh;
         background-color: black;
         position: absolute;
@@ -1571,4 +1535,4 @@ header>div>img{
         font-style: normal;
         font-size: 14px;
     }
-}*/
+}
