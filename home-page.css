@@ -2250,13 +2250,12 @@ main>img{
 }
 
 
-/*
-@media (max-width: 1024px) and (min-width: 800px){
+@media (max-width: 1024px) and (min-width: 768px){
 
 
     #blackBackground{
-        width: 1024px;
-        height: 40vh;
+        width: 1000px;
+        height: 50vh;
         background-color: black;
         position: relative;
     }
@@ -2266,7 +2265,7 @@ main>img{
         top: 10px;
         bottom: 0;
         right: 0;
-        left: 50%;
+        left: 45%;
         margin: auto;
         word-spacing: 5px;
     }
@@ -2276,7 +2275,7 @@ main>img{
         width: 80px;
         height: 70px;
         top: 5px;
-        left: 80px;
+        left: 20px;
     }
 
     #mirrorSelfi{
@@ -2295,7 +2294,7 @@ main>img{
         padding: 0;
         margin: 0;
         max-width: fit-content;
-        font-size: 10px;
+        font-size: 16px;
     }
 
     #vrticlAbout{
@@ -2303,8 +2302,87 @@ main>img{
         transform-origin: 50% 50%;
         color: black;
         position: absolute;
-        top: 380px;
+        top: 430px;
         left: 490px;
+        letter-spacing: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 90%;
+        font-size: 15px;
+    }
+
+    #vrticlAbout>hr{
+        position: relative;
+        top: -17px;
+        left: 95px;
+        opacity: 90%;
+    }
+
+    #upMain>div>img{
+        position: relative;
+        top:150px;
+        left: 630px;
+        padding: 0;
+        margin: 0;
+        max-width: 640px;
+    }
+
+    main>img{
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+
+    .middle>div>h3{
+        font-family: Electrolize, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    #blurGallery{
+        position: absolute;
+        top: 930px;
+        bottom: 0;
+        right: 0;
+        left: 10%;
+        margin: auto;
+        color: black;
+        font-size: 150px;
+        font-family: Electrolize, sans-serif;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 17%;
+        letter-spacing: 20px;
+    }
+
+    #gallery{
+        font-size: 30px;
+        font-family: Electrolize, sans-serif;
+        font-weight: bolder;
+        font-style: normal;
+        position: absolute;
+        top: 1060px;
+        left: 80px;
+    }
+
+    #gallery>hr{
+        width: 80px;
+        height: 5px;
+        position: absolute;
+        top: 20px;
+        left: 4px;
+        opacity: 50%;
+    }
+
+    #vrticlGallery{
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+        color: black;
+        position: absolute;
+        top: 1400px;
+        left: -35px;
         letter-spacing: 6px;
         font-family: "Karla", sans-serif;
         font-optical-sizing: auto;
@@ -2313,7 +2391,29 @@ main>img{
         opacity: 90%;
     }
 
-    #vrticlAbout>hr{
+    #vrticlGallery>hr{
+        position: relative;
+        top: -20px;
+        left: 95px;
+        opacity: 90%;
+    }
+
+    #vrticlGallery2{
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+        color: black;
+        position: absolute;
+        top: 2100px;
+        left: -35px;
+        letter-spacing: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 90%;
+    }
+
+    #vrticlGallery2>hr{
         position: relative;
         top: -20px;
         left: 95px;
@@ -2321,18 +2421,84 @@ main>img{
     }
 
     .gallery>div>img:first-child{
-        width: 270px;
-        height: 370px;
+        width: 250px;
+        height: 365px;
         position: absolute;
-        top: 1270px;
+        top: 1240px;
         bottom: 0;
         right: 0;
-        left: 900px;
+        left: 720px;
+        margin: auto;
+    }
+
+    .gallery>div>img:nth-child(2){
+        width: 400px;
+        height: 240px;
+        position: absolute;
+        top: 1300px;
+        bottom: 0;
+        right: 0;
+        left: 48px;
+        margin: auto;
+    }
+
+    .gallery>div>img:nth-child(3){
+        width: 235px;
+        height: 330px;
+        position: absolute;
+        top: 1400px;
+        bottom: 0;
+        right: 0;
+        left: -610px;
+        margin: auto;
+    }
+
+    .gallery>div>img:nth-child(4){
+        width: 530px;
+        height: 330px;
+        position: absolute;
+        top: 1750px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .gallery>div>img:nth-child(5){
+        width: 300px;
+        height: 380px;
+        position: absolute;
+        top: 2200px;
+        bottom: 0;
+        right: 0;
+        left: -550px;
+        margin: auto;
+    }
+
+    .gallery>div>img:nth-child(6){
+        width: 260px;
+        height: 380px;
+        position: absolute;
+        top: 2200px;
+        bottom: 0;
+        right: 0;
+        left: 70px;
+        margin: auto;
+    }
+
+    .gallery>div>img:nth-child(7){
+        width: 250px;
+        height: 380px;
+        position: absolute;
+        top: 2200px;
+        bottom: 0;
+        right: 0;
+        left: 640px;
         margin: auto;
     }
 
     #FooterBlackBackground{
-        width: 1024px;
+        width: 100%;
         height: 50vh;
         background-color: black;
         position: absolute;
@@ -2352,6 +2518,5 @@ main>img{
         letter-spacing: 2px;
         font-size: 14px;
     }
-
-}*/
+}
 
