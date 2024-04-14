@@ -99,6 +99,30 @@
         height: 0;
     }
 
+    #btnGit>a>img{
+        position: absolute;
+        top: 540px;
+        right: 455px;
+    }
+
+    #btnInsta>a>img{
+        position: absolute;
+        top: 540px;
+        right: 480px;
+    }
+
+    #btnFb>a>img{
+        position: absolute;
+        top: 540px;
+        right: 505px;
+    }
+
+    #btnFb>a>img{
+        position: absolute;
+        top: 540px;
+        right: 525px;
+    }
+
     #vrticlAbout {
         transform: rotate(90deg);
         transform-origin: 50% 50%;
