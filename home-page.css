@@ -99,30 +99,6 @@
         height: 0;
     }
 
-    #btnGit>a>img{
-        position: absolute;
-        top: 540px;
-        right: 455px;
-    }
-
-    #btnInsta>a>img{
-        position: absolute;
-        top: 540px;
-        right: 480px;
-    }
-
-    #btnFb>a>img{
-        position: absolute;
-        top: 540px;
-        right: 505px;
-    }
-
-    #btnX>a>img{
-        position: absolute;
-        top: 540px;
-        right: 530px;
-    }
-
     #vrticlAbout {
         transform: rotate(90deg);
         transform-origin: 50% 50%;
@@ -571,7 +547,7 @@
         position: relative;
         width: 120px;
         height: 150px;
-        top: 15px;
+        top: -150px;
         left: 5px;
     }
 
@@ -618,7 +594,7 @@
         width: 25px;
         position: relative;
         top: -7px;
-        left: 55px;
+        left: 30px;
         opacity: 90%;
     }
 

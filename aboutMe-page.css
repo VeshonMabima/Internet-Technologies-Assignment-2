@@ -676,9 +676,9 @@
 
     #mirrorSelfi{
         position: relative;
-        width: 160px;
-        height: 200px;
-        top: 30px;
+        width: 120px;
+        height: 150px;
+        top: -150px;
         left: 5px;
     }
 
@@ -725,13 +725,13 @@
         width: 25px;
         position: relative;
         top: -7px;
-        left: 55px;
+        left: 30px;
         opacity: 90%;
     }
 
     #vision{
         position: relative;
-        top: 100px;
+        top: -60px;
         left: 10%;
         max-width: fit-content;
         font-size: 12px;
@@ -739,7 +739,7 @@
 
     .vision{
         position: relative;
-        top: 99px;
+        top: -59px;
         left: 2%;
         max-width: fit-content;
         font-family: "Junge", cursive;
@@ -751,7 +751,7 @@
 
     #mission{
         position: relative;
-        top: 42px;
+        top: -118px;
         left: 43%;
         max-width: fit-content;
         font-size: 12px;
@@ -759,7 +759,7 @@
 
     .mission{
         position: relative;
-        top: 40px;
+        top: -118px;
         left: 36%;
         max-width: fit-content;
         font-family: "Junge", cursive;
@@ -772,7 +772,7 @@
 
     #quotes{
         position: relative;
-        top: -61px;
+        top: -221px;
         left: 74%;
         max-width: fit-content;
         font-size: 12px;
@@ -780,7 +780,7 @@
 
     .quotes{
         position: relative;
-        top: -63px;
+        top: -220px;
         left: 74%;
         max-width: fit-content;
         font-family: "Junge", cursive;
