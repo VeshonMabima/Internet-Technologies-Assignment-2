@@ -207,12 +207,252 @@
         font-style: normal;
     }
 
+    .projects > div:nth-child(3) {
+        width: 1145px;
+        height: 880px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 2800px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(3) > img {
+        width: 1000px;
+        height: 550px;
+        position: absolute;
+        top: -250px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(3) > p {
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        position: absolute;
+        top: 500px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(3) > button {
+        width: 165px;
+        height: 45px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 700px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(3) > button > a {
+        color: white;
+        font-size: 20px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .projects > div:nth-child(4) {
+        width: 1145px;
+        height: 880px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 3800px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(4) > img {
+        width: 1000px;
+        height: 550px;
+        position: absolute;
+        top: -250px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(4) > p {
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        position: absolute;
+        top: 500px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(4) > button {
+        width: 165px;
+        height: 45px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 700px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(4) > button > a {
+        color: white;
+        font-size: 20px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .projects > div:nth-child(5) {
+        width: 1145px;
+        height: 880px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 4800px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(5) > img {
+        width: 1000px;
+        height: 550px;
+        position: absolute;
+        top: -250px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(5) > p {
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        position: absolute;
+        top: 500px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(5) > button {
+        width: 165px;
+        height: 45px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 700px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(5) > button > a {
+        color: white;
+        font-size: 20px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .projects > div:nth-child(6) {
+        width: 1145px;
+        height: 880px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 5800px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(6) > img {
+        width: 1000px;
+        height: 550px;
+        position: absolute;
+        top: -250px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(6) > p {
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        position: absolute;
+        top: 500px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(6) > button {
+        width: 165px;
+        height: 45px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 700px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects > div:nth-child(6) > button > a {
+        color: white;
+        font-size: 20px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
     #FooterBlackBackground {
         width: 100%;
         height: 50vh;
         background-color: black;
         position: absolute;
-        top: 2400px;
+        top: 6300px;
     }
 
     #FooterBlackBackground > div > h6 {
@@ -225,7 +465,7 @@
 
     #bottomMiddleFooter > h2 {
         position: absolute;
-        top: 2430px;
+        top: 6310px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -241,7 +481,7 @@
 
     #bottomMiddleFooter > nav > #links {
         position: absolute;
-        top: 2465px;
+        top: 6350px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -259,14 +499,14 @@
         width: 180px;
         height: 160px;
         position: absolute;
-        top: 2450px;
+        top: 6350px;
         right: 50px;
     }
 
     #infoLink {
         color: white;
         position: absolute;
-        top: 2650px;
+        top: 6560px;
         left: 32%;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;
