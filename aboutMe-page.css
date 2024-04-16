@@ -1737,7 +1737,7 @@
 
 }
 
-@media screen and (max-width: 425px) and (min-width: 320px) {
+@media screen and (max-width: 425px) and (min-width: 375px) {
 
     header {
         max-width: fit-content;
@@ -1839,7 +1839,7 @@
         color: white;
         padding: 0;
         position: relative;
-        top: 120px;
+        top: 100px;
         bottom: 0;
         right: 0;
         left: -60px;
@@ -1849,7 +1849,7 @@
         position: relative;
         width: 175px;
         height: 230px;
-        top: 15px;
+        top: -120px;
         left: 5px;
     }
 
@@ -1896,13 +1896,13 @@
         width: 25px;
         position: relative;
         top: -9px;
-        left: 55px;
+        left: 40px;
         opacity: 90%;
     }
 
     #vision{
         position: relative;
-        top: 70px;
+        top: -70px;
         left: 10%;
         max-width: fit-content;
         font-size: 15px;
@@ -1910,7 +1910,7 @@
 
     .vision{
         position: relative;
-        top: 66px;
+        top: -70px;
         left: 2%;
         max-width: fit-content;
         font-family: "Junge", cursive;
@@ -1922,7 +1922,7 @@
 
     #mission{
         position: relative;
-        top: 3px;
+        top: -138px;
         left: 43%;
         max-width: fit-content;
         font-size: 15px;
@@ -1930,7 +1930,7 @@
 
     .mission{
         position: relative;
-        top: -2px;
+        top: -140px;
         left: 36%;
         max-width: fit-content;
         font-family: "Junge", cursive;
@@ -1943,7 +1943,7 @@
 
     #quotes{
         position: relative;
-        top: -110px;
+        top: -250px;
         left: 74%;
         max-width: fit-content;
         font-size: 15px;
@@ -1951,7 +1951,7 @@
 
     .quotes{
         position: relative;
-        top: -115px;
+        top: -250px;
         left: 74%;
         max-width: fit-content;
         font-family: "Junge", cursive;
