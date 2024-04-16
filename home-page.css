@@ -1440,7 +1440,7 @@
     #whoIs {
         font-size: 40px;
         position: absolute;
-        top: 75px;
+        top: 60px;
         bottom: 0;
         right: 0;
         left: -50px;
@@ -1453,7 +1453,7 @@
         color: white;
         padding: 0;
         position: relative;
-        top: 100px;
+        top: 75px;
         bottom: 0;
         right: 0;
         left: -60px;
@@ -1495,8 +1495,8 @@
         transform-origin: 50% 50%;
         color: black;
         position: absolute;
-        top: 290px;
-        left: 170px;
+        top: 205px;
+        left: 185px;
         /*letter-spacing: 6px;*/
         font-family: "Karla", sans-serif;
         font-optical-sizing: auto;
