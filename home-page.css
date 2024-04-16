@@ -524,7 +524,7 @@
     #whoIs{
         font-size: 30px;
         position: absolute;
-        top: 35px;
+        top: 45px;
         bottom: 0;
         right: 0;
         left: -50px;
@@ -537,7 +537,7 @@
         color: white;
         padding: 0;
         position: relative;
-        top: 50px;
+        top: 70px;
         bottom: 0;
         right: 0;
         left: -60px;
@@ -555,23 +555,12 @@
         width: 100px;
         position: relative;
         top: 30px;
-        left: 190px;
+        left: 200px;
         padding: 0;
         margin: 0;
         max-width: fit-content;
         font-size: 8px;
         line-height: 15px;
-    }
-
-    #upMain>div>img{
-        width: 10px;
-        height: 10px;
-        position: relative;
-        top:45px;
-        left: 190px;
-        padding: 0;
-        margin: 0;
-        max-width: 640px;
     }
 
     #vrticlAbout{
@@ -580,7 +569,7 @@
         color: black;
         position: absolute;
         top: 235px;
-        left: 130px;
+        left: 150px;
         /*letter-spacing: 6px;*/
         font-family: "Karla", sans-serif;
         font-optical-sizing: auto;
@@ -597,6 +586,18 @@
         left: 30px;
         opacity: 90%;
     }
+
+    #upMain>div>img{
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top:45px;
+        left: 190px;
+        padding: 0;
+        margin: 0;
+        max-width: 640px;
+    }
+
 
     #blurGallery{
         position: absolute;
