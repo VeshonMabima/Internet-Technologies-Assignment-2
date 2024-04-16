@@ -891,32 +891,7 @@
     }
 }
 
-@media(max-width: 375px) and (min-width: 320px){
 
-    header{
-        max-width: fit-content;
-    }
-
-    #blackBackground{
-        width: 363px;
-        height: 50vh;
-        background-color: black;
-        position: relative;
-    }
-
-    
-    #mirrorSelfi{
-        position: relative;
-        width: 155px;
-        height: 200px;
-        top: -150px;
-        left: 5px;
-        display: none;
-    }
-
-}
-
-/*
 @media screen and (max-width: 375px) and (min-width: 320px){
 
     header{
@@ -1029,7 +1004,7 @@
         position: relative;
         width: 155px;
         height: 200px;
-        top: -150px;
+        top: -120px;
         left: 5px;
     }
 
@@ -1063,7 +1038,7 @@
         position: absolute;
         top: 255px;
         left: 160px;
-        !*letter-spacing: 6px;*!
+        /*letter-spacing: 6px;*/
         font-family: "Karla", sans-serif;
         font-optical-sizing: auto;
         font-weight: bolder;
@@ -1076,7 +1051,7 @@
         width: 25px;
         position: relative;
         top: -8px;
-        left: 55px;
+        left: 35px;
         opacity: 90%;
     }
 
@@ -1373,7 +1348,6 @@
         font-size: 7px;
     }
 }
-*/
 
 
 @media screen and (max-width: 425px) and (min-width: 375px) {

@@ -1253,7 +1253,7 @@
         color: white;
         padding: 0;
         position: relative;
-        top: 90px;
+        top: 70px;
         bottom: 0;
         right: 0;
         left: -60px;
@@ -1263,7 +1263,7 @@
         position: relative;
         width: 155px;
         height: 200px;
-        top: 15px;
+        top: -120px;
         left: 5px;
     }
 
@@ -1310,13 +1310,13 @@
         width: 25px;
         position: relative;
         top: -8px;
-        left: 55px;
+        left: 35px;
         opacity: 90%;
     }
 
     #vision{
         position: relative;
-        top: 80px;
+        top: -60px;
         left: 10%;
         max-width: fit-content;
         font-size: 12px;
@@ -1324,7 +1324,7 @@
 
     .vision{
         position: relative;
-        top: 76px;
+        top: -56px;
         left: 2%;
         max-width: fit-content;
         font-family: "Junge", cursive;
@@ -1336,7 +1336,7 @@
 
     #mission{
         position: relative;
-        top: 22px;
+        top: -118px;
         left: 43%;
         max-width: fit-content;
         font-size: 12px;
@@ -1344,7 +1344,7 @@
 
     .mission{
         position: relative;
-        top: 17px;
+        top: -115px;
         left: 36%;
         max-width: fit-content;
         font-family: "Junge", cursive;
@@ -1357,7 +1357,7 @@
 
     #quotes{
         position: relative;
-        top: -81px;
+        top: -221px;
         left: 74%;
         max-width: fit-content;
         font-size: 12px;
@@ -1365,7 +1365,7 @@
 
     .quotes{
         position: relative;
-        top: -86px;
+        top: -218px;
         left: 74%;
         max-width: fit-content;
         font-family: "Junge", cursive;
