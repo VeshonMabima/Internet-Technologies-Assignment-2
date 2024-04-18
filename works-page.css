@@ -819,12 +819,276 @@
         margin: auto;
     }
 
+    .projects>div:nth-child(3){
+        width: 305px;
+        height: 300px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 1060px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>img{
+        width: 290px;
+        height: 180px;
+        position: absolute;
+        top: -60px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 8px;
+        position: absolute;
+        top: 220px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>button{
+        width: 80px;
+        height: 20px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 290px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>button>a{
+        color: white;
+        font-size: 8px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4){
+        width: 305px;
+        height: 300px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 1400px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>img{
+        width: 290px;
+        height: 180px;
+        position: absolute;
+        top: -60px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 8px;
+        position: absolute;
+        top: 220px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>button{
+        width: 80px;
+        height: 20px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 290px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>button>a{
+        color: white;
+        font-size: 8px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5){
+        width: 305px;
+        height: 300px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 1740px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>img{
+        width: 290px;
+        height: 180px;
+        position: absolute;
+        top: -60px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 8px;
+        position: absolute;
+        top: 220px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>button{
+        width: 80px;
+        height: 20px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 290px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>button>a{
+        color: white;
+        font-size: 8px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6){
+        width: 305px;
+        height: 300px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 2080px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>img{
+        width: 290px;
+        height: 180px;
+        position: absolute;
+        top: -60px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 8px;
+        position: absolute;
+        top: 220px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>button{
+        width: 80px;
+        height: 20px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 290px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>button>a{
+        color: white;
+        font-size: 8px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
     #FooterBlackBackground{
         width: 310px;
         height: 35vh;
         background-color: black;
         position: absolute;
-        top: 900px;
+        top: 2300px;
 
     }
 
@@ -838,7 +1102,7 @@
 
     #bottomMiddleFooter>h2{
         position: absolute;
-        top: 910px;
+        top: 2310px;
         bottom: 0;
         right: 0;
         left: 44%;
@@ -854,7 +1118,7 @@
 
     #bottomMiddleFooter>nav>#links{
         position: absolute;
-        top: 930px;
+        top: 2330px;
         bottom: 0;
         right: 0;
         left: 0;
@@ -873,14 +1137,14 @@
         width: 45px;
         height: 40px;
         position: absolute;
-        top: 930px;
+        top: 2330px;
         right: 20px;
     }
 
     #infoLink{
         color: white;
         position: absolute;
-        top: 1000px;
+        top: 2400px;
         left: 30px;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;
@@ -974,8 +1238,8 @@
 
     header > div > img {
         position: relative;
-        width: 45px;
-        height: 40px;
+        width: 40px;
+        height: 35px;
         top: 5px;
         left: 5px;
     }
@@ -1041,7 +1305,7 @@
         top: 60px;
         bottom: 0;
         right: 0;
-        left: -60px;
+        left: 0px;
         margin: auto;
         color: white;
         letter-spacing: 2px;
@@ -1055,7 +1319,7 @@
         top: 60px;
         bottom: 0;
         right: 0;
-        left: -72px;
+        left: 0px;
         margin: auto;
         max-width: fit-content;
         letter-spacing: 2px;
@@ -1180,6 +1444,270 @@
     }
 
     .projects>div:nth-child(2)>button>a{
+        color: white;
+        font-size: 8px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3){
+        width: 400px;
+        height: 340px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 1060px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>img{
+        width: 330px;
+        height: 200px;
+        position: absolute;
+        top: -60px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 8px;
+        position: absolute;
+        top: 220px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>button{
+        width: 80px;
+        height: 20px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 290px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>button>a{
+        color: white;
+        font-size: 8px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4){
+        width: 400px;
+        height: 340px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 1400px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>img{
+        width: 330px;
+        height: 200px;
+        position: absolute;
+        top: -60px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 8px;
+        position: absolute;
+        top: 220px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>button{
+        width: 80px;
+        height: 20px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 290px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>button>a{
+        color: white;
+        font-size: 8px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5){
+        width: 400px;
+        height: 340px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 1740px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>img{
+        width: 330px;
+        height: 200px;
+        position: absolute;
+        top: -60px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 8px;
+        position: absolute;
+        top: 220px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>button{
+        width: 80px;
+        height: 20px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 290px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>button>a{
+        color: white;
+        font-size: 8px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6){
+        width: 400px;
+        height: 340px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 2080px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>img{
+        width: 330px;
+        height: 200px;
+        position: absolute;
+        top: -60px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 8px;
+        position: absolute;
+        top: 220px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>button{
+        width: 80px;
+        height: 20px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 290px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>button>a{
         color: white;
         font-size: 8px;
         font-family: "Inder", sans-serif;
@@ -1341,8 +1869,8 @@
 
     header > div > img {
         position: relative;
-        width: 65px;
-        height: 60px;
+        width: 40px;
+        height: 35px;
         top: 5px;
         left: 10px;
     }
@@ -1560,12 +2088,276 @@
         margin: auto;
     }
 
+    .projects>div:nth-child(3){
+        width: 400px;
+        height: 340px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 1250px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>img{
+        width: 370px;
+        height: 230px;
+        position: absolute;
+        top: -60px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 8px;
+        position: absolute;
+        top: 220px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>button{
+        width: 80px;
+        height: 20px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 290px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>button>a{
+        color: white;
+        font-size: 8px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4){
+        width: 400px;
+        height: 340px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 1650px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>img{
+        width: 370px;
+        height: 230px;
+        position: absolute;
+        top: -60px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 8px;
+        position: absolute;
+        top: 220px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>button{
+        width: 80px;
+        height: 20px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 290px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>button>a{
+        color: white;
+        font-size: 8px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5){
+        width: 400px;
+        height: 340px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 2050px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>img{
+        width: 370px;
+        height: 230px;
+        position: absolute;
+        top: -60px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 8px;
+        position: absolute;
+        top: 220px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>button{
+        width: 80px;
+        height: 20px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 290px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>button>a{
+        color: white;
+        font-size: 8px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6){
+        width: 400px;
+        height: 340px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 2450px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>img{
+        width: 370px;
+        height: 230px;
+        position: absolute;
+        top: -60px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 8px;
+        position: absolute;
+        top: 220px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>button{
+        width: 80px;
+        height: 20px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 290px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>button>a{
+        color: white;
+        font-size: 8px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 5px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
     #FooterBlackBackground {
         width: 410.7px;
         height: 40vh;
         background-color: black;
         position: absolute;
-        top: 1230px;
+        top: 2700px;
 
     }
 
@@ -1579,7 +2371,7 @@
 
     #bottomMiddleFooter > h2 {
         position: absolute;
-        top: 1240px;
+        top: 2710px;
         bottom: 0;
         right: 0;
         left: 45%;
@@ -1595,7 +2387,7 @@
 
     #bottomMiddleFooter > nav > #links {
         position: absolute;
-        top: 1265px;
+        top: 2740px;
         bottom: 0;
         right: 0;
         left: 50px;
@@ -1614,14 +2406,14 @@
         width: 60px;
         height: 55px;
         position: absolute;
-        top: 1270px;
+        top: 2740px;
         right: 20px;
     }
 
     #infoLink {
         color: white;
         position: absolute;
-        top: 1390px;
+        top: 2860px;
         left: 20px;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;
@@ -1920,12 +2712,252 @@
         font-style: normal;
     }
 
+    .projects>div:nth-child(3){
+        width: 720px;
+        height: 650px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 2200px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>img{
+        width: 650px;
+        height: 400px;
+        position: absolute;
+        top: -200px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        position: absolute;
+        top: 300px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>button{
+        width: 165px;
+        height: 45px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 450px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>button>a{
+        color: white;
+        font-size: 20px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .projects>div:nth-child(4){
+        width: 720px;
+        height: 650px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 2950px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>img{
+        width: 650px;
+        height: 400px;
+        position: absolute;
+        top: -200px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        position: absolute;
+        top: 300px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>button{
+        width: 165px;
+        height: 45px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 450px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>button>a{
+        color: white;
+        font-size: 20px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .projects>div:nth-child(5){
+        width: 720px;
+        height: 650px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 3700px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>img{
+        width: 650px;
+        height: 400px;
+        position: absolute;
+        top: -200px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        position: absolute;
+        top: 300px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>button{
+        width: 165px;
+        height: 45px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 450px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>button>a{
+        color: white;
+        font-size: 20px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .projects>div:nth-child(6){
+        width: 720px;
+        height: 650px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 4450px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>img{
+        width: 650px;
+        height: 400px;
+        position: absolute;
+        top: -200px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        position: absolute;
+        top: 300px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>button{
+        width: 165px;
+        height: 45px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 450px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>button>a{
+        color: white;
+        font-size: 20px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
     #FooterBlackBackground{
         width: 100%;
         height: 50vh;
         background-color: black;
         position: absolute;
-        top: 2400px;
+        top: 4900px;
     }
 
     #FooterBlackBackground>div>h6 {
@@ -1938,7 +2970,7 @@
 
     #bottomMiddleFooter>h2{
         position: absolute;
-        top: 2430px;
+        top: 4910px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -1954,7 +2986,7 @@
 
     #bottomMiddleFooter>nav>#links{
         position: absolute;
-        top: 2465px;
+        top: 4950px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -1972,14 +3004,14 @@
         width: 150px;
         height: 130px;
         position: absolute;
-        top: 2450px;
+        top: 4950px;
         right: 20px;
     }
 
     #infoLink{
         color: white;
         position: absolute;
-        top: 2650px;
+        top: 5150px;
         left: 20%;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;
@@ -2221,13 +3253,253 @@
         font-style: normal;
     }
 
+    .projects>div:nth-child(3){
+        width: 970px;
+        height: 880px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 2800px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>img{
+        width: 920px;
+        height: 470px;
+        position: absolute;
+        top: -250px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        position: absolute;
+        top: 500px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>button{
+        width: 165px;
+        height: 45px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 700px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(3)>button>a{
+        color: white;
+        font-size: 20px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+  .projects>div:nth-child(4){
+        width: 970px;
+        height: 880px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 3800px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>img{
+        width: 920px;
+        height: 470px;
+        position: absolute;
+        top: -250px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        position: absolute;
+        top: 500px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>button{
+        width: 165px;
+        height: 45px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 700px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(4)>button>a{
+        color: white;
+        font-size: 20px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .projects>div:nth-child(5){
+        width: 970px;
+        height: 880px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 4800px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>img{
+        width: 920px;
+        height: 470px;
+        position: absolute;
+        top: -250px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        position: absolute;
+        top: 500px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>button{
+        width: 165px;
+        height: 45px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 700px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(5)>button>a{
+        color: white;
+        font-size: 20px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .projects>div:nth-child(6){
+        width: 970px;
+        height: 880px;
+        background-color: #E6FCFF;
+        position: absolute;
+        top: 5800px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>img{
+        width: 920px;
+        height: 470px;
+        position: absolute;
+        top: -250px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>p{
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Junge", cursive;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 20px;
+        position: absolute;
+        top: 500px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>button{
+        width: 165px;
+        height: 45px;
+        background-color: #51C16D;
+        border: 1px solid #51C16D;
+        border-radius: 50px;
+        position: absolute;
+        top: 700px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .projects>div:nth-child(6)>button>a{
+        color: white;
+        font-size: 20px;
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
 
     #FooterBlackBackground{
         width: 100%;
         height: 50vh;
         background-color: black;
         position: absolute;
-        top: 2400px;
+        top: 6400px;
     }
 
     #FooterBlackBackground>div>h6 {
@@ -2240,7 +3512,7 @@
 
     #bottomMiddleFooter>h2{
         position: absolute;
-        top: 2430px;
+        top: 6410px;
         bottom: 0;
         right: 0;
         left: 43%;
@@ -2256,7 +3528,7 @@
 
     #bottomMiddleFooter>nav>#links{
         position: absolute;
-        top: 2465px;
+        top: 6450px;
         bottom: 0;
         right: 0;
         left: 43%;
@@ -2274,14 +3546,14 @@
         width: 180px;
         height: 160px;
         position: absolute;
-        top: 2450px;
+        top: 6430px;
         right: 50px;
     }
 
     #infoLink{
         color: white;
         position: absolute;
-        top: 2650px;
+        top: 6650px;
         left: 25%;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;
