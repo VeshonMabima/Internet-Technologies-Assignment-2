@@ -2905,12 +2905,90 @@
         left: 20px;
     }
 
+    #home {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: -175px;
+        margin: auto;
+    }
+
+    #aboutMe {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: -80px;
+        margin: auto;
+    }
+
+    #works {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 50px;
+        margin: auto;
+    }
+
+    #story {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 150px;
+        margin: auto;
+    }
+
+    #contact {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 230px;
+        margin: auto;
+    }
+
+    #whoIs {
+        font-size: 70px;
+        position: absolute;
+        top: 75px;
+        bottom: 0;
+        right: 0;
+        left: -70px;
+        margin: auto;
+        color: white;
+    }
+
+    #veshon {
+        font-size: 70px;
+        color: white;
+        padding: 0;
+        position: relative;
+        top: 100px;
+        bottom: 0;
+        right: 0;
+        left: -80px;
+    }
+
     #mirrorSelfi {
         position: relative;
         width: 370px;
         height: 460px;
-        top: 30px;
+        top: -130px;
         left: 50px;
+
     }
 
     main > div > p {

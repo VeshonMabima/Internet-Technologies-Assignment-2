@@ -3110,6 +3110,61 @@
         left: 20px;
     }
 
+    #home {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: -175px;
+        margin: auto;
+    }
+
+    #aboutMe {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: -80px;
+        margin: auto;
+    }
+
+    #works {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 50px;
+        margin: auto;
+    }
+
+    #story {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 150px;
+        margin: auto;
+    }
+
+    #contact {
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 230px;
+        margin: auto;
+    }
+
     #projects{
         font-size: 65px;
         position: relative;
