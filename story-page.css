@@ -1016,7 +1016,7 @@
     }
 
     #home {
-        font-size: 15px;
+        font-size: 12px;
         color: white;
         position: absolute;
         top: 0;
@@ -1027,7 +1027,7 @@
     }
 
     #aboutMe {
-        font-size: 15px;
+        font-size: 12px;
         color: white;
         position: absolute;
         top: 0;
@@ -1038,7 +1038,7 @@
     }
 
     #works {
-        font-size: 15px;
+        font-size: 12px;
         color: white;
         position: absolute;
         top: 0;
@@ -1049,7 +1049,7 @@
     }
 
     #story {
-        font-size: 15px;
+        font-size: 12px;
         color: white;
         position: absolute;
         top: 0;
@@ -1060,7 +1060,7 @@
     }
 
     #contact {
-        font-size: 15px;
+        font-size: 12px;
         color: white;
         position: absolute;
         top: 0;
@@ -1071,12 +1071,12 @@
     }
 
     #myStory {
-        font-size: 40px;
+        font-size: 43px;
         position: absolute;
         top: 80px;
         bottom: 0;
         right: 0;
-        left: -70px;
+        left: -80px;
         margin: auto;
         color: white;
     }
@@ -1230,7 +1230,7 @@
 
     #bottomMiddleFooter > nav > #links {
         position: absolute;
-        top: 1380px;
+        top: 1385px;
         bottom: 0;
         right: 0;
         left: 50px;
@@ -1256,7 +1256,7 @@
     #infoLink {
         color: white;
         position: absolute;
-        top: 1408px;
+        top: 1510px;
         left: 20px;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;

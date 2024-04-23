@@ -1781,7 +1781,7 @@
         font-weight: bold;
         font-style: normal;
         letter-spacing: 2px;
-        font-size: 7px;
+        font-size: 6px;
     }
 
     #infoLink>a{
@@ -1876,7 +1876,7 @@
     }
 
     #home {
-        font-size: 15px;
+        font-size: 12px;
         color: white;
         position: absolute;
         top: 0;
@@ -1887,7 +1887,7 @@
     }
 
     #aboutMe {
-        font-size: 15px;
+        font-size: 12px;
         color: white;
         position: absolute;
         top: 0;
@@ -1898,7 +1898,7 @@
     }
 
     #works {
-        font-size: 15px;
+        font-size: 12px;
         color: white;
         position: absolute;
         top: 0;
@@ -1909,7 +1909,7 @@
     }
 
     #story {
-        font-size: 15px;
+        font-size: 12px;
         color: white;
         position: absolute;
         top: 0;
@@ -1920,7 +1920,7 @@
     }
 
     #contact {
-        font-size: 15px;
+        font-size: 12px;
         color: white;
         position: absolute;
         top: 0;
