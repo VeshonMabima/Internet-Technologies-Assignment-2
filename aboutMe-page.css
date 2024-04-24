@@ -2910,38 +2910,14 @@
 
 @media (max-width: 1024px) and (min-width: 768px) {
 
-/*    #blackBackground {
-        width: 100%;
+    #blackBackground{
+        width: 1000px;
         height: 50vh;
         background-color: black;
         position: relative;
-    }*/
-
-    #r1{
-        position: absolute;
-        top: 0;
-        background-color: black;
-        width: 100%;
-        height: 30%;
-        --column-width: 980px;
-        --column-flex: 980;
     }
 
-    .bg {
-        position: absolute;
-        top: 45px;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        width: 100%;
-        height: 30%;
-        background-color: black;
-        transform: skewY(-7deg);
-        transform-origin: top right;
-    }
-
-
-    header > div > nav {
+    header>div>nav{
         position: absolute;
         top: 10px;
         bottom: 0;
@@ -2951,7 +2927,7 @@
         word-spacing: 5px;
     }
 
-    header > div > img {
+    header>div>img{
         position: relative;
         width: 80px;
         height: 70px;
@@ -3017,13 +2993,12 @@
     #whoIs {
         font-size: 70px;
         position: absolute;
-        top: -350px;
+        top: 75px;
         bottom: 0;
         right: 0;
-        left: -70%;
+        left: -70px;
         margin: auto;
         color: white;
-        z-index: 3;
     }
 
     #veshon {
@@ -3031,24 +3006,24 @@
         color: white;
         padding: 0;
         position: relative;
-        top: 150px;
+        top: 100px;
         bottom: 0;
         right: 0;
-        left: -30%;
+        left: -80px;
     }
 
-    #mirrorSelfi {
+    #mirrorSelfi{
         position: relative;
         width: 370px;
         height: 460px;
-        top: 290px;
+        top: -130px;
         left: 50px;
     }
 
-    main > div > p {
+    main>div>p{
         width: 400px;
         position: relative;
-        top: 320px;
+        top: 100px;
         left: 600px;
         padding: 0;
         margin: 0;
@@ -3057,7 +3032,7 @@
         line-height: 30px;
     }
 
-    #vrticlAbout {
+    #vrticlAbout{
         transform: rotate(90deg);
         transform-origin: 50% 50%;
         color: black;
@@ -3073,17 +3048,17 @@
         font-size: 15px;
     }
 
-    #vrticlAbout > hr {
+    #vrticlAbout>hr{
         position: relative;
         top: -17px;
         left: 95px;
         opacity: 90%;
     }
 
-    #upMain > div > img {
+    #upMain>div>img{
         position: relative;
-        top: 380px;
-        left: 610px;
+        top:150px;
+        left: 630px;
         padding: 0;
         margin: 0;
         max-width: 640px;
@@ -3103,7 +3078,7 @@
 
     #vision{
         position: relative;
-        top: 360px;
+        top: -50px;
         left: 13%;
         max-width: fit-content;
         font-size: 25px;
@@ -3111,7 +3086,7 @@
 
     .vision{
         position: relative;
-        top: 360px;
+        top: -50px;
         left: 7%;
         max-width: 640px;
         font-family: "Junge", cursive;
@@ -3123,7 +3098,7 @@
 
     #mission{
         position: relative;
-        top: 230px;
+        top: -180px;
         left: 45%;
         max-width: fit-content;
         font-size: 25px;
@@ -3131,7 +3106,7 @@
 
     .mission{
         position: relative;
-        top: 230px;
+        top: -180px;
         left: 40%;
         max-width: 300px;
         font-family: "Junge", cursive;
@@ -3143,7 +3118,7 @@
 
     #quotes{
         position: relative;
-        top: 20px;
+        top: -390px;
         left: 75%;
         max-width: fit-content;
         font-size: 25px;
@@ -3151,7 +3126,7 @@
 
     .quotes{
         position: relative;
-        top: 20px;
+        top: -390px;
         left: 75%;
         max-width: 180px;
         font-family: "Junge", cursive;
