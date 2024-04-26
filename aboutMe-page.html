@@ -18,10 +18,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Junge&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+          rel="stylesheet">
 </head>
 <body>
 
@@ -29,21 +31,30 @@
 <header>
 
     <div id="blackBackground">
-    <div id="r1"></div>
-    <div class="bg"></div>
 
-        <img src="assets/images/Logo%20-%20Copy.png" title="veshon.lk" alt="Logo" width="50">
+        <div id="r1">
 
-        <nav id="nav">
+            <img id="logo" src="assets/images/Logo%20-%20Copy.png" title="veshon.lk" alt="Logo" width="50">
 
-            <a style="text-decoration: none" id="home" href="home-page.html" >Home</a>
-            <a style="text-decoration: none" id="aboutMe" href="aboutMe-page.html" >About Me</a>
-            <a style="text-decoration: none" id="works" href="works-page.html" >Works</a>
-            <a style="text-decoration: none" id="story" href="story-page.html" >Story</a>
-            <a style="text-decoration: none" id="contact" href="contact-page.html" >Contact Me</a>
-            <h1 id="whoIs">WHO IS</h1>
-            <h1 id="veshon"> VESHON ?</h1>
-        </nav>
+            <nav id="nav">
+                <div>
+                    <a style="text-decoration: none" id="home" href="home-page.html">Home</a>
+                    <a style="text-decoration: none" id="aboutMe" href="aboutMe-page.html">About Me</a>
+                    <a style="text-decoration: none" id="works" href="works-page.html">Works</a>
+                    <a style="text-decoration: none" id="story" href="story-page.html">Story</a>
+                    <a style="text-decoration: none" id="contact" href="contact-page.html">Contact</a>
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="bg">
+            <div class="inner-bg"></div>
+            <div class="inner-title">
+                <h1 id="whoIs">WHO IS</h1>
+                <h1 id="veshon"> VESHON ?</h1>
+            </div>
+        </div>
     </div>
 
 </header>
@@ -51,31 +62,36 @@
 <!--Hero Section-->
 <main id="upMain">
 
-    <!--Hero Right side-->
+    <!--Hero Left side-->
     <div>
-
-        <h3 id="vrticlAbout">About Me <hr color="black" width="50px"> </h3>
-
-        <p style="font-family: Junge, cursive; font-weight: bold; font-style: normal; vertical-align: center; ">
-           " Hello. I'm Veshon Mabima.<br>
-            &nbsp
-            And im 17 years old software engineering student.<br>
-            &nbsp
-            I am passionate about using technology to create <br>
-            &nbsp
-            innovative solutions that drive business growth <br>
-            &nbsp
-            and improve people's lives."
-        </p>
-
-        <img src="assets/images/icons8-twitterx-50.png" title="twiter.img" alt="image" width="20">
-        <img src="assets/images/icons8-facebook-50.png" title="facebook.img" alt="image" width="20">
-        <img src="assets/images/icons8-insta-60.png" title="insta.img" alt="image"width="20">
-        <img src="assets/images/icons8-github-60.png" title="github.img" alt="image" width="20">
+        <img id="mirrorSelfi" src="assets/images/WhatsApp%20Image%202023-12-31%20at%2013.47.39_be578f78%20-%20Copy.jpg" title="Image.com" alt="Image" width="300">
     </div>
 
-    <!--Hero Left side-->
-    <img id="mirrorSelfi" src="assets/images/WhatsApp%20Image%202023-12-31%20at%2013.47.39_be578f78%20-%20Copy.jpg" title="Image.com" alt="Image" width="300">
+
+<!--    Hero Right side-->
+    <div id="heroRightSide">
+        <div>
+
+            <p id="about" style="font-family: Junge, cursive; font-weight: bold; font-style: normal; vertical-align: center; ">
+                " Hello. I'm Veshon Mabima.<br>
+                &nbsp
+                And im 17 years old software engineering student.<br>
+                &nbsp
+                I am passionate about using technology to create <br>
+                &nbsp
+                innovative solutions that drive business growth <br>
+                &nbsp
+                and improve people's lives."
+            <h3 id="vrticlAbout">About Me <hr color="black" width="50px"> </h3>
+
+            </p>
+
+            <img src="assets/images/icons8-twitterx-50.png" title="twiter.img" alt="image" width="20">
+            <img src="assets/images/icons8-facebook-50.png" title="facebook.img" alt="image" width="20">
+            <img src="assets/images/icons8-insta-60.png" title="insta.img" alt="image"width="20">
+            <img src="assets/images/icons8-github-60.png" title="github.img" alt="image" width="20">
+        </div>
+    </div>
 </main>
 
 <!--Vision Mission Quotes I Love -->
@@ -84,13 +100,16 @@
     <div>
         <h3 id="vision">Vision</h3>
         <h5 class="vision"> " To Become a Powerful Tech <br> Entrepreneur. ”</h5>
+    </div>
 
+    <div>
         <h3 id="mission">Mission</h3>
         <h5 class="mission">" To Empower people with <br> innovative technology <br> solutions that improve <br> their lives and Influence People <br> into the technology domain "</h5>
+    </div>
 
+    <div>
         <h3 id="quotes">Quotes I Love</h3>
         <h5 class="quotes">"In the end, it's not the <br> years in your life that <br> count. It's the life in <br> your years. “ <br> -Abraham Lincoln</h5>
-
     </div>
 
 </section>
@@ -98,6 +117,7 @@
 <!--Left Side-->
 <section class="mid">
 
+<div id="designerSide">
     <h3 id="designer" style="font-family: Electrolize, sans-serif;font-weight: 600;font-style: normal;">Part Designer <hr color="black" width="80px"></h3>
     <ul class="designer">
         <li>User Interface Design</li>
@@ -106,18 +126,18 @@
         <li>Website Design</li>
         <li>Branding / Logo Design</li>
     </ul>
-
+</div>
 
 <!--Middle-->
-<div>
+<div id="pieChartSide">
     <img id="pieChart" src="assets/images/white-part-designer-part-coder.png" title="pie-chart" alt="image" width="250">
 </div>
 
 
 <!--Right Side-->
+<div id="coderSide">
 
     <h3 id="coder" style="font-family: Electrolize, sans-serif;font-weight: 600;font-style: normal;">Part Coder <hr color="black" width="80px"></h3>
-
     <ul class="coder">
         <li>Front End Development</li>
         <li>HTML</li>
@@ -127,13 +147,15 @@
         <li>Content Management</li>
     </ul>
 
+</div>
+
 </section>
 
 <!--Hobbies Right Side-->
 <div id="coding"><img src="assets/images/coding.webp" title="hobbies" alt="image"></div>
 
 <!--Hobbies Left Side-->
-<section>
+<section id="hobbiesLeftSide">
 
     <h3 id="vrticlHobbies"> HOBBIES <hr color="black" width="50px"> </h3>
     <h1 id="hobbies" style="font-family: Electrolize, sans-serif;font-weight: 590;font-style: normal;">Hobbies <hr color="black" width="80px"> </h1>
@@ -181,17 +203,15 @@
 </section>
 
 <!--Goals Left Side-->
-
 <h3 id="vrticlGoals"> GOALS <hr color="black" width="50px"> </h3>
-
 <div id="goalsPNG"><img src="assets/images/goals-business-brand-launch-corporate-success-concept.jpg" title="goals" alt="image" width="375"></div>
+<h1 id="blurGoals">GOALS</h1>
 
 <!--Goals Right Side-->
 <section id="goals">
     <div>
         <h1 style="font-family: Electrolize, sans-serif;font-weight: 590;font-style: normal;">Goals <hr color="black" width="70px"> </h1>
 
-        <h1 id="blurGoals">GOALS</h1>
 
         <ul>
             <li style="visibility: hidden"></li>

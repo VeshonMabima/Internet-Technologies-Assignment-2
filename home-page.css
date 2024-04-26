@@ -1,7 +1,1220 @@
+#blackBackground {
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+#blackBackground > #r1 {
+    display: flex;
+    align-items: center;
+}
+
+#blackBackground > #r1 > img {
+    margin: 20px;
+    width: 80px;
+}
+
+#blackBackground > #r1 > nav {
+    flex: 1;
+    height: fit-content;
+}
+
+#blackBackground > #r1 > nav > div {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+}
+
+#blackBackground > #r1 > nav > div > a {
+    color: #fff;
+    margin: 0 2em;
+}
+
+#blackBackground > .bg {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    background-color: black;
+    height: fit-content;
+    min-height: 200px;
+}
+
+#blackBackground > .bg > .inner-title {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 30px;
+}
+
+#blackBackground > .bg > .inner-bg {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    transform: skewY(-5deg);
+    transform-origin: top right;
+    position: absolute;
+}
+
+#blackBackground > .bg > .inner-title > h1{
+    position: relative;
+    top: -40px;
+    font-size: 80px;
+}
+
+#blackBackground > .bg > .inner-title > h1:nth-child(2){
+    font-size: 80px;
+    position: relative;
+    top: -90px;
+}
+
+#upMain {
+    margin: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#mirrorSelfi{
+    width: 430px;
+    height: 547px;
+    position: absolute;
+    left: 80px;
+}
+
+#vrticlAbout {
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+    color: black;
+    position: absolute;
+    top: 600px;
+    left: 650px;
+    letter-spacing: 6px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    opacity: 90%;
+}
+
+#vrticlAbout > hr {
+    position: relative;
+    top: -20px;
+    left: 95px;
+    opacity: 90%;
+}
+
+#about{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding: 0;
+    margin: 0;
+    max-width: fit-content;
+    line-height: 30px;
+}
+
+#heroRightSide > div > img{
+    width: 20px;
+    aspect-ratio: 1/1;
+    position: relative;
+    left: 110px;
+    top: 130px;
+}
+
+#blurGallery {
+    position: absolute;
+    top: 1100px;
+    bottom: 0;
+    right: 0;
+    left: 23%;
+    margin: auto;
+    color: black;
+    font-size: 150px;
+    font-family: Electrolize, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    opacity: 17%;
+    letter-spacing: 20px;
+}
+
+#gallery {
+    font-size: 32px;
+    font-family: Electrolize, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    position: absolute;
+    top: 1250px;
+    left: 80px;
+}
+
+#gallery > hr {
+    width: 80px;
+    height: 5px;
+    position: absolute;
+    top: 20px;
+    left: 4px;
+    opacity: 50%;
+}
+
+#vrticlGallery{
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+    color: black;
+    position: absolute;
+    top: 1400px;
+    left: -30px;
+    letter-spacing: 6px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    opacity: 90%;
+    display: none;
+}
+
+#vrticlGallery>hr{
+    position: relative;
+    top: -20px;
+    left: 95px;
+    opacity: 90%;
+    display: none;
+}
+
+#vrticlGallery2{
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+    color: black;
+    position: absolute;
+    top: 2300px;
+    left: -30px;
+    letter-spacing: 6px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    opacity: 90%;
+    display: none;
+}
+
+#vrticlGallery2>hr{
+    position: relative;
+    top: -20px;
+    left: 95px;
+    opacity: 90%;
+    display: none;
+}
+
+#pic1>img{
+    width: 342px;
+    height: 470px;
+    position: absolute;
+    top: 1440px;
+    bottom: 0;
+    right: 0;
+    left: 900px;
+    margin: auto;
+}
+
+#pic2>img{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 1420px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#pic3>img{
+    width: 300px;
+    height: 440px;
+    position: absolute;
+    top: 1600px;
+    bottom: 0;
+    right: 0;
+    left: -880px;
+    margin: auto;
+}
+
+#pic4>img{
+    width: 760px;
+    height: 498px;
+    position: absolute;
+    top: 2100px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#pic5>img{
+    width: 478px;
+    height: 619px;
+    position: absolute;
+    top: 2700px;
+    bottom: 0;
+    right: 0;
+    left: -710px;
+    margin: auto;
+}
+
+#pic6>img{
+    width: 390px;
+    height: 619px;
+    position: absolute;
+    top: 2700px;
+    bottom: 0;
+    right: 0;
+    left: 168px;
+    margin: auto;
+}
+
+#pic7>img{
+    width: 350px;
+    height: 619px;
+    position: absolute;
+    top: 2700px;
+    bottom: 0;
+    right: 0;
+    left: 920px;
+    margin: auto;
+}
+
+#FooterBlackBackground {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    position: absolute;
+    top: 3150px;
+}
+
+#FooterBlackBackground > div > h6 {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    left: 50px;
+    max-width: 300px;
+}
+
+#bottomMiddleFooter > h2 {
+    position: absolute;
+    top: 3160px;
+    bottom: 0;
+    right: 0;
+    left: 46%;
+    margin: auto;
+    color: white;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#bottomMiddleFooter > nav > #links {
+    position: absolute;
+    top: 3200px;
+    bottom: 0;
+    right: 0;
+    left: 46%;
+    margin: auto;
+    color: white;
+    letter-spacing: 2px;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+}
+
+#logoFooter {
+    width: 180px;
+    height: 160px;
+    position: absolute;
+    top: 3190px;
+    right: 50px;
+}
+
+#infoLink {
+    color: white;
+    position: absolute;
+    top: 3400px;
+    left: 32%;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+#infoLink > a {
+    color: white;
+}
+
+#infoLink > img {
+    width: 20px;
+    aspect-ratio: 1/1;
+    position: relative;
+    top: 4px;
+}
+
+#phoneIcon {
+    width: 25px;
+    aspect-ratio: 1/1;
+    max-width: 25px;
+    max-height: 25px;
+    position: relative;
+    top: 90px;
+    left: 70px;
+}
+
+#FooterBlackBackground > div > #mobileNo {
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 113px;
+    letter-spacing: 1px;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+}
+
+#mailIcon {
+    width: 25px;
+    aspect-ratio: 1/1;
+    position: relative;
+    top: 145px;
+    left: 40px;
+}
+
+#FooterBlackBackground > div > #email {
+    color: white;
+    position: absolute;
+    top: 115px;
+    left: 110px;
+    letter-spacing: 1px;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+}
+
+#middleFooter {
+    display: none;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1290px) {
+
+    #vrticlAbout {
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+        color: black;
+        position: absolute;
+        top: 700px;
+        left: -40px;
+        letter-spacing: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 90%;
+    }
+
+    #vrticlAbout > hr {
+        position: relative;
+        top: -20px;
+        left: 95px;
+        opacity: 90%;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1286px){
+
+    #pic5>img{
+        width: 450px;
+        height: 600px;
+        position: absolute;
+        top: 2700px;
+        bottom: 0;
+        right: 0;
+        left: -710px;
+        margin: auto;
+    }
+
+    #pic6>img{
+        width: 370px;
+        height: 600px;
+        position: absolute;
+        top: 2700px;
+        bottom: 0;
+        right: 0;
+        left: 125px;
+        margin: auto;
+    }
+
+    #pic7>img{
+        width: 340px;
+        height: 600px;
+        position: absolute;
+        top: 2700px;
+        bottom: 0;
+        right: 0;
+        left: 850px;
+        margin: auto;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1216px){
+
+    #pic5>img{
+        width: 420px;
+        height: 570px;
+        position: absolute;
+        top: 2700px;
+        bottom: 0;
+        right: 0;
+        left: -670px;
+        margin: auto;
+    }
+
+    #pic6>img{
+        width: 340px;
+        height: 570px;
+        position: absolute;
+        top: 2700px;
+        bottom: 0;
+        right: 0;
+        left: 100px;
+        margin: auto;
+    }
+
+    #pic7>img{
+        width: 320px;
+        height: 570px;
+        position: absolute;
+        top: 2700px;
+        bottom: 0;
+        right: 0;
+        left: 770px;
+        margin: auto;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1105px){
+
+    #pic5>img{
+        width: 350px;
+        height: 480px;
+        position: absolute;
+        top: 2700px;
+        bottom: 0;
+        right: 0;
+        left: -590px;
+        margin: auto;
+    }
+
+    #pic6>img{
+        width: 300px;
+        height: 480px;
+        position: absolute;
+        top: 2700px;
+        bottom: 0;
+        right: 0;
+        left: 80px;
+        margin: auto;
+    }
+
+    #pic7>img{
+        width: 270px;
+        height: 480px;
+        position: absolute;
+        top: 2700px;
+        bottom: 0;
+        right: 0;
+        left: 680px;
+        margin: auto;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1261px){
+    #pic1>img{
+        width: 300px;
+        height: 430px;
+        position: absolute;
+        left: 700px;
+    }
+
+    #pic2>img{
+        width: 400px;
+        height: 250px;
+        position: absolute;
+        left: -100px;
+    }
+
+    #pic3>img{
+        width: 280px;
+        height: 410px;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1180px){
+
+    #pic1>img{
+        width: 300px;
+        height: 430px;
+        position: absolute;
+        left: 700px;
+    }
+
+    #pic2>img{
+        width: 400px;
+        height: 250px;
+        position: absolute;
+        left: -50px;
+    }
+
+    #pic3>img{
+        width: 280px;
+        height: 410px;
+        position: absolute;
+        left: -780px;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 978px){
+
+    #blurGallery{
+        position: absolute;
+        left: 70px;
+    }
+
+    #pic1>img{
+        width: 300px;
+        height: 420px;
+        position: absolute;
+        top: 1500px;
+        left: 350px;
+    }
+
+    #pic2>img{
+        width: 500px;
+        height: 310px;
+        position: absolute;
+        top: 2000px;
+        left: -60px;
+    }
+
+    #pic3>img{
+        width: 300px;
+        height: 420px;
+        position: absolute;
+        left: -450px;
+    }
+
+    #pic4>img{
+        width: 500px;
+        height: 310px;
+        position: absolute;
+        top: 2350px;
+        bottom: 0;
+        right: 0;
+        left: -60px;
+        margin: auto;
+    }
+
+    #pic5>img{
+        width: 435px;
+        height: 550px;
+        position: absolute;
+        top: 2830px;
+        bottom: 0;
+        right: 0;
+        left: -50px;
+        margin: auto;
+    }
+
+    #pic6>img{
+        width: 340px;
+        height: 570px;
+        position: absolute;
+        top: 2830px;
+        bottom: 0;
+        right: 0;
+        left: 100px;
+        margin: auto;
+        display: none;
+    }
+
+    #pic7>img{
+        width: 340px;
+        height: 550px;
+        position: absolute;
+        top: 2830px;
+        bottom: 0;
+        right: 0;
+        left: 450px;
+        margin: auto;
+        display: none;
+    }
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1032px){
+    #blurGallery{
+        font-size: 140px;
+        position: absolute;
+        left: 100px;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 873px){
+
+    #nav>div>a{
+        font-size: 18px;
+    }
+
+    #heroRightSide>div>img{
+        position: relative;
+        top: 80px;
+        left: 70px;
+    }
+
+    #mirrorSelfi{
+        width: 320px;
+        height: 400px;
+        position: relative;
+        left: -80px;
+    }
+
+    #about{
+        position: relative;
+        top: 50px;
+        left: 50px;
+    }
+
+    #vrticlAbout{
+        display: none;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 865px){
+
+    #blurGallery{
+         position: absolute;
+        left: 30px;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 789px){
+
+    #blurGallery{
+        font-size: 120px;
+        position: absolute;
+        left: 30px;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 700px){
+
+    #blurGallery{
+        font-size: 110px;
+        position: absolute;
+        left: 30px;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 665px){
+
+    #blurGallery{
+        font-size: 100px;
+        position: absolute;
+        top: 1250px;
+        left: 30px;
+    }
+
+    #gallery{
+        position: absolute;
+        top: 1380px;
+        left: 20px;
+    }
+
+    #pic1>img{
+        width: 250px;
+        height: 350px;
+        position: absolute;
+        top: 1600px;
+        left: 300px;
+    }
+
+    #pic2>img{
+        width: 400px;
+        height: 240px;
+        position: absolute;
+        top: 2050px;
+        left: 0px;
+    }
+
+    #pic3>img{
+        width: 250px;
+        height: 350px;
+        position: absolute;
+        top: 1700px;
+        left: -270px;
+    }
+
+    #pic4>img{
+        width: 450px;
+        height: 300px;
+        position: absolute;
+        top: 2350px;
+        left: 0;
+    }
+
+    #pic5>img{
+        position: absolute;
+        left: 0;
+    }
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 614px){
+
+    #blurGallery{
+        font-size: 90px;
+        position: absolute;
+        top: 1250px;
+        left: 30px;
+    }
+
+    #gallery{
+        position: absolute;
+        top: 1350px;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 571px){
+
+    #blurGallery{
+        font-size: 70px;
+    }
+
+    #pic1>img{
+        width: 230px;
+        height: 330px;
+        position: absolute;
+        top: 1600px;
+        left: 250px;
+    }
+
+    #pic2>img{
+        width: 400px;
+        height: 240px;
+        position: absolute;
+        top: 2050px;
+        left: 0px;
+    }
+
+    #pic3>img{
+        width: 230px;
+        height: 330px;
+        position: absolute;
+        top: 1700px;
+        left: -260px;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 570px){
+    #blurGallery{
+        font-size: 70px;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 515px){
+    #pic3>img{
+        width: 230px;
+        height: 330px;
+        position: absolute;
+        top: 1700px;
+        left: -245px;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 850px){
+
+    #upMain {
+        grid-template-columns: 1fr 1fr;
+        margin: 100px;
+    }
+
+    #upMain > div:first-child  {
+        text-align: center;
+    }
+
+    #upMain > div:nth-child(2) {
+        position: relative;
+    }
+
+    #upMain > div:nth-child(2) > div {
+        width: fit-content;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 685px) {
+
+    #nav > div > a {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    #upMain {
+        grid-template-columns: 1fr;
+        margin: 100px;
+    }
+
+    #mirrorSelfi {
+        position: relative;
+        left: 10px;
+    }
+
+    #FooterBlackBackground {
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        position: absolute;
+        top: 3150px;
+    }
+
+    #FooterBlackBackground > div > h6 {
+        color: white;
+        font-size: 12px;
+        position: relative;
+        left: 50px;
+        max-width: 300px;
+    }
+
+    #bottomMiddleFooter > h2 {
+        position: absolute;
+        top: 3160px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    #bottomMiddleFooter > nav > #links {
+        position: absolute;
+        top: 3200px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        letter-spacing: 2px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 12px;
+    }
+
+    #logoFooter {
+        width: 130px;
+        height: 110px;
+        position: absolute;
+        top: 3200px;
+        right: 20px;
+    }
+
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 3400px;
+        left: 15%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+
+    #infoLink > a {
+        color: white;
+    }
+
+    #infoLink > img {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 4px;
+    }
+
+    #phoneIcon {
+        width: 20px;
+        aspect-ratio: 1/1;
+        max-width: 25px;
+        max-height: 25px;
+        position: relative;
+        top: 80px;
+        left: 20px;
+    }
+
+    #FooterBlackBackground > div > #mobileNo {
+        color: white;
+        position: absolute;
+        top: 60px;
+        left: 53px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 12px;
+    }
+
+    #mailIcon {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 140px;
+        left: 0;
+    }
+
+    #FooterBlackBackground > div > #email {
+        color: white;
+        position: absolute;
+        top: 115px;
+        left: 55px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 12px;
+    }
+
+    #middleFooter {
+        display: none;
+    }
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 590px) {
+
+    #about{
+        position: relative;
+        left: 0;
+    }
+
+    #pic5>img{
+        position: absolute;
+        left: 0;
+    }
+
+    #FooterBlackBackground {
+        width: 100%;
+        height: 60vh;
+        background-color: black;
+        position: absolute;
+        top: 3200px;
+    }
+
+    #FooterBlackBackground > div > h6 {
+        color: white;
+        font-size: 12px;
+        position: relative;
+        left: 50px;
+        max-width: 300px;
+    }
+
+    #bottomMiddleFooter > h2 {
+        position: absolute;
+        top: 3210px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    #bottomMiddleFooter > nav > #links {
+        position: absolute;
+        top: 3240px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        letter-spacing: 2px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 12px;
+    }
+
+    #logoFooter {
+        width: 130px;
+        height: 110px;
+        position: absolute;
+        top: 3240px;
+        left: 20px;
+    }
+
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 3500px;
+        left: 3%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+
+    #infoLink > a {
+        color: white;
+    }
+
+    #infoLink > img {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 4px;
+    }
+
+    #phoneIcon {
+        width: 20px;
+        aspect-ratio: 1/1;
+        max-width: 25px;
+        max-height: 25px;
+        position: relative;
+        top: 225px;
+        left: 38vw;
+    }
+
+    #FooterBlackBackground > div > #mobileNo {
+        color: white;
+        position: absolute;
+        top: 200px;
+        left: 45vw;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 12px;
+    }
+
+    #mailIcon {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 260px;
+        left: 33vw;
+    }
+
+    #FooterBlackBackground > div > #email {
+        color: white;
+        position: absolute;
+        top: 240px;
+        left: 45vw;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 @media (max-width: 1440px) and (min-width: 1020px) {
-
-
-
     #r1{
         position: absolute;
         top: 0;
@@ -602,7 +1815,7 @@
         position: absolute;
         top: 235px;
         left: 150px;
-        /*letter-spacing: 6px;*/
+        !*letter-spacing: 6px;*!
         font-family: "Karla", sans-serif;
         font-optical-sizing: auto;
         font-weight: bolder;
@@ -1071,7 +2284,7 @@
         position: absolute;
         top: 255px;
         left: 160px;
-        /*letter-spacing: 6px;*/
+        !*letter-spacing: 6px;*!
         font-family: "Karla", sans-serif;
         font-optical-sizing: auto;
         font-weight: bolder;
@@ -2743,3 +3956,4 @@
     }
 }
 
+*/

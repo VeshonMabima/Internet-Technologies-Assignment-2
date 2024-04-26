@@ -22,6 +22,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 </head>
 <body>
@@ -29,74 +31,94 @@
 <!--Header-->
 <header>
 
-    <div id="r1"></div>
-    <div class="bg"></div>
     <div id="blackBackground">
 
-    <img src="assets/images/Logo%20-%20Copy.png" title="veshon.lk" alt="Logo" width="50">
+        <div id="r1">
 
-        <nav id="nav">
+            <img id="logo" src="assets/images/Logo%20-%20Copy.png" title="veshon.lk" alt="Logo" width="50">
 
-            <a style="text-decoration: none" id="home" href="home-page.html" >Home</a>
-            <a style="text-decoration: none" id="aboutMe" href="aboutMe-page.html" >About Me</a>
-            <a style="text-decoration: none" id="works" href="works-page.html" >Works</a>
-            <a style="text-decoration: none" id="story" href="story-page.html" >Story</a>
-            <a style="text-decoration: none" id="contact" href="contact-page.html" >Contact Me</a>
-            <h1  id="whoIs">WHO IS</h1>
-            <h1 id="veshon"> VESHON ?</h1>
+            <nav id="nav">
+                <div>
+                    <a style="text-decoration: none" id="home" href="home-page.html">Home</a>
+                    <a style="text-decoration: none" id="aboutMe" href="aboutMe-page.html">About Me</a>
+                    <a style="text-decoration: none" id="works" href="works-page.html">Works</a>
+                    <a style="text-decoration: none" id="story" href="story-page.html">Story</a>
+                    <a style="text-decoration: none" id="contact" href="contact-page.html">Contact</a>
+                </div>
+            </nav>
 
-        </nav>
+        </div>
+
+        <div class="bg">
+            <div class="inner-bg"></div>
+            <div class="inner-title">
+                <h1 id="whoIs">WHO IS</h1>
+                <h1 id="veshon"> VESHON ?</h1>
+            </div>
+        </div>
     </div>
+
 </header>
 
 <!--Hero Section-->
 <main id="upMain">
 
-    <!--Hero Right side-->
+    <!--Hero Left side-->
     <div>
-
-        <h3 id="vrticlAbout">About Me <hr color="black" width="50px"> </h3>
-
-        <p style="font-family: Junge, cursive; font-weight: bold; font-style: normal; vertical-align: center; ">
-            " Hello. I'm Veshon Mabima.<br>
-            &nbsp
-            And im 17 years old software engineering student.<br>
-            &nbsp
-            I am passionate about using technology to create <br>
-            &nbsp
-            innovative solutions that drive business growth <br>
-            &nbsp
-            and improve people's lives."
-        </p>
-
-        <img src="assets/images/icons8-twitterx-50.png" title="twiter.img" alt="image" width="20">
-        <img src="assets/images/icons8-facebook-50.png" title="facebook.img" alt="image" width="20">
-        <img src="assets/images/icons8-insta-60.png" title="insta.img" alt="image" width="20">
-        <img src="assets/images/icons8-github-60.png" title="github.img" alt="image" width="20">
+        <img id="mirrorSelfi" src="assets/images/WhatsApp%20Image%202023-12-31%20at%2013.47.39_be578f78%20-%20Copy.jpg" title="Image.com" alt="Image" width="300">
     </div>
 
-    <!--Hero Left side-->
-    <img id="mirrorSelfi" src="assets/images/WhatsApp%20Image%202023-12-31%20at%2013.47.39_be578f78%20-%20Copy.jpg" title="Image.com" alt="Image" width="300">
+
+    <!--    Hero Right side-->
+    <div id="heroRightSide">
+        <div>
+
+            <p id="about" style="font-family: Junge, cursive; font-weight: bold; font-style: normal; vertical-align: center; ">
+                " Hello. I'm Veshon Mabima.<br>
+                &nbsp
+                And im 17 years old software engineering student.<br>
+                &nbsp
+                I am passionate about using technology to create <br>
+                &nbsp
+                innovative solutions that drive business growth <br>
+                &nbsp
+                and improve people's lives."
+            <h3 id="vrticlAbout">About Me <hr color="black" width="50px"> </h3>
+
+            </p>
+
+            <img src="assets/images/icons8-twitterx-50.png" title="twiter.img" alt="image" width="20">
+            <img src="assets/images/icons8-facebook-50.png" title="facebook.img" alt="image" width="20">
+            <img src="assets/images/icons8-insta-60.png" title="insta.img" alt="image"width="20">
+            <img src="assets/images/icons8-github-60.png" title="github.img" alt="image" width="20">
+        </div>
+    </div>
 </main>
 
+
     <!--Gallery-->
-<h1 id="gallery">GALLERY<hr color="black" width="50px"></h1>
+<section>
+    <h1  id="gallery">GALLERY<hr color="black" width="50px"></h1>
+</section>
 
-<h1 id="blurGallery">GALLERY</h1>
+<section>
+    <h1 id="blurGallery">GALLERY</h1>
+</section>
 
-<h3 id="vrticlGallery">GALLERY<hr color="black" width="50px"> </h3>
+<!--<section><h3 id="vrticlGallery">GALLERY<hr color="black" width="50px"> </h3></section>
 
-<h3 id="vrticlGallery2">GALLERY<hr color="black" width="50px"> </h3>
+<section><h3 id="vrticlGallery2">GALLERY<hr color="black" width="50px"> </h3></section>-->
+
 
 <section class="gallery">
     <div>
-        <img src="assets/images/Mirrorselfi%202.jpg" title="picture1" alt="image">
-        <img src="assets/images/IMG_5430%20(1).jpg" title="picture2" alt="image">
-        <img src="assets/images/Aquainas1.jpg" title="picture3" alt="image">
-        <img src="assets/images/IMG_5518.JPG" title="picture4" alt="image">
-        <img src="assets/images/1C3AD033-5911-4B29-88D5-2111E036817A.jpeg" title="picture5" alt="image">
-        <img src="assets/images/B.jpeg" title="picture6" alt="image">
-        <img src="assets/images/IMG_5415.jpg" title="picture7" alt="image">
+            <div id="pic1"><img src="assets/images/Mirrorselfi%202.jpg" title="picture1" alt="image"></div>
+            <div id="pic2"><img src="assets/images/IMG_5430%20(1).jpg" title="picture2" alt="image"></div>
+            <div id="pic3"><img src="assets/images/Aquainas1.jpg" title="picture3" alt="image"></div>
+            <div id="pic4"><img src="assets/images/IMG_5518.JPG" title="picture4" alt="image"></div>
+            <div id="pic5"><img src="assets/images/1C3AD033-5911-4B29-88D5-2111E036817A.jpeg" title="picture5" alt="image"></div>
+            <div id="pic6"><img src="assets/images/B.jpeg" title="picture6" alt="image"></div>
+            <div id="pic7"><img src="assets/images/IMG_5415.jpg" title="picture7" alt="image"></div>
     </div>
 </section>
 
@@ -140,7 +162,7 @@
 
 <!--footer-->
 <footer>
-    <div id="infoLink"><img src="assets/images/icons8-america-100.png"> &nbsp info.veshonmabima.com &nbsp | &nbsp Designed by <a style="text-decoration: none" href="">Veshon Mabima</a></div>
+    <div id="infoLink"><img src="assets/images/icons8-america-100.png"> &nbsp info.veshonmabima.com &nbsp | &nbsp Designed by <a href="">Veshon Mabima</a></div>
 </footer>
 
 </body>

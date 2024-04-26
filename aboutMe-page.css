@@ -1,468 +1,526 @@
-@media (max-width: 1440px) and (min-width: 1020px) {
+#blackBackground {
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
 
-    #r1{
-        position: absolute;
-        top: 0;
-        background-color: black;
-        width: 100%;
-        height: 35%;
-        z-index: -1;
+#blackBackground > #r1 {
+    display: flex;
+    align-items: center;
+}
+
+#blackBackground > #r1 > img {
+    margin: 20px;
+    width: 80px;
+}
+
+#blackBackground > #r1 > nav {
+    flex: 1;
+    height: fit-content;
+
+}
+
+#blackBackground > #r1 > nav > div {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+}
+#blackBackground > #r1 > nav > div > a {
+    color: #fff;
+    margin: 0 2em;
+}
+
+
+#blackBackground > .bg {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    background-color: black;
+    height: fit-content;
+    min-height: 200px;
+}
+
+#blackBackground > .bg > .inner-title {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 30px;
+}
+#blackBackground > .bg > .inner-bg {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    transform: skewY(-5deg);
+    transform-origin: top right;
+    position: absolute;
+}
+
+#blackBackground > .bg > .inner-title > h1{
+    position: relative;
+    top: -40px;
+    font-size: 80px;
+}
+
+#blackBackground > .bg > .inner-title > h1:nth-child(2){
+    font-size: 80px;
+    position: relative;
+    top: -90px;
+}
+
+#upMain {
+    margin: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#mirrorSelfi{
+    width: 430px;
+    height: 547px;
+    position: absolute;
+    left: 80px;
+}
+
+#vrticlAbout {
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+    color: black;
+    position: absolute;
+    top: 600px;
+    left: 650px;
+    letter-spacing: 6px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    opacity: 90%;
+}
+
+#vrticlAbout > hr {
+    position: relative;
+    top: -20px;
+    left: 95px;
+    opacity: 90%;
+}
+
+#about{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding: 0;
+    margin: 0;
+    max-width: fit-content;
+    line-height: 30px;
+}
+
+
+#heroRightSide > div > img{
+    width: 20px;
+    aspect-ratio: 1/1;
+    position: relative;
+    left: 110px;
+    top: 130px;
+}
+
+.middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 80px;
+    position: absolute;
+    top: 1150px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    max-width: fit-content;
+}
+
+#vision{
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+}
+
+.vision{
+    font-size: 15px;
+}
+
+#mission{
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+}
+
+.mission{
+    font-size: 15px;
+}
+
+#quotes{
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+}
+
+.quotes{
+    font-size: 15px;
+}
+
+
+.mid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 80px;
+    position: absolute;
+    top: 1650px;
+    bottom: 0;
+    right: 0;
+    left: 80px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+#designer {
+    max-width: fit-content;
+    font-size: 32px;
+}
+
+#designer > hr {
+    width: 110px;
+    height: 5px;
+    position: relative;
+    top: -15px;
+    left: -43px;
+    opacity: 50%;
+}
+
+#pieChart{
+    width: 400px;
+    height: 330px;
+    position: relative;
+    left: -50px;
+}
+
+#coder {
+    max-width: 200px;
+    font-size: 32px;
+}
+
+#coder > hr {
+    width: 110px;
+    height: 5px;
+    position: relative;
+    top: -15px;
+    left: -40px;
+    opacity: 50%;
+}
+
+#coding>img{
+    width: 550px;
+    height: 720px;
+    position: absolute;
+    top: 2345px;
+    left: 58%;
+    right: 0;
+    z-index: 99;
+}
+
+#hobbiesLeftSide{
+    position: absolute;
+    top: 2000px;
+    left: 100px;
+}
+
+#blurHobbies {
+    color: black;
+    font-size: 150px;
+    font-family: Electrolize, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    opacity: 17%;
+    letter-spacing: 20px;
+    z-index: 2;
+    position: relative;
+    left: 200px;
+    max-width: fit-content;
+}
+
+#vrticlHobbies {
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+    color: black;
+    position: relative;
+    top: 1000px;
+    left: -460px;
+    letter-spacing: 6px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    opacity: 90%;
+}
+
+#vrticlHobbies > hr {
+    position: relative;
+    top: -20px;
+    left: -235px;
+    opacity: 90%;
+}
+
+#hobbies {
+        position: relative;
+        top: 380px;
+        left: -5px;
+}
+
+#hobbies > hr {
+    height: 5px;
+    color: black;
+    position: relative;
+    top: -17px;
+    left: -350px;
+    opacity: 50%;
+}
+
+.hobbies{
+    position: relative;
+    top: 50px;
+}
+
+#blurGoals {
+    position: absolute;
+    top: 3250px;
+    bottom: 0;
+    right: 0;
+    left: 20%;
+    color: black;
+    font-size: 200px;
+    font-family: Electrolize, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    opacity: 17%;
+    letter-spacing: 20px;
+}
+
+#vrticlGoals{
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+    color: black;
+    letter-spacing: 6px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    opacity: 90%;
+    position: absolute;
+    top: 3800px;
+    left: -10px;
+}
+
+#vrticlGoals > hr {
+    position: relative;
+    top: -20px;
+    left: 100px;
+    opacity: 90%;
+}
+
+#goals{
+    position: absolute;
+    top: 3600px;
+    left: 700px;
+}
+
+#goals > div > h1 > hr {
+    height: 5px;
+    position: absolute;
+    top: 40px;
+    left: 5px;
+    opacity: 50%;
+}
+
+#goalsPNG>img{
+    position: absolute;
+    top: 3700px;
+    left: 100px;
+    z-index: 99;
+}
+
+#FooterBlackBackground {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    position: absolute;
+    top: 4500px;
+}
+
+#FooterBlackBackground > div > h6 {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    left: 50px;
+    max-width: 300px;
+}
+
+#bottomMiddleFooter > h2 {
+    position: absolute;
+    top: 4510px;
+    bottom: 0;
+    right: 0;
+    left: 46%;
+    margin: auto;
+    color: white;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#bottomMiddleFooter > nav > #links {
+    position: absolute;
+    top: 4550px;
+    bottom: 0;
+    right: 0;
+    left: 46%;
+    margin: auto;
+    color: white;
+    letter-spacing: 2px;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+}
+
+#logoFooter {
+    width: 180px;
+    height: 160px;
+    position: absolute;
+    top: 4550px;
+    right: 50px;
+}
+
+#infoLink {
+    color: white;
+    position: absolute;
+    top: 4760px;
+    left: 32%;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+#infoLink > a {
+    color: white;
+}
+
+#infoLink > img {
+    width: 20px;
+    aspect-ratio: 1/1;
+    position: relative;
+    top: 4px;
+}
+
+#phoneIcon {
+    width: 25px;
+    aspect-ratio: 1/1;
+    max-width: 25px;
+    max-height: 25px;
+    position: relative;
+    top: 90px;
+    left: 70px;
+}
+
+#FooterBlackBackground > div > #mobileNo {
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 113px;
+    letter-spacing: 1px;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+}
+
+#mailIcon {
+    width: 25px;
+    aspect-ratio: 1/1;
+    position: relative;
+    top: 145px;
+    left: 40px;
+}
+
+#FooterBlackBackground > div > #email {
+    color: white;
+    position: absolute;
+    top: 115px;
+    left: 110px;
+    letter-spacing: 1px;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+}
+
+#middleFooter {
+    display: none;
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 850px) {
+
+    #upMain {
+        grid-template-columns: 1fr 1fr;
+        margin: 100px;
     }
 
-    .bg {
+    #upMain > div:first-child  {
+        text-align: center;
+    }
+
+    #upMain > div:nth-child(2) {
+        position: relative;
+    }
+
+    #upMain > div:nth-child(2) > div {
+        width: fit-content;
         position: absolute;
-        top: 70px;
-        bottom: 0;
         right: 0;
         left: 0;
-        width: 100%;
-        height: 30%;
-        background-color: black;
-        transform: skewY(-5deg);
-        transform-origin: top right;
-        z-index: 1;
-    }
-
-    header > div > nav {
-        position: absolute;
-        top: 10px;
-        bottom: 0;
-        right: 0;
-        left: 50%;
         margin: auto;
-        word-spacing: 5px;
     }
-
-    header > div > nav > a {
-        text-decoration: none
-    }
-
-    header > div > img {
-        position: relative;
-        width: 80px;
-        height: 70px;
-        top: 5px;
-        left: 80px;
-        z-index: 3;
-    }
-
-    #mirrorSelfi {
-        position: relative;
-        width: 430px;
-        height: 547px;
-        top: 350px;
-        left: 80px;
-    }
-
-    #home {
-        font-size: 20px;
-        color: white;
-        position: relative;
-        top: 0px;
-        right: 350px;
-    }
-
-    #aboutMe {
-        font-size: 20px;
-        color: white;
-        position: relative;
-        top: 0px;
-        right: 250px;
-    }
-
-    #works {
-        font-size: 20px;
-        color: white;
-        position: relative;
-        top: 0px;
-        right: 150px;
-    }
-
-    #story {
-        font-size: 20px;
-        color: white;
-        position: relative;
-        top: 0px;
-        right: 50px;
-    }
-
-    #contact {
-        font-size: 20px;
-        color: white;
-        position: relative;
-        top: 0px;
-        right: -50px;
-    }
-
-    #whoIs {
-        font-size: 90px;
-        position: relative;
-        top: 70px;
-        bottom: 0;
-        right: 0;
-        left: -50%;
-        margin: auto;
-        color: white;
-        max-width: fit-content;
-        max-height: fit-content;
-        z-index: 3;
-    }
-
-    #veshon {
-        font-size: 90px;
-        color: white;
-        padding: 0;
-        position: relative;
-        top: 60px;
-        bottom: 0;
-        right: 0;
-        left: -50%;
-        margin: auto;
-        max-width: fit-content;
-        max-height: fit-content;
-        z-index: 3;
-    }
-
-    main > div {
-        height: 0;
-    }
-
-    #vrticlAbout {
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 510px;
-        left: 670px;
-        letter-spacing: 6px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-    }
-
-    #vrticlAbout > hr {
-        position: relative;
-        top: -20px;
-        left: 95px;
-        opacity: 90%;
-    }
-
-    main > div > p {
-        position: relative;
-        top: 400px;
-        left: 800px;
-        padding: 0;
-        margin: 0;
-        max-width: fit-content;
-        line-height: 30px;
-    }
-
-    #upMain > div > img {
-        width: 25px;
-        height: 25px;
-        position: relative;
-        top: 475px;
-        left: 810px;
-        padding: 0;
-        margin: 0;
-        max-width: 640px;
-    }
-
-    main > img {
-        position: relative;
-        top: 20px;
-        left: 20px;
-    }
-
-    .middle > div > h3 {
-        font-family: Electrolize, sans-serif;
-        font-weight: 600;
-        font-style: normal;
-    }
-
-    #vision {
-        position: relative;
-        top: 450px;
-        left: 15%;
-        max-width: fit-content;
-        font-size: 25px;
-    }
-
-    .vision {
-        position: relative;
-        top: 450px;
-        left: 10%;
-        max-width: 640px;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 25px;
-    }
-
-    #mission {
-        position: relative;
-        top: 320px;
-        left: 48%;
-        max-width: fit-content;
-        font-size: 25px;
-    }
-
-    .mission {
-        position: relative;
-        top: 320px;
-        left: 45%;
-        max-width: 300px;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 25px;
-    }
-
-    #quotes {
+    .middle{
         position: relative;
         top: 100px;
-        left: 80%;
-        max-width: fit-content;
-        font-size: 25px;
     }
 
-    .quotes {
-        position: relative;
-        top: 100px;
-        left: 80%;
-        max-width: 180px;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 25px;
-    }
+}
 
-    #designer {
-        position: absolute;
-        top: 1530px;
-        left: 210px;
-        max-width: fit-content;
-        font-size: 32px;
-    }
 
-    #designer > hr {
-        width: 110px;
-        height: 5px;
-        position: relative;
-        top: -15px;
-        left: -43px;
-        opacity: 50%;
-    }
-
-    .designer {
-        position: absolute;
-        top: 1610px;
-        left: 185px;
-        max-width: 200px;
-    }
-
-    .designer > li {
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 16px;
-    }
-
-    #pieChart {
-        position: absolute;
-        width: 400px;
-        height: 350px;
-        top: 1500px;
-        left: 38%;
-    }
-
-    #coder {
-        position: absolute;
-        top: 1530px;
-        left: 1040px;
-        max-width: 200px;
-        font-size: 32px;
-    }
-
-    #coder > hr {
-        width: 110px;
-        height: 5px;
-        position: relative;
-        top: -15px;
-        left: -20px;
-        opacity: 50%;
-    }
-
-    .coder {
-        position: absolute;
-        top: 1610px;
-        left: 1000px;
-        max-width: 200px;
-    }
-
-    #coding>img {
-        width: 550px;
-        height: 720px;
-        position: absolute;
-        top: 2190px;
-        left: 58%;
-        right: 0;
-
-        z-index: 3;
-    }
-
-    #coding2 {
-        display: none;
-    }
-
-    .coder > li {
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 16px;
-    }
-
-    #vrticlHobbies {
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 2480px;
-        left: -27px;
-        letter-spacing: 6px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-    }
-
-    #hobbies > hr {
-        height: 5px;
-        color: black;
-        position: relative;
-        top: -17px;
-        left: -15px;
-        opacity: 50%;
-    }
-
-    #vrticlHobbies > hr {
-        position: relative;
-        top: -20px;
-        left: 95px;
-        opacity: 90%;
-    }
-
-    #hobbies {
-        position: absolute;
-        top: 2280px;
-        left: 100px;
-        max-width: 500px;
-    }
-
-    #blurHobbies {
-        position: absolute;
-        top: 2080px;
-        bottom: 0;
-        right: 0;
-        left: 25%;
-        margin: auto;
-        color: black;
-        font-size: 150px;
-        font-family: Electrolize, sans-serif;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 17%;
-        letter-spacing: 20px;
-        z-index: 2;
-    }
-
-    .hobbies {
-        position: absolute;
-        top: 2380px;
-        left: 100px;
-        max-width: 700px;
-        font-family: "Junge", cursive;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 16px;
-    }
-
-    .hobbies > h3 {
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 600px) {
+    #blackBackground > .bg > .inner-title {
         font-size: 20px;
     }
-
-    #goalsPNG {
-        width: 470px;
-        height: 1000px;
-        position: absolute;
-        top: 3450px;
-        left: 100px;
-        max-width: 1000px;
-        z-index: 3;
-    }
-
-    #goals {
-        position: absolute;
-        top: 3350px;
-        left: 45%;
-        max-width: 700px;
-        font-family: "Junge", cursive;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 16px;
-    }
-
-    #goals > div > h1 > hr {
-        height: 5px;
-        position: absolute;
-        top: 40px;
-        left: 5px;
-        opacity: 50%;
-    }
+}
 
 
-    #vrticlGoals {
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 3500px;
-        left: -10px;
-        letter-spacing: 6px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-    }
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1260px) {
 
-    #vrticlGoals > hr {
-        position: relative;
-        top: -20px;
-        left: 80px;
-        opacity: 90%;
-    }
-
-    #blurGoals {
-        position: absolute;
-        top: -200px;
-        bottom: 0;
-        right: 0;
-        left: -30%;
-        margin: auto;
-        color: black;
-        font-size: 200px;
-        font-family: Electrolize, sans-serif;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 17%;
-        letter-spacing: 20px;
+    #coding>img{
     }
 
     #FooterBlackBackground {
@@ -470,7 +528,7 @@
         height: 50vh;
         background-color: black;
         position: absolute;
-        top: 4200px;
+        top: 4400px;
 
     }
 
@@ -484,7 +542,7 @@
 
     #bottomMiddleFooter > h2 {
         position: absolute;
-        top: 4210px;
+        top: 4410px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -500,7 +558,7 @@
 
     #bottomMiddleFooter > nav > #links {
         position: absolute;
-        top: 4250px;
+        top: 4450px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -518,14 +576,14 @@
         width: 180px;
         height: 160px;
         position: absolute;
-        top: 4250px;
+        top: 4450px;
         right: 50px;
     }
 
     #infoLink {
         color: white;
         position: absolute;
-        top: 4460px;
+        top: 4650px;
         left: 32%;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;
@@ -595,2198 +653,21 @@
     }
 }
 
-@media screen and (max-width: 320px) {
 
-    header{
-        max-width: fit-content;
-    }
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1220px) {
 
-    #blackBackground{
-        width: 310px;
-        height: 50vh;
-        background-color: black;
-        position: relative;
-    }
 
-    header>div>nav{
-        position: absolute;
-        top: 10px;
-        bottom: 0;
-        right: 0;
-        left: 50%;
-        margin: auto;
-        word-spacing: 5px;
-    }
-
-    header>div>img{
-        position: relative;
-        width: 30px;
-        height: 30px;
-        top: 5px;
-        left: 5px;
-    }
-
-
-    #home{
-        font-size: 7px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: -100px;
-        margin: auto;
-    }
-
-    #aboutMe{
-        font-size: 7px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: -60px;
-        margin: auto;
-    }
-
-    #works{
-        font-size: 7px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: auto;
-    }
-
-    #story{
-        font-size: 7px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 50px;
-        margin: auto;
-    }
-
-    #contact{
-        font-size: 7px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 90px;
-        margin: auto;
-    }
-
-    #whoIs{
-        font-size: 30px;
-        position: absolute;
-        top: 45px;
-        bottom: 0;
-        right: 0;
-        left: -50px;
-        margin: auto;
-        color: white;
-    }
-
-    #veshon {
-        font-size: 30px;
-        color: white;
-        padding: 0;
-        position: relative;
-        top: 70px;
-        bottom: 0;
-        right: 0;
-        left: -60px;
-    }
-
-    #mirrorSelfi{
-        position: relative;
-        width: 120px;
-        height: 150px;
-        top: -150px;
-        left: 5px;
-    }
-
-    main>div>p{
-        width: 100px;
-        position: relative;
-        top: 30px;
-        left: 200px;
-        padding: 0;
-        margin: 0;
-        max-width: fit-content;
-        font-size: 8px;
-        line-height: 15px;
-    }
-
-    #upMain>div>img{
-        width: 10px;
-        height: 10px;
-        position: relative;
-        top:45px;
-        left: 210px;
-        padding: 0;
-        margin: 0;
-        max-width: 640px;
-    }
-
-    #vrticlAbout{
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 235px;
-        left: 150px;
-        /*letter-spacing: 6px;*/
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-        font-size: 6px;
-    }
-
-    #vrticlAbout>hr{
-        width: 25px;
-        position: relative;
-        top: -7px;
-        left: 30px;
-        opacity: 90%;
-    }
-
-    #vision{
-        position: relative;
-        top: -60px;
-        left: 10%;
-        max-width: fit-content;
-        font-size: 12px;
-    }
-
-    .vision{
-        position: relative;
-        top: -59px;
-        left: 2%;
-        max-width: fit-content;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 7px;
-        line-height: 10px;
-    }
-
-    #mission{
-        position: relative;
-        top: -118px;
-        left: 43%;
-        max-width: fit-content;
-        font-size: 12px;
-    }
-
-    .mission{
-        position: relative;
-        top: -118px;
-        left: 36%;
-        max-width: fit-content;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 7px;
-        line-height: 13px;
-
-    }
-
-    #quotes{
-        position: relative;
-        top: -221px;
-        left: 74%;
-        max-width: fit-content;
-        font-size: 12px;
-    }
-
-    .quotes{
-        position: relative;
-        top: -220px;
-        left: 74%;
-        max-width: fit-content;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 7px;
-        line-height: 13px;
-    }
-
-    #designer{
-        position: absolute;
-        top: 640px;
-        left: 5px;
-        max-width: fit-content;
-        font-size: 11px;
-    }
-
-    #designer>hr{
-        width: 40px;
-        height: 3px;
-        position: relative;
-        top: -5px;
-        left: -15px;
-        opacity: 50%;
-    }
-
-    .designer{
-        position: absolute;
-        top: 665px;
-        left: -30px;
-        max-width: 200px;
-    }
-
-    .designer>li{
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 7px;
-        line-height: 15px;
-    }
-
-    #pieChart{
-        position: absolute;
-        width: 130px;
-        height: 110px;
-        top: 650px;
-        left: 27%;
-    }
-
-    #coder{
-        position: absolute;
-        top: 640px;
-        left: 220px;
-        max-width: fit-content;
-        font-size: 11px;
-    }
-
-    #coder>hr{
-        width: 40px;
-        height: 3px;
-        position: relative;
-        top: -5px;
-        left: -6px;
-        opacity: 50%;
-    }
-
-    .coder{
-        position: absolute;
-        top: 665px;
-        left: 180px;
-        max-width: fit-content;
-    }
-
-    .coder>li{
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 7px;
-        line-height: 13px;
-    }
-
-    #blurHobbies{
-        position: absolute;
-        top: 840px;
-        bottom: 0;
-        right: 0;
-        left: 5%;
-        margin: auto;
-        color: black;
-        font-size: 45px;
-        font-family: Electrolize, sans-serif;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 17%;
-        letter-spacing: 15px;
-    }
-
-
-    #hobbies{
-        position: absolute;
-        top: 875px;
-        left: 5px;
-        max-width: 500px;
-        font-size: 15px;
-    }
-
-    #hobbies>hr{
-        width: 40px;
-        height: 3px;
-        color: black;
-        position: relative;
-        top: -10px;
-        left: -6px;
-        opacity: 50%;
-    }
-
-    #coding{
-        width: 100px;
-        height: 50px;
-        position: absolute;
-        top: 800px;
-        left: 0;
-        display: none;
-    }
-
-    #coding2{
-        width: 500px;
-        height: 500px;
-        position: absolute;
-        top: 800px;
-        left: 40%;
-    }
-
-    .hobbies{
-        position: absolute;
-        top: 920px;
-        left: 5px;
-        max-width: 700px;
-        font-family: "Junge", cursive;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 8px;
-    }
-
-    #vrticlHobbies{
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 2080px;
-        left: -27px;
-        letter-spacing: 6px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-        display: none;
-    }
-
-    #vrticlHobbies>hr{
-        display: none;
-    }
-
-    .hobbies>h3{
-        font-size: 11px;
-    }
-
-    #goalsPNG{
-        width: 470px;
-        height: 1000px;
-        position: absolute;
-        top: 2960px;
-        left: 100px;
-        max-width: 1000px;
-        z-index: 3;
-        display: none;
-    }
-
-    #blurGoals{
-        position: absolute;
-        top: -55px;
-        bottom: 0;
-        right: 0;
-        left: 10%;
-        margin: auto;
-        color: black;
-        font-size: 60px;
-        font-family: Electrolize, sans-serif;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 17%;
-        letter-spacing: 10px;
-        max-width: fit-content;
-    }
-
-    #goals{
-        position: absolute;
-        top: 1450px;
-        left: 5PX;
-        font-family: "Junge", cursive;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 8px;
-        max-width: fit-content;
-
-    }
-
-    #goals>div>h1>hr{
-        width: 30px;
-        height: 3px;
-        position: absolute;
-        top: 20px;
-        left: 2px;
-        opacity: 50%;
-    }
-
-    #vrticlGoals{
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 3150px;
-        left: -10px;
-        letter-spacing: 6px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-        display: none;
-    }
-
-    #vrticlGoals>hr{
-        position: relative;
-        top: -20px;
-        left: 80px;
-        opacity: 90%;
-        display: none;
-    }
-
-    #FooterBlackBackground{
-        width: 310px;
-        height: 35vh;
-        background-color: black;
-        position: absolute;
-        top: 1900px;
-
-    }
-
-    #FooterBlackBackground>div>h6 {
-        color: white;
-        font-size: 7px;
-        position: relative;
-        left: 50px;
-        max-width: 300px;
-    }
-
-    #bottomMiddleFooter>h2{
-        position: absolute;
-        top: 1910px;
-        bottom: 0;
-        right: 0;
-        left: 44%;
-        margin: auto;
-        color: white;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 7px;
-        letter-spacing: 2px;
-    }
-
-    #bottomMiddleFooter>nav>#links{
-        position: absolute;
-        top: 1930px;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: auto;
-        color: white;
-        letter-spacing: 2px;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 5px;
-        max-width: fit-content;
-    }
-
-    #logoFooter{
-        width: 45px;
-        height: 40px;
-        position: absolute;
-        top: 1930px;
-        right: 20px;
-    }
-
-    #infoLink{
-        color: white;
-        position: absolute;
-        top: 2000px;
-        left: 30px;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        letter-spacing: 2px;
-        font-size: 5px;
-    }
-
-    #infoLink>a{
-        color:white;
-        text-decoration: none;
-    }
-
-    #infoLink>img{
-        width: 7px;
-        aspect-ratio: 1/1;
-        position: relative;
-        top: 1px;
-        left: 2px;
-    }
-
-    #phoneIcon{
-        width: 8px;
-        aspect-ratio: 1/1;
-        max-width: 25px;
-        max-height: 25px;
-        position: relative;
-        top: 30px;
-        left: 10px;
-    }
-
-    #FooterBlackBackground>div>#mobileNo{
-        color: white;
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        letter-spacing: 1px;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 5px;
-    }
-
-    #mailIcon{
-        width: 8px;
-        aspect-ratio: 1/1;
-        position: relative;
-        top: 50px;
-        left: -2px;
-    }
-
-    #FooterBlackBackground>div>#email{
-        color: white;
-        position: absolute;
-        top: 45px;
-        left: 25px;
-        letter-spacing: 1px;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 5px;
-    }
-}
-
-@media screen and (max-width: 375px) and (min-width: 320px) {
-
-    header {
-        max-width: fit-content;
-    }
-
-    #blackBackground {
-        width: 363px;
-        height: 50vh;
-        background-color: black;
-        position: relative;
-    }
-
-    header > div > nav {
-        position: absolute;
-        top: 10px;
-        bottom: 0;
-        right: 0;
-        left: 48%;
-        margin: auto;
-        word-spacing: 5px;
-    }
-
-    header > div > img {
-        position: relative;
-        width: 45px;
-        height: 40px;
-        top: 5px;
-        left: 5px;
-    }
-
-    #home {
-        font-size: 10px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: -100px;
-        margin: auto;
-    }
-
-    #aboutMe {
-        font-size: 10px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: -60px;
-        margin: auto;
-    }
-
-    #works {
-        font-size: 10px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: auto;
-    }
-
-    #story {
-        font-size: 10px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 50px;
-        margin: auto;
-    }
-
-    #contact {
-        font-size: 10px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 90px;
-        margin: auto;
-    }
-
-    #whoIs {
-        font-size: 30px;
-        position: absolute;
-        top: 55px;
-        bottom: 0;
-        right: 0;
-        left: -50px;
-        margin: auto;
-        color: white;
-    }
-
-    #veshon {
-        font-size: 30px;
-        color: white;
-        padding: 0;
-        position: relative;
-        top: 70px;
-        bottom: 0;
-        right: 0;
-        left: -60px;
-    }
-
-    #mirrorSelfi {
-        position: relative;
-        width: 155px;
-        height: 200px;
-        top: -120px;
-        left: 5px;
-    }
-
-    main > div > p {
-        width: 130px;
-        position: relative;
-        top: 30px;
-        left: 230px;
-        padding: 0;
-        margin: 0;
-        max-width: fit-content;
-        font-size: 8px;
-        line-height: 15px;
-    }
-
-    #upMain > div > img {
-        width: 10px;
-        height: 10px;
-        position: relative;
-        top: 45px;
-        left: 235px;
-        padding: 0;
-        margin: 0;
-        max-width: 640px;
-    }
-
-    #vrticlAbout {
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 255px;
-        left: 160px;
-        /*letter-spacing: 6px;*/
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-        font-size: 7px;
-    }
-
-    #vrticlAbout > hr {
-        width: 25px;
-        position: relative;
-        top: -8px;
-        left: 35px;
-        opacity: 90%;
-    }
-
-    #vision{
-        position: relative;
-        top: -60px;
-        left: 10%;
-        max-width: fit-content;
-        font-size: 12px;
-    }
-
-    .vision{
-        position: relative;
-        top: -56px;
-        left: 2%;
-        max-width: fit-content;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 7px;
-        line-height: 10px;
-    }
-
-    #mission{
-        position: relative;
-        top: -118px;
-        left: 43%;
-        max-width: fit-content;
-        font-size: 12px;
-    }
-
-    .mission{
-        position: relative;
-        top: -115px;
-        left: 36%;
-        max-width: fit-content;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 7px;
-        line-height: 13px;
-
-    }
-
-    #quotes{
-        position: relative;
-        top: -221px;
-        left: 74%;
-        max-width: fit-content;
-        font-size: 12px;
-    }
-
-    .quotes{
-        position: relative;
-        top: -218px;
-        left: 74%;
-        max-width: fit-content;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 7px;
-        line-height: 13px;
-    }
-
-    #designer{
-        position: absolute;
-        top: 640px;
-        left: 20px;
-        max-width: fit-content;
-        font-size: 11px;
-    }
-
-    #designer>hr{
-        width: 40px;
-        height: 3px;
-        position: relative;
-        top: -5px;
-        left: -15px;
-        opacity: 50%;
-    }
-
-    .designer{
-        position: absolute;
-        top: 665px;
-        left: -15px;
-        max-width: 200px;
-    }
-
-    .designer>li{
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 7px;
-        line-height: 15px;
-    }
-
-    #pieChart{
-        position: absolute;
-        width: 130px;
-        height: 110px;
-        top: 650px;
-        left: 30%;
-    }
-
-    #coder{
-        position: absolute;
-        top: 640px;
-        left: 260px;
-        max-width: fit-content;
-        font-size: 11px;
-    }
-
-    #coder>hr{
-        width: 40px;
-        height: 3px;
-        position: relative;
-        top: -5px;
-        left: -6px;
-        opacity: 50%;
-    }
-
-    .coder{
-        position: absolute;
-        top: 665px;
-        left: 225px;
-        max-width: fit-content;
-    }
-
-    .coder>li{
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 7px;
-        line-height: 13px;
-    }
-
-    #blurHobbies{
-        position: absolute;
-        top: 840px;
-        bottom: 0;
-        right: 0;
-        left: 10%;
-        margin: auto;
-        color: black;
-        font-size: 45px;
-        font-family: Electrolize, sans-serif;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 17%;
-        letter-spacing: 15px;
-    }
-
-
-    #hobbies{
-        position: absolute;
-        top: 875px;
-        left: 5px;
-        max-width: 500px;
-        font-size: 15px;
-    }
-
-    #hobbies>hr{
-        width: 40px;
-        height: 3px;
-        color: black;
-        position: relative;
-        top: -10px;
-        left: -6px;
-        opacity: 50%;
-    }
-
-    #coding{
-        width: 100px;
-        height: 50px;
-        position: absolute;
-        top: 800px;
-        left: 0;
-        display: none;
-    }
-
-    #coding2{
-        width: 500px;
-        height: 500px;
-        position: absolute;
-        top: 800px;
-        left: 40%;
-    }
-
-    .hobbies{
-        position: absolute;
-        top: 920px;
-        left: 5px;
-        max-width: 700px;
-        font-family: "Junge", cursive;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 8px;
-    }
-
-    #vrticlHobbies{
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 2080px;
-        left: -27px;
-        letter-spacing: 6px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-        display: none;
-    }
-
-    #vrticlHobbies>hr{
-        display: none;
-    }
-
-    .hobbies>h3{
-        font-size: 11px;
-    }
-
-    #goalsPNG{
-        width: 470px;
-        height: 1000px;
-        position: absolute;
-        top: 2960px;
-        left: 100px;
-        max-width: 1000px;
-        z-index: 3;
-        display: none;
-    }
-
-    #blurGoals{
-        position: absolute;
-        top: -55px;
-        bottom: 0;
-        right: 0;
-        left: 10%;
-        margin: auto;
-        color: black;
-        font-size: 60px;
-        font-family: Electrolize, sans-serif;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 17%;
-        letter-spacing: 10px;
-        max-width: fit-content;
-    }
-
-    #goals{
-        position: absolute;
-        top: 1450px;
-        left: 5PX;
-        font-family: "Junge", cursive;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 8px;
-        max-width: fit-content;
-
-    }
-
-    #goals>div>h1>hr{
-        width: 30px;
-        height: 3px;
-        position: absolute;
-        top: 20px;
-        left: 2px;
-        opacity: 50%;
-    }
-
-    #vrticlGoals{
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 3150px;
-        left: -10px;
-        letter-spacing: 6px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-        display: none;
-    }
-
-    #vrticlGoals>hr{
-        position: relative;
-        top: -20px;
-        left: 80px;
-        opacity: 90%;
-        display: none;
-    }
-
-
-    #FooterBlackBackground{
-        width: 363px;
-        height: 35vh;
-        background-color: black;
-        position: absolute;
-        top: 1900px;
-    }
-
-    #FooterBlackBackground>div>h6 {
-        color: white;
-        font-size: 7px;
-        position: relative;
-        left: 50px;
-        max-width: 300px;
-    }
-
-    #bottomMiddleFooter>h2{
-        position: absolute;
-        top: 1910px;
-        bottom: 0;
-        right: 0;
-        left: 44%;
-        margin: auto;
-        color: white;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 10px;
-        letter-spacing: 2px;
-    }
-
-    #bottomMiddleFooter>nav>#links{
-        position: absolute;
-        top: 1930px;
-        bottom: 0;
-        right: 0;
-        left: 20px;
-        margin: auto;
-        color: white;
-        letter-spacing: 2px;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 6px;
-        max-width: fit-content;
-    }
-
-    #logoFooter{
-        width: 55px;
-        height: 50px;
-        position: absolute;
-        top: 1930px;
-        right: 20px;
-    }
-
-    #infoLink{
-        color: white;
-        position: absolute;
-        top: 2000px;
-        left: 30px;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        letter-spacing: 2px;
-        font-size: 6px;
-    }
-
-    #infoLink>a{
-        color:white;
-        text-decoration: none;
-    }
-
-    #infoLink>img{
-        width: 10px;
-        aspect-ratio: 1/1;
-        position: relative;
-        top: 2px;
-        left: 2px;
-    }
-
-    #phoneIcon{
-        width: 10px;
-        aspect-ratio: 1/1;
-        max-width: 25px;
-        max-height: 25px;
-        position: relative;
-        top: 40px;
-        left: 10px;
-    }
-
-    #FooterBlackBackground>div>#mobileNo{
-        color: white;
-        position: absolute;
-        top: 30px;
-        left: 25px;
-        letter-spacing: 1px;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 7px;
-    }
-
-    #mailIcon{
-        width: 10px;
-        aspect-ratio: 1/1;
-        position: relative;
-        top: 65px;
-        left: -4px;
-    }
-
-    #FooterBlackBackground>div>#email{
-        color: white;
-        position: absolute;
-        top: 55px;
-        left: 25px;
-        letter-spacing: 1px;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 7px;
-    }
-
-}
-
-@media screen and (max-width: 425px) and (min-width: 375px) {
-
-    header {
-        max-width: fit-content;
-    }
-
-    #blackBackground {
-        width: 410.7px;
-        height: 50vh;
-        background-color: black;
-        position: relative;
-    }
-
-    header > div > nav {
-        position: absolute;
-        top: 10px;
-        bottom: 0;
-        right: 0;
-        left: 45%;
-        margin: auto;
-        word-spacing: 5px;
-    }
-
-    header > div > img {
-        position: relative;
-        width: 45px;
-        height: 40px;
-        top: 5px;
-        left: 3px;
-    }
-
-    #home {
-        font-size: 12px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: -120px;
-        margin: auto;
-    }
-
-    #aboutMe {
-        font-size: 12px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: -65px;
-        margin: auto;
-    }
-
-    #works {
-        font-size: 12px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 20px;
-        margin: auto;
-    }
-
-    #story {
-        font-size: 12px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 80px;
-        margin: auto;
-    }
-
-    #contact {
-        font-size: 12px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 130px;
-        margin: auto;
-    }
-
-    #whoIs {
-        font-size: 43px;
-        position: absolute;
-        top: 60px;
-        bottom: 0;
-        right: 0;
-        left: -50px;
-        margin: auto;
-        color: white;
-    }
-
-    #veshon {
-        font-size: 43px;
-        color: white;
-        padding: 0;
-        position: relative;
-        top: 75px;
-        bottom: 0;
-        right: 0;
-        left: -60px;
-    }
-
-    #mirrorSelfi {
-        position: relative;
-        width: 175px;
-        height: 230px;
-        top: -120px;
-        left: 5px;
-    }
-
-    main > div > p {
-        width: 150px;
-        position: relative;
-        top: 30px;
-        left: 240px;
-        padding: 0;
-        margin: 0;
-        max-width: fit-content;
-        font-size: 10px;
-        line-height: 15px;
-    }
-
-    #upMain > div > img {
-        width: 15px;
-        aspect-ratio: 1/1;
-        position: relative;
-        top: 45px;
-        left: 245px;
-        padding: 0;
-        margin: 0;
-        max-width: 640px;
-    }
-
-    #vrticlAbout {
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 280px;
-        left: 175px;
-        letter-spacing: 3px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-        font-size: 10px;
-    }
-
-    #vrticlAbout > hr {
-        width: 25px;
-        position: relative;
-        top: -10px;
-        left: 50px;
-        opacity: 90%;
-    }
-
-    #vision{
-        position: relative;
-        top: -70px;
-        left: 10%;
-        max-width: fit-content;
-        font-size: 15px;
-    }
-
-    .vision{
-        position: relative;
-        top: -70px;
-        left: 2%;
-        max-width: fit-content;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 8px;
-        line-height: 10px;
-    }
-
-    #mission{
-        position: relative;
-        top: -138px;
-        left: 43%;
-        max-width: fit-content;
-        font-size: 15px;
-    }
-
-    .mission{
-        position: relative;
-        top: -140px;
-        left: 36%;
-        max-width: fit-content;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 8px;
-        line-height: 13px;
-
-    }
-
-    #quotes{
-        position: relative;
-        top: -250px;
-        left: 74%;
-        max-width: fit-content;
-        font-size: 15px;
-    }
-
-    .quotes{
-        position: relative;
-        top: -250px;
-        left: 74%;
-        max-width: fit-content;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 8px;
-        line-height: 13px;
-    }
-
-    #designer{
-        position: absolute;
-        top: 720px;
-        left: 20px;
-        max-width: fit-content;
-        font-size: 11px;
-    }
-
-    #designer>hr{
-        width: 40px;
-        height: 3px;
-        position: relative;
-        top: -5px;
-        left: -15px;
-        opacity: 50%;
-    }
-
-    .designer{
-        position: absolute;
-        top: 745px;
-        left: -15px;
-        max-width: 200px;
-    }
-
-    .designer>li{
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 7px;
-        line-height: 15px;
-    }
-
-    #pieChart{
-        position: absolute;
-        width: 150px;
-        height: 130px;
-        top: 720px;
-        left: 29%;
-    }
-
-    #coder{
-        position: absolute;
-        top: 720px;
-        left: 285px;
-        max-width: fit-content;
-        font-size: 11px;
-    }
-
-    #coder>hr{
-        width: 40px;
-        height: 3px;
-        position: relative;
-        top: -5px;
-        left: -6px;
-        opacity: 50%;
-    }
-
-    .coder{
-        position: absolute;
-        top: 745px;
-        left: 250px;
-        max-width: fit-content;
-    }
-
-    .coder>li{
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 7px;
-        line-height: 13px;
-    }
-
-    #blurHobbies{
-        position: absolute;
-        top: 950px;
-        bottom: 0;
-        right: 0;
-        left: 10%;
-        margin: auto;
-        color: black;
-        font-size: 55px;
-        font-family: Electrolize, sans-serif;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 17%;
-        letter-spacing: 15px;
-    }
-
-
-    #hobbies{
-        position: absolute;
-        top: 1000px;
-        left: 5px;
-        max-width: 500px;
-        font-size: 18px;
-    }
-
-    #hobbies>hr{
-        width: 40px;
-        height: 3px;
-        color: black;
-        position: relative;
-        top: -10px;
-        left: -10px;
-        opacity: 50%;
-    }
-
-    #coding{
-        width: 100px;
-        height: 50px;
-        position: absolute;
-        top: 800px;
-        left: 0;
-        display: none;
-    }
-
-    #coding2{
-        width: 500px;
-        height: 500px;
-        position: absolute;
-        top: 800px;
-        left: 40%;
-    }
-
-    .hobbies{
-        position: absolute;
-        top: 1050px;
-        left: 5px;
-        max-width: 700px;
-        font-family: "Junge", cursive;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 10px;
-    }
-
-    #vrticlHobbies{
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 2080px;
-        left: -27px;
-        letter-spacing: 6px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-        display: none;
-    }
-
-    #vrticlHobbies>hr{
-        display: none;
-    }
-
-    .hobbies>h3{
-        font-size: 12px;
-    }
-
-    #goalsPNG{
-        width: 470px;
-        height: 1000px;
-        position: absolute;
-        top: 2960px;
-        left: 100px;
-        max-width: 1000px;
-        z-index: 3;
-        display: none;
-    }
-
-    #blurGoals{
-        position: absolute;
-        top: -55px;
-        bottom: 0;
-        right: 0;
-        left: 5%;
-        margin: auto;
-        color: black;
-        font-size: 70px;
-        font-family: Electrolize, sans-serif;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 17%;
-        letter-spacing: 10px;
-        max-width: fit-content;
-    }
-
-    #goals{
-        position: absolute;
-        top: 1600px;
-        left: 5PX;
-        font-family: "Junge", cursive;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 10px;
-        max-width: fit-content;
-
-    }
-
-    #goals>div>h1>hr{
-        width: 30px;
-        height: 3px;
-        position: absolute;
-        top: 25px;
-        left: 2px;
-        opacity: 50%;
-    }
-
-    #vrticlGoals{
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 3150px;
-        left: -10px;
-        letter-spacing: 6px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-        display: none;
-    }
-
-    #vrticlGoals>hr{
-        position: relative;
-        top: -20px;
-        left: 80px;
-        opacity: 90%;
-        display: none;
-    }
-
-
-    #FooterBlackBackground{
-        width: 410.6px;
-        height: 40vh;
-        background-color: black;
-        position: absolute;
-        top: 2150px;
-    }
-
-    #FooterBlackBackground>div>h6 {
-        color: white;
-        font-size: 7px;
-        position: relative;
-        left: 50px;
-        max-width: 300px;
-    }
-
-    #bottomMiddleFooter>h2{
-        position: absolute;
-        top: 2160px;
-        bottom: 0;
-        right: 0;
-        left: 45%;
-        margin: auto;
-        color: white;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 12px;
-        letter-spacing: 2px;
-    }
-
-    #bottomMiddleFooter>nav>#links{
-        position: absolute;
-        top: 2190px;
-        bottom: 0;
-        right: 0;
-        left: 50px;
-        margin: auto;
-        color: white;
-        letter-spacing: 2px;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 9px;
-        max-width: fit-content;
-    }
-
-    #logoFooter{
-        width: 65px;
-        height: 60px;
-        position: absolute;
-        top: 2190px;
-        right: 20px;
-    }
-
-    #infoLink{
-        color: white;
-        position: absolute;
-        top: 2308px;
-        left: 25px;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        letter-spacing: 2px;
-        font-size: 9px;
-    }
-
-    #infoLink>a{
-        color:white;
-        text-decoration: none;
-    }
-
-    #infoLink>img{
-        width: 10px;
-        aspect-ratio: 1/1;
-        position: relative;
-        top: 2px;
-        left: 2px;
-    }
-
-    #phoneIcon{
-        width: 12px;
-        aspect-ratio: 1/1;
-        max-width: 30px;
-        max-height: 25px;
-        position: relative;
-        top: 47px;
-        left: 7px;
-    }
-
-    #FooterBlackBackground>div>#mobileNo{
-        color: white;
-        position: absolute;
-        top: 30px;
-        left: 25px;
-        letter-spacing: 1px;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 9px;
-    }
-
-    #mailIcon{
-        width: 12px;
-        aspect-ratio: 1/1;
-        position: relative;
-        top: 78px;
-        left: -8px;
-    }
-
-    #FooterBlackBackground>div>#email{
-        color: white;
-        position: absolute;
-        top: 60px;
-        left: 25px;
-        letter-spacing: 1px;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 9px;
-    }
-}
-
-@media (max-width: 768px) and (min-width: 425px) {
-
-    header {
-        max-width: fit-content;
-    }
-
-    #blackBackground {
-        width: 750px;
-        height: 50vh;
-        background-color: black;
-        position: relative;
-    }
-
-    header > div > nav {
-        position: absolute;
-        top: 10px;
-        bottom: 0;
-        right: 0;
-        left: 45%;
-        margin: auto;
-        word-spacing: 5px;
-    }
-
-    header > div > img {
-        position: relative;
-        width: 65px;
-        height: 60px;
-        top: 5px;
-        left: 10px;
-    }
-
-    #home {
-        font-size: 20px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: -175px;
-        margin: auto;
-    }
-
-    #aboutMe {
-        font-size: 20px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: -80px;
-        margin: auto;
-    }
-
-    #works {
-        font-size: 20px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 50px;
-        margin: auto;
-    }
-
-    #story {
-        font-size: 20px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 150px;
-        margin: auto;
-    }
-
-    #contact {
-        font-size: 20px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 230px;
-        margin: auto;
-    }
-
-    #whoIs {
-        font-size: 70px;
-        position: absolute;
-        top: 75px;
-        bottom: 0;
-        right: 0;
-        left: -70px;
-        margin: auto;
-        color: white;
-    }
-
-    #veshon {
-        font-size: 70px;
-        color: white;
-        padding: 0;
-        position: relative;
-        top: 100px;
-        bottom: 0;
-        right: 0;
-        left: -80px;
-    }
-
-    #mirrorSelfi {
-        position: relative;
-        width: 300px;
-        height: 375px;
-        top: -280px;
-        left: 5px;
-    }
-
-    main > div > p {
-        width: 300px;
-        position: relative;
-        top: 50px;
-        left: 430px;
-        padding: 0;
-        margin: 0;
-        max-width: fit-content;
-        font-size: 20px;
-        line-height: 37px;
-    }
-
-    #upMain > div > img {
-        width: 25px;
-        height: 25px;
-        position: relative;
-        top: 90px;
-        left: 450px;
-        padding: 0;
-        margin: 0;
-        max-width: 640px;
-    }
-
-    #vrticlAbout {
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 380px;
-        left: 300px;
-        letter-spacing: 6px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-        font-size: 18px;
-    }
-
-    #vrticlAbout > hr {
-        width: 50px;
-        height: 1px;
-        position: relative;
-        top: -21px;
-        left: 100px;
-        opacity: 90%;
-    }
-
-    #vision{
-        position: relative;
-        top: -100px;
-        left: 10%;
-        max-width: fit-content;
-        font-size: 25px;
-    }
-
-    .vision{
-        position: relative;
-        top: -100px;
-        left: 2%;
-        max-width: 640px;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 25px;
-    }
-
-    #mission{
-        position: relative;
-        top: -230px;
-        left: 44%;
-        max-width: fit-content;
-        font-size: 25px;
-    }
-
-    .mission{
-        position: relative;
-        top: -230px;
-        left: 38%;
-        max-width: 300px;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 25px;
-    }
-
-    #quotes{
-        position: relative;
-        top: -440px;
-        left: 75%;
-        max-width: fit-content;
-        font-size: 25px;
-    }
-
-    .quotes{
-        position: relative;
-        top: -440px;
-        left: 75%;
-        max-width: 180px;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 25px;
-    }
-
-    #designer{
-        position: absolute;
-        top: 1250px;
-        left: 20px;
-        max-width: fit-content;
-        font-size: 25px;
-    }
-
-    #designer>hr{
-        width: 110px;
-        height: 5px;
-        position: relative;
-        top: -15px;
-        left: -22px;
-        opacity: 50%;
-    }
-
-    .designer{
-        position: absolute;
-        top: 1320px;
-        left: 0px;
-        max-width: 200px;
-    }
-
-    .designer>li{
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 15px;
-    }
-
-    #pieChart{
-        position: absolute;
-        width: 350px;
-        height: 300px;
-        top: 1200px;
-        left: 25%;
-    }
-
-    #coder{
-        position: absolute;
-        top: 1250px;
-        left: 530px;
-        max-width: 200px;
-        font-size: 25px;
-    }
-
-    #coder>hr{
-        width: 110px;
-        height: 5px;
-        position: relative;
-        top: -15px;
-        left: -5px;
-        opacity: 50%;
-    }
-
-    .coder{
-        position: absolute;
-        top: 1320px;
-        left: 510px;
-        max-width: 200px;
-    }
-
-    #coding{
-        display: none;
-    }
-
-    #vrticlHobbies{
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 2080px;
-        left: -27px;
-        letter-spacing: 6px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-        display: none;
-    }
-
-    #vrticlHobbies>hr{
-        position: relative;
-        top: -20px;
-        left: 95px;
-        opacity: 90%;
-        display: none;
-    }
-
-    #blurHobbies{
-        position: absolute;
-        top: 1750px;
-        bottom: 0;
-        right: 0;
-        left: 10%;
-        margin: auto;
-        color: black;
-        font-size: 120px;
-        font-family: Electrolize, sans-serif;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 17%;
-        letter-spacing: 20px;
-    }
-
-    #hobbies{
-        position: absolute;
-        top: 1860px;
-        left: 30px;
-        max-width: 500px;
-    }
-
-    #hobbies>hr{
-        height: 5px;
-        color: black;
-        position: relative;
-        top: -17px;
-        left: -15px;
-        opacity: 50%;
-    }
-
-    .hobbies{
-        position: absolute;
-        top: 1970px;
-        left: 50px;
-        max-width: 700px;
-        font-family: "Junge", cursive;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 16px;
-    }
-
-    .hobbies>h3{
-        font-size: 20px;
-    }
-
-    #blurGoals{
-        position: absolute;
-        top: -140px;
-        bottom: 0;
-        right: 0;
-        left: 10%;
-        margin: auto;
-        color: black;
-        font-size: 150px;
-        font-family: Electrolize, sans-serif;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 17%;
-        letter-spacing: 20px;
-    }
-
-    #goals>div>h1>hr{
-        height: 5px;
-        position: absolute;
-        top: 40px;
-        left: 5px;
-        opacity: 50%;
-    }
-
-    #goalsPNG{
-        display: none;
-    }
-
-    #goals{
-        position: absolute;
-        top: 2900px;
-        left: 40px;
-        max-width: 700px;
-        font-family: "Junge", cursive;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 16px;
-    }
-
-    #vrticlGoals{
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 3150px;
-        left: -10px;
-        letter-spacing: 6px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-        display: none;
-    }
-
-    #vrticlGoals>hr{
-        position: relative;
-        top: -20px;
-        left: 80px;
-        opacity: 90%;
-        display: none;
-    }
-
-    #FooterBlackBackground{
+    #FooterBlackBackground {
         width: 100%;
         height: 50vh;
         background-color: black;
         position: absolute;
-        top: 3800px;
+        top: 4450px;
 
     }
 
-    #FooterBlackBackground>div>h6 {
+    #FooterBlackBackground > div > h6 {
         color: white;
         font-size: 15px;
         position: relative;
@@ -2794,9 +675,9 @@
         max-width: 300px;
     }
 
-    #bottomMiddleFooter>h2{
+    #bottomMiddleFooter > h2 {
         position: absolute;
-        top: 3810px;
+        top: 4460px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -2810,9 +691,9 @@
         letter-spacing: 2px;
     }
 
-    #bottomMiddleFooter>nav>#links{
+    #bottomMiddleFooter > nav > #links {
         position: absolute;
-        top: 3852px;
+        top: 4500px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -2826,606 +707,19 @@
         font-size: 14px;
     }
 
-    #logoFooter{
-        width: 150px;
-        height: 130px;
-        position: absolute;
-        top: 3860px;
-        right: 20px;
-    }
-
-    #infoLink{
-        color: white;
-        position: absolute;
-        top: 4050px;
-        left: 20%;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        letter-spacing: 2px;
-        font-size: 14px;
-    }
-
-    #infoLink>a{
-        color:white;
-    }
-
-    #infoLink>img{
-        width: 20px;
-        aspect-ratio: 1/1;
-        position: relative;
-        top: 4px;
-    }
-
-    #phoneIcon{
-        width: 25px;
-        aspect-ratio: 1/1;
-        max-width: 25px;
-        max-height: 25px;
-        position: relative;
-        top: 90px;
-        left: 40px;
-    }
-
-    #FooterBlackBackground>div>#mobileNo{
-        color: white;
-        position: absolute;
-        top: 60px;
-        left: 78px;
-        letter-spacing: 1px;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 14px;
-    }
-
-    #mailIcon{
-        width: 25px;
-        aspect-ratio: 1/1;
-        position: relative;
-        top: 145px;
-        left: 10px;
-    }
-
-    #FooterBlackBackground>div>#email{
-        color: white;
-        position: absolute;
-        top: 115px;
-        left: 80px;
-        letter-spacing: 1px;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 14px;
-    }
-
-    #middleFooter{
-        display: none;
-    }
-
-}
-
-@media (max-width: 1024px) and (min-width: 768px) {
-
-    #blackBackground{
-        width: 1000px;
-        height: 50vh;
-        background-color: black;
-        position: relative;
-    }
-
-    header>div>nav{
-        position: absolute;
-        top: 10px;
-        bottom: 0;
-        right: 0;
-        left: 45%;
-        margin: auto;
-        word-spacing: 5px;
-    }
-
-    header>div>img{
-        position: relative;
-        width: 80px;
-        height: 70px;
-        top: 5px;
-        left: 20px;
-    }
-
-    #home {
-        font-size: 20px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: -175px;
-        margin: auto;
-    }
-
-    #aboutMe {
-        font-size: 20px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: -80px;
-        margin: auto;
-    }
-
-    #works {
-        font-size: 20px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 50px;
-        margin: auto;
-    }
-
-    #story {
-        font-size: 20px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 150px;
-        margin: auto;
-    }
-
-    #contact {
-        font-size: 20px;
-        color: white;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 230px;
-        margin: auto;
-    }
-
-    #whoIs {
-        font-size: 70px;
-        position: absolute;
-        top: 75px;
-        bottom: 0;
-        right: 0;
-        left: -70px;
-        margin: auto;
-        color: white;
-    }
-
-    #veshon {
-        font-size: 70px;
-        color: white;
-        padding: 0;
-        position: relative;
-        top: 100px;
-        bottom: 0;
-        right: 0;
-        left: -80px;
-    }
-
-    #mirrorSelfi{
-        position: relative;
-        width: 370px;
-        height: 460px;
-        top: -130px;
-        left: 50px;
-    }
-
-    main>div>p{
-        width: 400px;
-        position: relative;
-        top: 100px;
-        left: 600px;
-        padding: 0;
-        margin: 0;
-        max-width: fit-content;
-        font-size: 16px;
-        line-height: 30px;
-    }
-
-    #vrticlAbout{
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 430px;
-        left: 490px;
-        letter-spacing: 6px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-        font-size: 15px;
-    }
-
-    #vrticlAbout>hr{
-        position: relative;
-        top: -17px;
-        left: 95px;
-        opacity: 90%;
-    }
-
-    #upMain>div>img{
-        position: relative;
-        top:150px;
-        left: 630px;
-        padding: 0;
-        margin: 0;
-        max-width: 640px;
-    }
-
-    main > img {
-        position: relative;
-        top: 20px;
-        left: 20px;
-    }
-
-    .middle > div > h3 {
-        font-family: Electrolize, sans-serif;
-        font-weight: 600;
-        font-style: normal;
-    }
-
-    #vision{
-        position: relative;
-        top: -50px;
-        left: 13%;
-        max-width: fit-content;
-        font-size: 25px;
-    }
-
-    .vision{
-        position: relative;
-        top: -50px;
-        left: 7%;
-        max-width: 640px;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 25px;
-    }
-
-    #mission{
-        position: relative;
-        top: -180px;
-        left: 45%;
-        max-width: fit-content;
-        font-size: 25px;
-    }
-
-    .mission{
-        position: relative;
-        top: -180px;
-        left: 40%;
-        max-width: 300px;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 25px;
-    }
-
-    #quotes{
-        position: relative;
-        top: -390px;
-        left: 75%;
-        max-width: fit-content;
-        font-size: 25px;
-    }
-
-    .quotes{
-        position: relative;
-        top: -390px;
-        left: 75%;
-        max-width: 180px;
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 25px;
-    }
-
-    #designer{
-        position: absolute;
-        top: 1320px;
-        left: 70px;
-        max-width: fit-content;
-        font-size: 32px;
-    }
-
-    #designer>hr{
-        width: 110px;
-        height: 5px;
-        position: relative;
-        top: -15px;
-        left: -43px;
-        opacity: 50%;
-    }
-
-    .designer{
-        position: absolute;
-        top: 1400px;
-        left: 50px;
-        max-width: 200px;
-    }
-
-    .designer>li{
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    #pieChart{
-        position: absolute;
-        width: 400px;
-        height: 350px;
-        top: 1275px;
-        left: 30%;
-    }
-
-    #coder{
-        position: absolute;
-        top: 1320px;
-        left: 750px;
-        max-width: 200px;
-        font-size: 32px;
-    }
-
-    #coder>hr{
-        width: 110px;
-        height: 5px;
-        position: relative;
-        top: -15px;
-        left: -20px;
-        opacity: 50%;
-    }
-
-    .coder{
-        position: absolute;
-        top: 1400px;
-        left: 730px;
-        max-width: 200px;
-    }
-
-    .coder>li{
-        font-family: "Junge", cursive;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    #coding{
-        width: 210px;
-        height: 100px;
-        position: absolute;
-        top: 2000px;
-        left: 50%;
-        right: 100px;
-        max-width: 200px;
-        display: none;
-    }
-
-    #coding2{
-        width: 200px;
-        height: 300px;
-        top: 2000px;
-        z-index: 3;
-        display: none;
-    }
-
-    #blurHobbies{
-        position: absolute;
-        top: 1800px;
-        bottom: 0;
-        right: 0;
-        left: 10%;
-        margin: auto;
-        color: black;
-        font-size: 150px;
-        font-family: Electrolize, sans-serif;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 17%;
-        letter-spacing: 20px;
-    }
-
-    #vrticlHobbies{
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 2200px;
-        left: -35px;
-        letter-spacing: 6px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-    }
-
-    #vrticlHobbies>hr{
-        position: relative;
-        top: -20px;
-        left: 95px;
-        opacity: 90%;
-    }
-
-    #hobbies>hr{
-        height: 5px;
-        color: black;
-        position: relative;
-        top: -17px;
-        left: -15px;
-        opacity: 50%;
-    }
-
-    #hobbies{
-        position: absolute;
-        top: 1950px;
-        left: 80px;
-        max-width: 500px;
-    }
-
-    .hobbies{
-        position: absolute;
-        top: 2040px;
-        left: 80px;
-        max-width: 700px;
-        font-family: "Junge", cursive;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 16px;
-    }
-
-    .hobbies>h3{
-        font-size: 20px;
-    }
-
-    #blurGoals{
-        position: absolute;
-        top: -200px;
-        bottom: 0;
-        right: 0;
-        left: -55%;
-        margin: auto;
-        color: black;
-        font-size: 200px;
-        font-family: Electrolize, sans-serif;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 17%;
-        letter-spacing: 20px;
-    }
-
-    #goalsPNG{
-        width: 470px;
-        height: 1100px;
-        position: absolute;
-        top: 3100px;
-        left: 60px;
-        max-width: 1000px;
-        z-index: 3;
-    }
-
-    #goals{
-        position: absolute;
-        top: 3000px;
-        left: 45%;
-        max-width: 700px;
-        font-family: "Junge", cursive;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 16px;
-    }
-
-    #goals>div>h1>hr{
-        height: 5px;
-        position: absolute;
-        top: 40px;
-        left: 5px;
-        opacity: 50%;
-    }
-
-
-    #vrticlGoals{
-        transform: rotate(90deg);
-        transform-origin: 50% 50%;
-        color: black;
-        position: absolute;
-        top: 3200px;
-        left: -25px;
-        letter-spacing: 6px;
-        font-family: "Karla", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bolder;
-        font-style: normal;
-        opacity: 90%;
-    }
-
-    #vrticlGoals>hr{
-        position: relative;
-        top: -20px;
-        left: 80px;
-        opacity: 90%;
-    }
-
-    #FooterBlackBackground{
-        width: 100%;
-        height: 50vh;
-        background-color: black;
-        position: absolute;
-        top: 4000px;
-
-    }
-
-    #FooterBlackBackground>div>h6 {
-        color: white;
-        font-size: 15px;
-        position: relative;
-        left: 50px;
-        max-width: 300px;
-    }
-
-    #bottomMiddleFooter>h2{
-        position: absolute;
-        top: 4010px;
-        bottom: 0;
-        right: 0;
-        left: 46%;
-        margin: auto;
-        color: white;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 18px;
-        letter-spacing: 2px;
-    }
-
-    #bottomMiddleFooter>nav>#links{
-        position: absolute;
-        top: 4050px;
-        bottom: 0;
-        right: 0;
-        left: 46%;
-        margin: auto;
-        color: white;
-        letter-spacing: 2px;
-        font-family: "Inter Tight", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        font-size: 14px;
-    }
-
-    #logoFooter{
+    #logoFooter {
         width: 180px;
         height: 160px;
         position: absolute;
-        top: 4040px;
+        top: 4490px;
         right: 50px;
     }
 
-    #infoLink{
+    #infoLink {
         color: white;
         position: absolute;
-        top: 4250px;
-        left: 27%;
+        top: 4690px;
+        left: 30%;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;
         font-weight: bold;
@@ -3434,18 +728,18 @@
         font-size: 14px;
     }
 
-    #infoLink>a{
-        color:white;
+    #infoLink > a {
+        color: white;
     }
 
-    #infoLink>img{
+    #infoLink > img {
         width: 20px;
         aspect-ratio: 1/1;
         position: relative;
         top: 4px;
     }
 
-    #phoneIcon{
+    #phoneIcon {
         width: 25px;
         aspect-ratio: 1/1;
         max-width: 25px;
@@ -3455,7 +749,7 @@
         left: 70px;
     }
 
-    #FooterBlackBackground>div>#mobileNo{
+    #FooterBlackBackground > div > #mobileNo {
         color: white;
         position: absolute;
         top: 60px;
@@ -3468,7 +762,7 @@
         font-size: 14px;
     }
 
-    #mailIcon{
+    #mailIcon {
         width: 25px;
         aspect-ratio: 1/1;
         position: relative;
@@ -3476,7 +770,7 @@
         left: 40px;
     }
 
-    #FooterBlackBackground>div>#email{
+    #FooterBlackBackground > div > #email {
         color: white;
         position: absolute;
         top: 115px;
@@ -3489,8 +783,952 @@
         font-size: 14px;
     }
 
-    #middleFooter{
+    #middleFooter {
         display: none;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1320px) {
+    #coding>img{
+        display: none;
+    }
+
+    #hobbies {
+        position: relative;
+        top: 380px;
+        left: 200px;
+    }
+
+    #hobbies > hr {
+        height: 5px;
+        color: black;
+        position: relative;
+        top: -17px;
+        left: -350px;
+        opacity: 50%;
+    }
+
+    .hobbies{
+        position: relative;
+        top: 50px;
+        left: 250px;
+    }
+
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1290px) {
+
+    #vrticlAbout {
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+        color: black;
+        position: absolute;
+        top: 700px;
+        left: -40px;
+        letter-spacing: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 90%;
+    }
+
+    #vrticlAbout > hr {
+        position: relative;
+        top: -20px;
+        left: 95px;
+        opacity: 90%;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1156px){
+
+    #blurHobbies{
+        position: relative;
+        left: 90px;
+        font-size: 140px;
+        max-width: fit-content;
+    }
+
+    #hobbies {
+        position: relative;
+        top: 400px;
+        left: 180px;
+    }
+
+    #hobbies > hr {
+        height: 5px;
+        color: black;
+        position: relative;
+        top: -17px;
+        left: -330px;
+        opacity: 50%;
+    }
+
+    .hobbies{
+        position: relative;
+        top: 50px;
+        left: 200px;
+    }
+
+    #blurGoals {
+        position: absolute;
+        top: 3200px;
+        bottom: 0;
+        right: 0;
+        left: 20%;
+        color: black;
+        font-size: 180px;
+        font-family: Electrolize, sans-serif;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 17%;
+        letter-spacing: 20px;
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+
+    #goals{
+        position: relative;
+        top: 2800px;
+        left: 510px;
+        max-width: fit-content;
+    }
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1090px){
+
+    #goals{
+        position: absolute;
+        top: 3600px;
+        left: 550px;
+    }
+
+    #blurHobbies{
+        position: relative;
+        left: -20px;
+    }
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1063px){
+
+    #blurHobbies{
+        font-size: 100px;
+        position: relative;
+        left: 100px;
+    }
+
+    #hobbies{
+        position: relative;
+        top: 280px;
+        left: 100px;
+    }
+
+    #hobbies>hr{
+        position: relative;
+        left: -245px;
+    }
+
+    .hobbies{
+        position: relative;
+        left: 100px;
+    }
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 965px) {
+    #blurGoals {
+        position: relative;
+        top: 2500px;
+        left: 100px;
+        max-width: fit-content;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 935px) {
+
+    #coderSide{
+        position: relative;
+        left: -90px;
+    }
+
+    #coder{
+        font-size: 25px;
+    }
+
+    #coder>hr{
+        position: relative;
+        left: -7px;
+    }
+
+    #designer{
+        font-size: 25px;
+    }
+
+    #designer>hr{
+        position: relative;
+        left: -7px;
+    }
+
+    #pieChart{
+        width: 330px;
+        height: 280px;
+    }
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 873px){
+
+    #nav>div>a{
+        font-size: 18px;
+    }
+
+    #heroRightSide>div>img{
+        position: relative;
+        top: 80px;
+        left: 70px;
+    }
+
+    #mirrorSelfi{
+        width: 320px;
+        height: 400px;
+        position: relative;
+        left: -80px;
+    }
+
+    #about{
+        position: relative;
+        top: 50px;
+        left: 50px;
+    }
+
+    #vrticlAbout{
+        display: none;
+    }
+
+    #blurHobbies{
+        font-size: 100px;
+        position: relative;
+        left: 40px;
+    }
+
+    #hobbies{
+        position: relative;
+        top: 300px;
+        left: 20px;
+    }
+
+    #hobbies>hr{
+        position: relative;
+        left: -245px;
+    }
+
+    .hobbies{
+        position: relative;
+        top: 80px;
+        left: 50px;
+    }
+
+    #vrticlHobbies{
+        position: relative;
+        top: 950px;
+        left: -350px;
+    }
+
+    #vrticlHobbies>hr{
+        position: relative;
+        left: -130px;
+    }
+
+    #blurGoals{
+        font-size: 130px;
+        position: relative;
+        top: 2250px;
+        left: 170px;
+        max-width: fit-content;
+    }
+
+    #vrticlGoals>hr{
+        position: relative;
+        left: 80px;
+    }
+
+    #goalsPNG{
+        position: relative;
+        top: -500px;
+        left: -80px;
+        max-width: fit-content;
+        display: none;
+    }
+
+    #goals{
+        position: relative;
+        top: 2200px;
+        left: 150px;
+    }
+
+    #FooterBlackBackground {
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        position: absolute;
+        top: 4200px;
+    }
+
+    #FooterBlackBackground > div > h6 {
+        color: white;
+        font-size: 15px;
+        position: relative;
+        left: 50px;
+        max-width: 300px;
+    }
+
+    #bottomMiddleFooter > h2 {
+        position: absolute;
+        top: 4210px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    #bottomMiddleFooter > nav > #links {
+        position: absolute;
+        top: 4250px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        letter-spacing: 2px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    #logoFooter {
+        width: 180px;
+        height: 160px;
+        position: absolute;
+        top: 4250px;
+        right: 50px;
+    }
+
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 4460px;
+        left: 20%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+
+    #infoLink > a {
+        color: white;
+    }
+
+    #infoLink > img {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 4px;
+    }
+
+    #phoneIcon {
+        width: 25px;
+        aspect-ratio: 1/1;
+        max-width: 25px;
+        max-height: 25px;
+        position: relative;
+        top: 90px;
+        left: 70px;
+    }
+
+    #FooterBlackBackground > div > #mobileNo {
+        color: white;
+        position: absolute;
+        top: 60px;
+        left: 113px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    #mailIcon {
+        width: 25px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 145px;
+        left: 40px;
+    }
+
+    #FooterBlackBackground > div > #email {
+        color: white;
+        position: absolute;
+        top: 115px;
+        left: 110px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    #middleFooter {
+        display: none;
+    }
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 795px) {
+
+    #upMain {
+        grid-template-columns: 1fr 1fr;
+        margin: 100px;
+    }
+
+    #upMain > div:first-child  {
+        text-align: center;
+    }
+
+    #upMain > div:nth-child(2) {
+        position: relative;
+    }
+
+    #upMain > div:nth-child(2) > div {
+        width: fit-content;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .middle{
+        grid-template-columns: 1fr;
+        position: relative;
+        top: -30px;
+        gap: 30px;
+    }
+
+    #mid{
+        position: relative;
+        top: 300px;
+    }
+
+    #blurGoals{
+        position: relative;
+        top: 1600px;
+    }
+
+    #goals{
+        position: relative;
+        top: 1600px;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 743px){
+
+    #blurHobbies{
+        position: relative;
+        left: -80px;
+        max-width: fit-content;
+    }
+
+    #hobbies{
+        position: relative;
+        left: -80px;
+    }
+
+    #vrticlHobbies{
+        display: none;
+    }
+
+    .hobbies{
+        max-width: fit-content;
+        position: relative;
+        left: -80px;
+    }
+
+    #vrticlGoals{
+        display: none;
+    }
+
+    #blurGoals{
+        position: relative;
+        left: 10px;
+    }
+
+    #goals{
+        position: relative;
+        left: 10px;
+    }
+
+    #goals > div > h1 > hr {
+        position: relative;
+        top: -10px;
+        left: -240px;
+    }
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 743px){
+
+    .mid{
+        position: relative;
+        top: 100px;
+        left: 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 775px){
+    #nav>div>a{
+        font-size: 17px;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 685px){
+
+    #nav>div>a{
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    #upMain{
+        grid-template-columns: 1fr;
+        margin: 100px;
+    }
+
+    #mirrorSelfi{
+        position: relative;
+        left: 10px;
+    }
+
+    .middle{
+        position: relative;
+        top: 300px;
+    }
+
+    .mid{
+        position: relative;
+        top: 500px;
+    }
+
+    #designer{
+        width: max-content;
+    }
+
+    #pieChart{
+        display: none;
+    }
+
+    #blurHobbies{
+        font-size: 80px;
+        position: relative;
+        top: 350px;
+        max-width: fit-content;
+    }
+
+    #hobbies{
+        position: relative;
+        top: 570px;
+    }
+
+    #hobbies>hr{
+        position: relative;
+        left: -200px;
+    }
+
+    .hobbies{
+        position: relative;
+        top: 400px;
+    }
+
+    #blurGoals{
+        font-size: 100px;
+        position: relative;
+        top: 1600px;
+    }
+
+    #goals{
+        position: relative;
+        top: 1560px;
+    }
+
+    #FooterBlackBackground {
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        position: absolute;
+        top: 4500px;
+    }
+
+    #FooterBlackBackground > div > h6 {
+        color: white;
+        font-size: 12px;
+        position: relative;
+        left: 50px;
+        max-width: 300px;
+    }
+
+    #bottomMiddleFooter > h2 {
+        position: absolute;
+        top: 4510px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    #bottomMiddleFooter > nav > #links {
+        position: absolute;
+        top: 4550px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        letter-spacing: 2px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 12px;
+    }
+
+    #logoFooter {
+        width: 130px;
+        height: 110px;
+        position: absolute;
+        top: 4540px;
+        right: 20px;
+    }
+
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 4730px;
+        left: 15%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+
+    #infoLink > a {
+        color: white;
+    }
+
+    #infoLink > img {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 4px;
+    }
+
+    #phoneIcon {
+        width: 20px;
+        aspect-ratio: 1/1;
+        max-width: 25px;
+        max-height: 25px;
+        position: relative;
+        top: 80px;
+        left: 20px;
+    }
+
+    #FooterBlackBackground > div > #mobileNo {
+        color: white;
+        position: absolute;
+        top: 60px;
+        left: 53px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 12px;
+    }
+
+    #mailIcon {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 140px;
+        left: 0;
+    }
+
+    #FooterBlackBackground > div > #email {
+        color: white;
+        position: absolute;
+        top: 115px;
+        left: 55px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 12px;
+    }
+
+    #middleFooter {
+        display: none;
+    }
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 603px){
+
+    #blurHobbies{
+        font-size: 70px;
+    }
+
+    #hobbies{
+        font-size: 30px;
+    }
+
+    #hobbies>hr{
+        height: 4px;
+        position: relative;
+        left: -197px;
+    }
+
+    #blurGoals{
+        font-size: 80px;
+    }
+
+    #goals>div>h1{
+        font-size: 30px;
+    }
+
+    #goals>div>h1>hr{
+        height: 4px;
+        position: relative;
+        top: -20px;
+        left: -242px;
+    }
+
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 590px){
+
+    .middle{
+        position: relative;
+        top: 400px;
+    }
+    .mid{
+        position: relative;
+        top: 550px;
+    }
+
+    #blurHobbies{
+        font-size: 56px;
+        position: relative;
+        top: 400px;
+    }
+
+    #hobbies>hr{
+        position: relative;
+        left: -155px;
+    }
+
+    .hobbies{
+        position: relative;
+        top: 440px;
+    }
+
+    #about{
+        position: relative;
+        left: 0;
+    }
+
+    #goals{
+        position: relative;
+        left: 0px;
+    }
+
+    #goals>div>h1>hr{
+        position: relative;
+        left: -205px;
+    }
+
+    #FooterBlackBackground {
+        width: 100%;
+        height: 60vh;
+        background-color: black;
+        position: absolute;
+        top: 4500px;
+    }
+
+    #FooterBlackBackground > div > h6 {
+        color: white;
+        font-size: 12px;
+        position: relative;
+        left: 50px;
+        max-width: 300px;
+    }
+
+    #bottomMiddleFooter > h2 {
+        position: absolute;
+        top: 4510px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    #bottomMiddleFooter > nav > #links {
+        position: absolute;
+        top: 4550px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        letter-spacing: 2px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 12px;
+    }
+
+    #logoFooter {
+        width: 130px;
+        height: 110px;
+        position: absolute;
+        top: 4540px;
+        left: 20px;
+    }
+
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 4810px;
+        left: 3%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+
+    #infoLink > a {
+        color: white;
+    }
+
+    #infoLink > img {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 4px;
+    }
+
+    #phoneIcon {
+        width: 20px;
+        aspect-ratio: 1/1;
+        max-width: 25px;
+        max-height: 25px;
+        position: relative;
+        top: 225px;
+        left: 38vw;
+    }
+
+    #FooterBlackBackground > div > #mobileNo {
+        color: white;
+        position: absolute;
+        top: 200px;
+        left: 45vw;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 12px;
+    }
+
+    #mailIcon {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 260px;
+        left: 33vw;
+    }
+
+    #FooterBlackBackground > div > #email {
+        color: white;
+        position: absolute;
+        top: 240px;
+        left: 45vw;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 12px;
     }
 
 }
