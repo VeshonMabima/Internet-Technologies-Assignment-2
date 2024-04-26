@@ -1,10 +1,26 @@
 @media (max-width: 1440px) and (min-width: 1020px) {
 
-    #blackBackground {
-        width: 100%;
-        height: 40vh;
+    #r1{
+        position: absolute;
+        top: 0;
         background-color: black;
-        position: relative;
+        width: 100%;
+        height: 35%;
+        z-index: -1;
+    }
+
+    .bg {
+        position: absolute;
+        top: 70px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 30%;
+        background-color: black;
+        transform: skewY(-5deg);
+        transform-origin: top right;
+        z-index: 1;
     }
 
     header > div > nav {
@@ -27,13 +43,14 @@
         height: 70px;
         top: 5px;
         left: 80px;
+        z-index: 3;
     }
 
     #mirrorSelfi {
         position: relative;
         width: 430px;
         height: 547px;
-        top: 30px;
+        top: 350px;
         left: 80px;
     }
 
@@ -41,58 +58,69 @@
         font-size: 20px;
         color: white;
         position: relative;
-        right: 200px;
+        top: 0px;
+        right: 350px;
     }
 
     #aboutMe {
         font-size: 20px;
         color: white;
         position: relative;
-        right: 160px;
+        top: 0px;
+        right: 250px;
     }
 
     #works {
         font-size: 20px;
         color: white;
         position: relative;
-        right: 120px;
+        top: 0px;
+        right: 150px;
     }
 
     #story {
         font-size: 20px;
         color: white;
         position: relative;
-        right: 70px;
+        top: 0px;
+        right: 50px;
     }
 
     #contact {
         font-size: 20px;
         color: white;
         position: relative;
-        right: 20px;
+        top: 0px;
+        right: -50px;
     }
 
-
     #whoIs {
-        font-size: 65px;
+        font-size: 90px;
+        position: relative;
+        top: 70px;
+        bottom: 0;
+        right: 0;
+        left: -50%;
+        margin: auto;
+        color: white;
+        max-width: fit-content;
+        max-height: fit-content;
+        z-index: 3;
+    }
+
+    #veshon {
+        font-size: 90px;
+        color: white;
+        padding: 0;
         position: relative;
         top: 60px;
         bottom: 0;
         right: 0;
-        left: -13%;
+        left: -50%;
         margin: auto;
-        color: white;
-    }
-
-    #veshon {
-        font-size: 65px;
-        color: white;
-        padding: 0;
-        position: relative;
-        top: 17px;
-        bottom: 0;
-        right: 0;
-        left: -100px;
+        max-width: fit-content;
+        max-height: fit-content;
+        z-index: 3;
     }
 
     main > div {
@@ -104,7 +132,7 @@
         transform-origin: 50% 50%;
         color: black;
         position: absolute;
-        top: 380px;
+        top: 510px;
         left: 670px;
         letter-spacing: 6px;
         font-family: "Karla", sans-serif;
@@ -123,7 +151,7 @@
 
     main > div > p {
         position: relative;
-        top: 100px;
+        top: 400px;
         left: 800px;
         padding: 0;
         margin: 0;
@@ -132,9 +160,11 @@
     }
 
     #upMain > div > img {
+        width: 25px;
+        height: 25px;
         position: relative;
-        top: 150px;
-        left: 800px;
+        top: 475px;
+        left: 810px;
         padding: 0;
         margin: 0;
         max-width: 640px;
@@ -158,7 +188,7 @@
         font-weight: bolder;
         font-style: normal;
         position: absolute;
-        top: 1003px;
+        top: 1250px;
         left: 80px;
     }
 
@@ -173,7 +203,7 @@
 
     #blurGallery {
         position: absolute;
-        top: 930px;
+        top: 1100px;
         bottom: 0;
         right: 0;
         left: 23%;
@@ -192,7 +222,7 @@
         transform-origin: 50% 50%;
         color: black;
         position: absolute;
-        top: 1400px;
+        top: 1570px;
         left: -30px;
         letter-spacing: 6px;
         font-family: "Karla", sans-serif;
@@ -214,7 +244,7 @@
         transform-origin: 50% 50%;
         color: black;
         position: absolute;
-        top: 2300px;
+        top: 2480px;
         left: -30px;
         letter-spacing: 6px;
         font-family: "Karla", sans-serif;
@@ -235,7 +265,7 @@
         width: 342px;
         height: 470px;
         position: absolute;
-        top: 1270px;
+        top: 1440px;
         bottom: 0;
         right: 0;
         left: 900px;
@@ -246,7 +276,7 @@
         width: 500px;
         height: 300px;
         position: absolute;
-        top: 1250px;
+        top: 1420px;
         bottom: 0;
         right: 0;
         left: 0;
@@ -257,7 +287,7 @@
         width: 300px;
         height: 440px;
         position: absolute;
-        top: 1430px;
+        top: 1600px;
         bottom: 0;
         right: 0;
         left: -880px;
@@ -268,7 +298,7 @@
         width: 760px;
         height: 498px;
         position: absolute;
-        top: 1930px;
+        top: 2100px;
         bottom: 0;
         right: 0;
         left: 0;
@@ -279,7 +309,7 @@
         width: 478px;
         height: 619px;
         position: absolute;
-        top: 2530px;
+        top: 2700px;
         bottom: 0;
         right: 0;
         left: -710px;
@@ -290,7 +320,7 @@
         width: 390px;
         height: 619px;
         position: absolute;
-        top: 2530px;
+        top: 2700px;
         bottom: 0;
         right: 0;
         left: 168px;
@@ -301,7 +331,7 @@
         width: 350px;
         height: 619px;
         position: absolute;
-        top: 2530px;
+        top: 2700px;
         bottom: 0;
         right: 0;
         left: 920px;
@@ -313,7 +343,7 @@
         height: 50vh;
         background-color: black;
         position: absolute;
-        top: 2900px;
+        top: 3070px;
 
     }
 
@@ -327,7 +357,7 @@
 
     #bottomMiddleFooter > h2 {
         position: absolute;
-        top: 2920px;
+        top: 3080px;
         bottom: 0;
         right: 0;
         left: 46.5%;
@@ -343,7 +373,7 @@
 
     #bottomMiddleFooter > nav > #links {
         position: absolute;
-        top: 2960px;
+        top: 3120px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -361,14 +391,14 @@
         width: 180px;
         height: 160px;
         position: absolute;
-        top: 2950px;
+        top: 3120px;
         right: 50px;
     }
 
     #infoLink {
         color: white;
         position: absolute;
-        top: 3155px;
+        top: 3330px;
         left: 32%;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;
