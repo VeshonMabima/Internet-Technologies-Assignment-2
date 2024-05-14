@@ -767,6 +767,9 @@
     font-style: normal;
 }
 
+.projects2{
+    display: none;
+}
 
 #FooterBlackBackground {
     width: 100%;
@@ -896,6 +899,399 @@
     display: none;
 }
 
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1016px){
+
+    .projects{
+        display: none;
+    }
+
+    .projects2{
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px ;
+        position: absolute;
+        top: 1200px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+        grid-column-gap: 50px;
+        grid-row-gap: 70px;
+    }
+
+    .projects2>div{
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+   .projects2>div>h3{
+       text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
+       position: absolute;
+       top: 70px;
+       bottom: 0;
+       right: 0;
+       left: 130px;
+       margin: auto;
+    }
+
+    .projects2>div>button{
+        background-color: white;
+        border: none;
+        position: relative;
+        top: 100px;
+        bottom: 0;
+        right: 0;
+        left: 150px;
+        margin: auto;
+    }
+
+    #FooterBlackBackground {
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        position: absolute;
+        top: 2100px;
+    }
+
+    #FooterBlackBackground > div > h6 {
+        color: white;
+        font-size: 15px;
+        position: relative;
+        left: 50px;
+        max-width: 300px;
+    }
+
+    #bottomMiddleFooter > h2 {
+        position: absolute;
+        top: 2110px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    #bottomMiddleFooter > nav > #links {
+        position: absolute;
+        top: 2150px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        letter-spacing: 2px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    #logoFooter {
+        width: 180px;
+        height: 160px;
+        position: absolute;
+        top: 2150px;
+        right: 50px;
+    }
+
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 2350px;
+        left: 25%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+
+    #infoLink > a {
+        color: white;
+    }
+
+    #infoLink > img {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 4px;
+    }
+
+    #phoneIcon {
+        width: 25px;
+        aspect-ratio: 1/1;
+        max-width: 25px;
+        max-height: 25px;
+        position: relative;
+        top: 90px;
+        left: 70px;
+    }
+
+    #FooterBlackBackground > div > #mobileNo {
+        color: white;
+        position: absolute;
+        top: 60px;
+        left: 113px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    #mailIcon {
+        width: 25px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 145px;
+        left: 40px;
+    }
+
+    #FooterBlackBackground > div > #email {
+        color: white;
+        position: absolute;
+        top: 115px;
+        left: 110px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    #middleFooter {
+        display: none;
+    }
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 870px){
+
+    .projects2{
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px ;
+        position: absolute;
+        top: 1200px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+        grid-column-gap: 20px;
+        grid-row-gap: 70px;
+    }
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 835px){
+
+    .projects2{
+        display: grid;
+        grid-template-columns: 350px 350px;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px ;
+        position: absolute;
+        top: 1200px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+        grid-column-gap: 20px;
+        grid-row-gap: 70px;
+    }
+
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 740px){
+
+    .projects2{
+        display: grid;
+        grid-template-columns: 320px 320px;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px ;
+        position: absolute;
+        top: 1150px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+        grid-column-gap: 20px;
+        grid-row-gap: 50px;
+    }
+
+    .projects2>div>h3{
+        text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
+        position: absolute;
+        top: 70px;
+        bottom: 0;
+        right: 0;
+        left: 100px;
+        margin: auto;
+    }
+
+    .projects2>div>button{
+        background-color: white;
+        border: none;
+        position: relative;
+        top: 100px;
+        bottom: 0;
+        right: 0;
+        left: 120px;
+        margin: auto;
+    }
+
+    #FooterBlackBackground {
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        position: absolute;
+        top: 1950px;
+    }
+
+    #FooterBlackBackground > div > h6 {
+        color: white;
+        font-size: 15px;
+        position: relative;
+        left: 50px;
+        max-width: 300px;
+    }
+
+    #bottomMiddleFooter > h2 {
+        position: absolute;
+        top: 1960px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    #bottomMiddleFooter > nav > #links {
+        position: absolute;
+        top: 2000px;
+        bottom: 0;
+        right: 0;
+        left: 46%;
+        margin: auto;
+        color: white;
+        letter-spacing: 2px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    #logoFooter {
+        width: 150px;
+        height: 130px;
+        position: absolute;
+        top: 2000px;
+        right: 30px;
+    }
+
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 2200px;
+        left: 15%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+
+    #infoLink > a {
+        color: white;
+    }
+
+    #infoLink > img {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 4px;
+    }
+
+    #phoneIcon {
+        width: 25px;
+        aspect-ratio: 1/1;
+        max-width: 25px;
+        max-height: 25px;
+        position: relative;
+        top: 90px;
+        left: 40px;
+    }
+
+    #FooterBlackBackground > div > #mobileNo {
+        color: white;
+        position: absolute;
+        top: 60px;
+        left: 83px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    #mailIcon {
+        width: 25px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 145px;
+        left: 10px;
+    }
+
+    #FooterBlackBackground > div > #email {
+        color: white;
+        position: absolute;
+        top: 115px;
+        left: 80px;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    #middleFooter {
+        display: none;
+    }
+
+}
 
 
 
