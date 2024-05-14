@@ -136,6 +136,7 @@
     font-style: normal;
 }
 
+
 .projects > div:nth-child(2) {
     position: absolute;
     top: 1500px;
@@ -192,6 +193,7 @@
     font-weight: 400;
     font-style: normal;
 }
+
 
 .projects > div:nth-child(3) {
     position: absolute;
@@ -250,6 +252,7 @@
     font-style: normal;
 }
 
+
 .projects > div:nth-child(4) {
     position: absolute;
     top: 2900px;
@@ -306,6 +309,7 @@
     font-weight: 400;
     font-style: normal;
 }
+
 
 .projects > div:nth-child(5) {
     position: absolute;
@@ -364,6 +368,7 @@
     font-style: normal;
 }
 
+
 .projects > div:nth-child(6) {
     position: absolute;
     top: 4300px;
@@ -420,6 +425,7 @@
     font-weight: 400;
     font-style: normal;
 }
+
 
 .projects > div:nth-child(7) {
     position: absolute;
@@ -651,6 +657,7 @@
     font-weight: 400;
     font-style: normal;
 }
+
 
 .projects > div:nth-child(11) {
     position: absolute;
