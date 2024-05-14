@@ -1,3 +1,830 @@
+#blackBackground {
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+#blackBackground > #r1 {
+    display: flex;
+    align-items: center;
+}
+
+#blackBackground > #r1 > img {
+    margin: 20px;
+    width: 80px;
+}
+
+#blackBackground > #r1 > nav {
+    flex: 1;
+    height: fit-content;
+}
+
+#blackBackground > #r1 > nav > div {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+}
+
+#blackBackground > #r1 > nav > div > a {
+    color: #fff;
+    margin: 0 2em;
+}
+
+#blackBackground > .bg {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    background-color: black;
+    height: fit-content;
+    min-height: 200px;
+}
+
+#blackBackground > .bg > .inner-title {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 30px;
+}
+
+#blackBackground > .bg > .inner-bg {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    transform: skewY(-5deg);
+    transform-origin: top right;
+    position: absolute;
+}
+
+#blackBackground > .bg > .inner-title > h1{
+    position: relative;
+    top: -40px;
+    font-size: 80px;
+}
+
+#blackBackground > .bg > .inner-title > h1:nth-child(2){
+    font-size: 80px;
+    position: relative;
+    top: -90px;
+}
+
+.projects > div{
+    width: 1145px;
+    height: 500px;
+    background-color: #E6FCFF;
+}
+
+.projects > div:first-child {
+    position: absolute;
+    top: 900px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:first-child > img {
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: -250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:first-child > p {
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: "Junge", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:first-child > button {
+    width: 165px;
+    height: 45px;
+    background-color: #51C16D;
+    border: 1px solid #51C16D;
+    border-radius: 50px;
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:first-child > button > a {
+    color: white;
+    font-size: 20px;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.projects > div:nth-child(2) {
+/*    width: 1145px;
+    height: 880px;
+    background-color: #E6FCFF;*/
+    position: absolute;
+    top: 1850px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(2) > img {
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: -250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(2) > p {
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: "Junge", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(2) > button {
+    width: 165px;
+    height: 45px;
+    background-color: #51C16D;
+    border: 1px solid #51C16D;
+    border-radius: 50px;
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(2) > button > a {
+    color: white;
+    font-size: 20px;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.projects > div:nth-child(3) {
+    width: 1145px;
+    height: 880px;
+    background-color: #E6FCFF;
+    position: absolute;
+    top: 2850px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(3) > img {
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: -250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(3) > p {
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: "Junge", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(3) > button {
+    width: 165px;
+    height: 45px;
+    background-color: #51C16D;
+    border: 1px solid #51C16D;
+    border-radius: 50px;
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(3) > button > a {
+    color: white;
+    font-size: 20px;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.projects > div:nth-child(4) {
+    width: 1145px;
+    height: 880px;
+    background-color: #E6FCFF;
+    position: absolute;
+    top: 3850px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(4) > img {
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: -250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(4) > p {
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: "Junge", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(4) > button {
+    width: 165px;
+    height: 45px;
+    background-color: #51C16D;
+    border: 1px solid #51C16D;
+    border-radius: 50px;
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(4) > button > a {
+    color: white;
+    font-size: 20px;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.projects > div:nth-child(5) {
+    width: 1145px;
+    height: 880px;
+    background-color: #E6FCFF;
+    position: absolute;
+    top: 4850px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(5) > img {
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: -250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(5) > p {
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: "Junge", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(5) > button {
+    width: 165px;
+    height: 45px;
+    background-color: #51C16D;
+    border: 1px solid #51C16D;
+    border-radius: 50px;
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(5) > button > a {
+    color: white;
+    font-size: 20px;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.projects > div:nth-child(6) {
+    width: 1145px;
+    height: 880px;
+    background-color: #E6FCFF;
+    position: absolute;
+    top: 5850px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(6) > img {
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: -250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(6) > p {
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: "Junge", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(6) > button {
+    width: 165px;
+    height: 45px;
+    background-color: #51C16D;
+    border: 1px solid #51C16D;
+    border-radius: 50px;
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(6) > button > a {
+    color: white;
+    font-size: 20px;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.projects > div:nth-child(7) {
+    width: 1145px;
+    height: 880px;
+    background-color: #E6FCFF;
+    position: absolute;
+    top: 6850px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(7) > img {
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: -250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(7) > p {
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: "Junge", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(7) > button {
+    width: 165px;
+    height: 45px;
+    background-color: #51C16D;
+    border: 1px solid #51C16D;
+    border-radius: 50px;
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(7) > button > a {
+    color: white;
+    font-size: 20px;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.projects > div:nth-child(8) {
+    width: 1145px;
+    height: 880px;
+    background-color: #E6FCFF;
+    position: absolute;
+    top: 7850px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(8) > img {
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: -250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(8) > p {
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: "Junge", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(8) > button {
+    width: 165px;
+    height: 45px;
+    background-color: #51C16D;
+    border: 1px solid #51C16D;
+    border-radius: 50px;
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(8) > button > a {
+    color: white;
+    font-size: 20px;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.projects > div:nth-child(9) {
+    width: 1145px;
+    height: 880px;
+    background-color: #E6FCFF;
+    position: absolute;
+    top: 8850px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(9) > img {
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: -250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(9) > p {
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: "Junge", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(9) > button {
+    width: 165px;
+    height: 45px;
+    background-color: #51C16D;
+    border: 1px solid #51C16D;
+    border-radius: 50px;
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(9) > button > a {
+    color: white;
+    font-size: 20px;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.projects > div:nth-child(10) {
+    width: 1145px;
+    height: 880px;
+    background-color: #E6FCFF;
+    position: absolute;
+    top: 9850px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(10) > img {
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: -250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(10) > p {
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: "Junge", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(10) > button {
+    width: 165px;
+    height: 45px;
+    background-color: #51C16D;
+    border: 1px solid #51C16D;
+    border-radius: 50px;
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(10) > button > a {
+    color: white;
+    font-size: 20px;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.projects > div:nth-child(11) {
+    width: 1145px;
+    height: 880px;
+    background-color: #E6FCFF;
+    position: absolute;
+    top: 10850px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(11) > img {
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: -250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(11) > p {
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: "Junge", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(11) > button {
+    width: 165px;
+    height: 45px;
+    background-color: #51C16D;
+    border: 1px solid #51C16D;
+    border-radius: 50px;
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(11) > button > a {
+    color: white;
+    font-size: 20px;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.projects > div:nth-child(12) {
+    width: 1145px;
+    height: 880px;
+    background-color: #E6FCFF;
+    position: absolute;
+    top: 11850px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(12) > img {
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top: -250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(12) > p {
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: "Junge", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(12) > button {
+    width: 165px;
+    height: 45px;
+    background-color: #51C16D;
+    border: 1px solid #51C16D;
+    border-radius: 50px;
+    position: absolute;
+    top: 700px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.projects > div:nth-child(12) > button > a {
+    color: white;
+    font-size: 20px;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 @media (max-width: 1440px) and (min-width: 1020px) {
 
     #r1{
@@ -3710,4 +4537,4 @@
     }
 
 
-}
+}*/
