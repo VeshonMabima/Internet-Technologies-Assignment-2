@@ -156,7 +156,7 @@
 #firstPic{
     position: relative;
     top: 100px;
-    left: 200px;
+    left: 150px;
     max-width: fit-content;
     max-height: fit-content;
 }
@@ -169,7 +169,7 @@
 #secondPic{
     position: relative;
     top: 150px;
-    left: 200px;
+    left: 150px;
     max-width: fit-content;
 }
 
@@ -361,7 +361,7 @@
 
 
 /*------------------------------------------------------------------------------------------------------*/
-@media all and (max-width: 1175px){
+@media all and (max-width: 1176px){
 
     #firstPic{
         position: relative;
