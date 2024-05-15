@@ -91,7 +91,7 @@
 
 .hero{
     display: grid;
-    grid-template-columns: 800px 500px;
+    grid-template-columns: 800px 400px;
     width: fit-content;
     height: fit-content;
     position: absolute;
@@ -163,7 +163,8 @@
 
 #firstPic > img {
     width: 350px;
-    height: 580px;}
+    height: 580px;
+}
 
 #secondPic{
     position: relative;
@@ -306,12 +307,186 @@
 }
 
 
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1315px){
+
+    #firstPic{
+        position: relative;
+        top: 100px;
+        left: 130px;
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+
+    #firstPic > img {
+        width: 350px;
+        height: 580px;
+    }
+
+    #secondPic{
+        position: relative;
+        top: 150px;
+        left: 130px;
+        max-width: fit-content;
+    }
+
+    #secondPic > img {
+        width: 350px;
+        height: 500px;
+    }
+}
 
 
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1316px){
+    .hero{
+        display: grid;
+        grid-template-columns: 700px 300px;
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 1050px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    #heroLeft{
+        position: relative;
+        left: -80px;
+    }
+
+}
 
 
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1175px){
+
+    #firstPic{
+        position: relative;
+        top: 100px;
+        left: 100px;
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+
+    #firstPic > img {
+        width: 350px;
+        height: 580px;
+    }
+
+    #secondPic{
+        position: relative;
+        top: 150px;
+        left: 100px;
+        max-width: fit-content;
+    }
+
+    #secondPic > img {
+        width: 350px;
+        height: 500px;
+    }
+
+    #vrticlStory {
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+        color: black;
+        position: absolute;
+        top: 300px;
+        left: -45px;
+        letter-spacing: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 90%;
+    }
+
+    #vrticlStory > hr {
+        position: relative;
+        top: -20px;
+        left: 100px;
+        opacity: 90%;
+    }
+
+}
 
 
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1116px){
+
+    #firstPic{
+        position: relative;
+        top: 100px;
+        left: 50px;
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+
+    #firstPic > img {
+        width: 350px;
+        height: 580px;
+    }
+
+    #secondPic{
+        position: relative;
+        top: 150px;
+        left: 50px;
+        max-width: fit-content;
+    }
+
+    #secondPic > img {
+        width: 350px;
+        height: 500px;
+    }
+
+    #vrticlStory {
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+        color: black;
+        position: absolute;
+        top: 300px;
+        left: -45px;
+        letter-spacing: 6px;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        opacity: 90%;
+        display: none;
+    }
+
+    #vrticlStory > hr {
+        position: relative;
+        top: -20px;
+        left: 100px;
+        opacity: 90%;
+        display: none;
+    }
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1107px){
+    #heading>h3{
+        font-size: 28px;
+    }
+
+    #heroLeft>h4{
+        position: relative;
+        top: 50px;
+        left: 80px;
+        max-width: fit-content;
+        max-height: fit-content;
+        font-family: "Karla", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 20px;
+    }
+
+}
 
 
 
