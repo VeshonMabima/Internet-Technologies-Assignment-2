@@ -118,7 +118,7 @@
     line-height: 30px;
 }
 
-#heroRightSide > div > img{
+#heroRightSide > div > button{
     width: 20px;
     aspect-ratio: 1/1;
     position: relative;
@@ -927,6 +927,14 @@
     #upMain {
         grid-template-columns: 1fr;
         margin: 100px;
+    }
+
+    #heroRightSide > div > button{
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        left: 60px;
+        top: 60px;
     }
 
     #mirrorSelfi {
