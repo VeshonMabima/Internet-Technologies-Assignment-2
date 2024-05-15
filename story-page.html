@@ -30,32 +30,42 @@
 <!--Header-->
 <header>
 
-    <div id="r1"></div>
-    <div class="bg"></div>
     <div id="blackBackground">
 
-        <img src="assets/images/Logo%20-%20Copy.png" title="veshon.lk" alt="Logo" width="50">
+        <div id="r1">
 
-        <nav id="nav" >
+            <img id="logo" src="assets/images/Logo%20-%20Copy.png" title="veshon.lk" alt="Logo" width="50">
 
-            <a  id="home" href="home-page.html" style="text-decoration: none" >Home</a>
-            <a  id="aboutMe" href="aboutMe-page.html" style="text-decoration: none" >About Me</a>
-            <a  id="works" href="works-page.html" style="text-decoration: none"  >Works</a>
-            <a  id="story" href="story-page.html" style="text-decoration: none"  >Story</a>
-            <a  id="contact" href="contact-page.html" style="text-decoration: none" >Contact Me</a>
-            <h1 id="myStory"> MY STORY</h1>
-        </nav>
+            <nav id="nav">
+                <div>
+                    <a style="text-decoration: none" id="home" href="home-page.html">Home</a>
+                    <a style="text-decoration: none" id="aboutMe" href="aboutMe-page.html">About Me</a>
+                    <a style="text-decoration: none" id="works" href="works-page.html">Works</a>
+                    <a style="text-decoration: none" id="story" href="story-page.html">Story</a>
+                    <a style="text-decoration: none" id="contact" href="contact-page.html">Contact</a>
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="bg">
+            <div class="inner-bg"></div>
+            <div class="inner-title">
+                <h1 id="whoIs">WHO IS</h1>
+                <h1 id="veshon"> VESHON ?</h1>
+            </div>
+        </div>
     </div>
 
 </header>
 
+<div id="heading"><h3>A Self-Made Tech Odyssey: Inspiring Others Through Perseverance</h3></div>
+
 <!--Hero Section-->
 <section class="hero">
 
-    <h3>A Self-Made Tech Odyssey: Inspiring Others Through Perseverance</h3>
-
-<!--Hero Left Side-->
-    <div data-aos="fade-up" id="heroLeft">
+    <!--Hero Left Side-->
+    <div id="heroLeft">
     <h4> FOOT STEPS</h4>
     <h3 id="vrticlStory"> MY STORY <hr color="black" width="50px"> </h3>
         <h5 id="fh5">
@@ -101,7 +111,8 @@
                 <li>Graduated from Kingston University.</li>
             </ul>
         </h5>
-        <h5>
+
+<!--        <h5>
             <ul id="ul1">
                 <li>Began my educational journey at Sumedha Collage - Gampaha.</li>
                 &nbsp
@@ -146,13 +157,15 @@
                 &nbsp
                 <li>Graduated from Kingston University.</li>
             </ul>
-        </h5>
+        </h5>-->
     </div>
 
 <!--Hero Right Side-->
-
+<div id="heroRightSide" >
     <div id="firstPic"><img src="assets/images/Aquainas%202.jpg" title="Picture 01" alt="image" width="275"></div>
     <div id="secondPic"><img src="assets/images/Mirrorselfi%202.jpg" title="Picture 01" alt="image" width="275"></div>
+</div>
+
 </section>
 
 <!--Left footer-->
@@ -195,14 +208,8 @@
 
 <!--footer-->
 <footer>
-    <div id="infoLink"><img src="assets/images/icons8-america-100.png"> &nbsp info.veshonmabima.com &nbsp | &nbsp Designed by <a style="text-decoration: none" >Veshon Mabima</a></div>
+    <div id="infoLink"><img src="assets/images/icons8-america-100.png"> &nbsp info.veshonmabima.com &nbsp | &nbsp Designed by <a href="">Veshon Mabima</a></div>
 </footer>
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-<script>
-    AOS.init();
-</script>
 
 </body>
 </html>

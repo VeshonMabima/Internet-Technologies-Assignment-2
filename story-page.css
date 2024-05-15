@@ -1,132 +1,337 @@
+#blackBackground {
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+#blackBackground > #r1 {
+    display: flex;
+    align-items: center;
+}
+
+#blackBackground > #r1 > img {
+    margin: 20px;
+    width: 80px;
+}
+
+#blackBackground > #r1 > nav {
+    flex: 1;
+    height: fit-content;
+}
+
+#blackBackground > #r1 > nav > div {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+}
+
+#blackBackground > #r1 > nav > div > a {
+    color: #fff;
+    margin: 0 2em;
+}
+
+#blackBackground > .bg {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    background-color: black;
+    height: fit-content;
+    min-height: 200px;
+}
+
+#blackBackground > .bg > .inner-title {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 30px;
+}
+
+#blackBackground > .bg > .inner-bg {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    transform: skewY(-5deg);
+    transform-origin: top right;
+    position: absolute;
+}
+
+#blackBackground > .bg > .inner-title > h1{
+    position: relative;
+    top: -40px;
+    font-size: 80px;
+}
+
+#blackBackground > .bg > .inner-title > h1:nth-child(2){
+    font-size: 80px;
+    position: relative;
+    top: -90px;
+}
+
+#heading{
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: "Junge", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 25px;
+    position: absolute;
+    top: 350px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: 800px 500px;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 1050px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#heroLeft>h4{
+    position: relative;
+    top: 50px;
+    left: 45px;
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#vrticlStory {
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+    color: black;
+    position: absolute;
+    top: 300px;
+    left: -70px;
+    letter-spacing: 6px;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    opacity: 90%;
+}
+
+#vrticlStory > hr {
+    position: relative;
+    top: -20px;
+    left: 100px;
+    opacity: 90%;
+}
+
+#heroLeft > h5 {
+    font-size: 17px;
+    font-family: "Junge", cursive;
+    font-weight: bold;
+    font-style: normal;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    line-height: 30px;
+}
+
+#heroRightSide{
+    position: relative;
+    left: -100px;
+}
+
+#firstPic{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+#firstPic > img {
+    width: 350px;
+    height: 580px;}
+
+#secondPic{
+    position: relative;
+    top: 150px;
+    left: 200px;
+    max-width: fit-content;
+}
+
+#secondPic > img {
+    width: 350px;
+    height: 500px;
+}
+
+#FooterBlackBackground {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    position: absolute;
+    top: 2350px;
+}
+
+#FooterBlackBackground > div > h6 {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    left: 50px;
+    max-width: 300px;
+}
+
+#bottomMiddleFooter > h2 {
+    position: absolute;
+    top: 2360px;
+    bottom: 0;
+    right: 0;
+    left: 46%;
+    margin: auto;
+    color: white;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#bottomMiddleFooter > nav > #links {
+    position: absolute;
+    top: 2400px;
+    bottom: 0;
+    right: 0;
+    left: 46%;
+    margin: auto;
+    color: white;
+    letter-spacing: 2px;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+}
+
+#logoFooter {
+    width: 180px;
+    height: 160px;
+    position: absolute;
+    top: 2400px;
+    right: 50px;
+}
+
+#infoLink {
+    color: white;
+    position: absolute;
+    top: 2600px;
+    left: 32%;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+#infoLink > a {
+    color: white;
+}
+
+#infoLink > img {
+    width: 20px;
+    aspect-ratio: 1/1;
+    position: relative;
+    top: 4px;
+}
+
+#phoneIcon {
+    width: 25px;
+    aspect-ratio: 1/1;
+    max-width: 25px;
+    max-height: 25px;
+    position: relative;
+    top: 90px;
+    left: 70px;
+}
+
+#FooterBlackBackground > div > #mobileNo {
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 113px;
+    letter-spacing: 1px;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+}
+
+#mailIcon {
+    width: 25px;
+    aspect-ratio: 1/1;
+    position: relative;
+    top: 145px;
+    left: 40px;
+}
+
+#FooterBlackBackground > div > #email {
+    color: white;
+    position: absolute;
+    top: 115px;
+    left: 110px;
+    letter-spacing: 1px;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+}
+
+#middleFooter {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 @media (max-width: 1440px) and (min-width: 1020px) {
-
-    #r1{
-        position: absolute;
-        top: 0;
-        background-color: black;
-        width: 100%;
-        height: 35%;
-        z-index: -1;
-    }
-
-    .bg {
-        position: absolute;
-        top: 70px;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        width: 100%;
-        height: 30%;
-        background-color: black;
-        transform: skewY(-5deg);
-        transform-origin: top right;
-        z-index: 1;
-    }
-
-    header > div > nav {
-        position: absolute;
-        top: 10px;
-        bottom: 0;
-        right: 0;
-        left: 50%;
-        margin: auto;
-        word-spacing: 5px;
-    }
-
-    header > div > nav > a {
-        text-decoration: none
-    }
-
-    header > div > img {
-        position: relative;
-        width: 80px;
-        height: 70px;
-        top: 5px;
-        left: 80px;
-        z-index: 3;
-    }
-
-    #mirrorSelfi {
-        position: relative;
-        width: 430px;
-        height: 547px;
-        top: 350px;
-        left: 80px;
-    }
-
-    #home {
-        font-size: 20px;
-        color: white;
-        position: relative;
-        top: 0px;
-        right: 350px;
-    }
-
-    #aboutMe {
-        font-size: 20px;
-        color: white;
-        position: relative;
-        top: 0px;
-        right: 250px;
-    }
-
-    #works {
-        font-size: 20px;
-        color: white;
-        position: relative;
-        top: 0px;
-        right: 150px;
-    }
-
-    #story {
-        font-size: 20px;
-        color: white;
-        position: relative;
-        top: 0px;
-        right: 50px;
-    }
-
-    #contact {
-        font-size: 20px;
-        color: white;
-        position: relative;
-        top: 0px;
-        right: -50px;
-    }
-
-    header > div > nav {
-        position: absolute;
-        top: 10px;
-        bottom: 0;
-        right: 0;
-        left: 50%;
-        margin: auto;
-        word-spacing: 5px;
-    }
-
-    header > div > nav > a {
-        text-decoration: none
-    }
-
-    header > div > img {
-        position: relative;
-        width: 80px;
-        height: 70px;
-        top: 5px;
-        left: 80px;
-    }
-
-    #myStory {
-        font-size: 90px;
-        position: relative;
-        top: 100px;
-        bottom: 0;
-        right: 0;
-        left: -180px;
-        margin: auto;
-        color: white;
-        z-index: 3;
-    }
 
     .hero > h3:first-child {
         max-width: fit-content;
@@ -2006,4 +2211,4 @@
         display: none;
     }
 
-}
+}*/
