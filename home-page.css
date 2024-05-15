@@ -519,7 +519,7 @@
 
 
 /*------------------------------------------------------------------------------------------------------*/
-@media all and (max-width: 1105px){
+@media all and (max-width: 1107px){
 
     #pic5>img{
         width: 350px;
@@ -606,7 +606,7 @@
 
 
 /*------------------------------------------------------------------------------------------------------*/
-@media all and (max-width: 978px){
+@media all and (max-width: 1017px){
 
     #blurGallery{
         position: absolute;
@@ -745,6 +745,11 @@
         position: absolute;
         left: 30px;
     }
+
+    #infoLink{
+        position: absolute;
+        left: 20%;
+    }
 }
 
 
@@ -760,7 +765,7 @@
 
 
 /*------------------------------------------------------------------------------------------------------*/
-@media all and (max-width: 665px){
+@media all and (max-width: 666px){
 
     #blurGallery{
         font-size: 100px;
