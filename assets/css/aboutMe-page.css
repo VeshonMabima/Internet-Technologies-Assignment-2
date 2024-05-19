@@ -28,11 +28,11 @@
     position: relative;
     top: -20px;
 }
+
 #blackBackground > #r1 > nav > div > a {
     color: #fff;
     margin: 0 2em;
 }
-
 
 #blackBackground > .bg {
     color: #fff;
@@ -1320,6 +1320,11 @@
 
 /*------------------------------------------------------------------------------------------------------*/
 @media all and (max-width: 743px){
+
+    #blackBackground > #r1 > nav > div > a {
+        color: #fff;
+        margin: 0 20px;
+    }
 
     .mid{
         position: relative;
