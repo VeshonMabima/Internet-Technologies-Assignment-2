@@ -23,7 +23,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
 
@@ -62,22 +62,22 @@
         <div class="bg">
             <div class="inner-bg"></div>
             <div class="inner-title">
-                <h1 id="whoIs">MY</h1>
-                <h1 id="veshon"> STORY ! </h1>
+                <h1 class="animate__animated animate__bounce" id="whoIs">MY</h1>
+                <h1 class="animate__animated animate__bounce" id="veshon"> STORY ! </h1>
             </div>
         </div>
     </div>
 
 </header>
 
-<div id="heading"><h3>A Self-Made Tech Odyssey: Inspiring Others Through Perseverance</h3></div>
+<div data-aos="fade-up" id="heading"><h3>A Self-Made Tech Odyssey: Inspiring Others Through Perseverance</h3></div>
 
 <!--Hero Section-->
 <section class="hero">
 
     <!--Hero Left Side-->
     <div id="heroLeft">
-    <h4> FOOT STEPS</h4>
+    <h4 data-aos="fade-up"> FOOT STEPS</h4>
     <h3 id="vrticlStory"> MY STORY <hr color="black" width="50px"> </h3>
         <h5 id="fh5">
             <ul>
@@ -126,14 +126,14 @@
 
 <!--Hero Right Side-->
 <div id="heroRightSide" >
-    <div id="firstPic"><img src="assets/images/Aquainas%202.jpg" title="Picture 01" alt="image" width="275"></div>
-    <div id="secondPic"><img src="assets/images/Mirrorselfi%202.jpg" title="Picture 01" alt="image" width="275"></div>
+    <div id="firstPic"><img data-aos="fade-up-right" src="assets/images/Aquainas%202.jpg" title="Picture 01" alt="image" width="275"></div>
+    <div id="secondPic"><img data-aos="fade-up-right" src="assets/images/Mirrorselfi%202.jpg" title="Picture 01" alt="image" width="275"></div>
 </div>
 
 </section>
 
 <!--Left footer-->
-<footer id="FooterBlackBackground">
+<footer data-aos="fade-up" id="FooterBlackBackground">
     <div>
         <img id="phoneIcon" src="assets/images/white-phone.png" title="phone icon" alt="Image" width="15">
         <h6 id="mobileNo">+94-761-686-324</h6>
@@ -175,6 +175,7 @@
     <div id="infoLink"><img src="assets/images/icons8-america-100.png"> &nbsp info.veshonmabima.com &nbsp | &nbsp Designed by <a href="">Veshon Mabima</a></div>
 </footer>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
 
     window.onload = function (){
@@ -187,6 +188,9 @@
         })
     }
 
+</script>
+<script>
+    AOS.init();
 </script>
 
 </body>
