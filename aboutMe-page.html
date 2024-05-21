@@ -24,6 +24,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
           rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 <body>
 
@@ -63,8 +66,8 @@
         <div class="bg">
             <div class="inner-bg"></div>
             <div class="inner-title">
-                <h1 id="whoIs">WHO IS</h1>
-                <h1 id="veshon"> VESHON ?</h1>
+                <h1 class="animate__animated animate__bounce" id="whoIs">WHO IS</h1>
+                <h1 class="animate__animated animate__bounce" id="veshon"> VESHON ?</h1>
             </div>
         </div>
     </div>
@@ -76,7 +79,7 @@
 
     <!--Hero Left side-->
     <div>
-        <img id="mirrorSelfi" src="assets/images/WhatsApp%20Image%202023-12-31%20at%2013.47.39_be578f78%20-%20Copy.jpg" title="Image.com" alt="Image" width="300">
+        <img  data-aos="fade-right" id="mirrorSelfi" src="assets/images/WhatsApp%20Image%202023-12-31%20at%2013.47.39_be578f78%20-%20Copy.jpg" title="Image.com" alt="Image" width="300">
     </div>
 
 
@@ -84,7 +87,7 @@
     <div id="heroRightSide">
         <div>
 
-            <p id="about" style="font-family: Junge, cursive; font-weight: bold; font-style: normal; vertical-align: center; ">
+            <p data-aos="fade-up-right" id="about" style="font-family: Junge, cursive; font-weight: bold; font-style: normal; vertical-align: center; ">
                 " Hello. I'm Veshon Mabima.<br>
                 &nbsp
                 And im 17 years old software engineering student.<br>
@@ -98,10 +101,10 @@
 
             </p>
 
-            <button style="background-color: white; border: none"><a href="https://twitter.com/VeshonMabima"><img src="assets/images/icons8-twitterx-50.png" title="twiter.img" alt="image" width="20"></a></button>
-            <button style="background-color: white; border: none"><a href="https://www.facebook.com/chandima.rajapaksha.127"><img src="assets/images/icons8-facebook-50.png" title="facebook.img" alt="image" width="20"></a></button>
-            <button style="background-color: white; border: none"><a href="https://www.instagram.com/veshon___/?hl=en"><img src="assets/images/icons8-insta-60.png" title="insta.img" alt="image"width="20"></a></button>
-            <button style="background-color: white; border: none"><a href="https://github.com/veshon"><img src="assets/images/icons8-github-60.png" title="github.img" alt="image" width="20"></a></button>
+            <button data-aos="fade-up-right" style="background-color: white; border: none"><a href="https://twitter.com/VeshonMabima"><img src="assets/images/icons8-twitterx-50.png" title="twiter.img" alt="image" width="20"></a></button>
+            <button data-aos="fade-up-right" style="background-color: white; border: none"><a href="https://www.facebook.com/chandima.rajapaksha.127"><img src="assets/images/icons8-facebook-50.png" title="facebook.img" alt="image" width="20"></a></button>
+            <button data-aos="fade-up-right" style="background-color: white; border: none"><a href="https://www.instagram.com/veshon___/?hl=en"><img src="assets/images/icons8-insta-60.png" title="insta.img" alt="image"width="20"></a></button>
+            <button data-aos="fade-up-right" style="background-color: white; border: none"><a href="https://github.com/veshon"><img src="assets/images/icons8-github-60.png" title="github.img" alt="image" width="20"></a></button>
 
         </div>
     </div>
@@ -111,18 +114,18 @@
 <section class="middle">
 
     <div>
-        <h3 id="vision">Vision</h3>
-        <h5 class="vision"> " To Become a Powerful Tech <br> Entrepreneur. ”</h5>
+        <h3 data-aos="fade-up" id="vision">Vision</h3>
+        <h5 data-aos="fade-up" class="vision"> " To Become a Powerful Tech <br> Entrepreneur. ”</h5>
     </div>
 
     <div>
-        <h3 id="mission">Mission</h3>
-        <h5 class="mission">" To Empower people with <br> innovative technology <br> solutions that improve <br> their lives and Influence People <br> into the technology domain "</h5>
+        <h3 data-aos="fade-up" id="mission">Mission</h3>
+        <h5 data-aos="fade-up" class="mission">" To Empower people with <br> innovative technology <br> solutions that improve <br> their lives and Influence People <br> into the technology domain "</h5>
     </div>
 
     <div>
-        <h3 id="quotes">Quotes I Love</h3>
-        <h5 class="quotes">"In the end, it's not the <br> years in your life that <br> count. It's the life in <br> your years. “ <br> -Abraham Lincoln</h5>
+        <h3 data-aos="fade-up" id="quotes">Quotes I Love</h3>
+        <h5 data-aos="fade-up" class="quotes">"In the end, it's not the <br> years in your life that <br> count. It's the life in <br> your years. “ <br> -Abraham Lincoln</h5>
     </div>
 
 </section>
@@ -131,33 +134,33 @@
 <section class="mid">
 
 <div id="designerSide">
-    <h3 id="designer" style="font-family: Electrolize, sans-serif;font-weight: 600;font-style: normal;">Part Designer <hr color="black" width="80px"></h3>
+    <h3 data-aos="fade-up" id="designer" style="font-family: Electrolize, sans-serif;font-weight: 600;font-style: normal;">Part Designer <hr color="black" width="80px"></h3>
     <ul class="designer">
-        <li>User Interface Design</li>
-        <li>User Experience Design</li>
-        <li>Interaction Design</li>
-        <li>Website Design</li>
-        <li>Branding / Logo Design</li>
+        <li data-aos="fade-up">User Interface Design</li>
+        <li data-aos="fade-up">User Experience Design</li>
+        <li data-aos="fade-up">Interaction Design</li>
+        <li data-aos="fade-up">Website Design</li>
+        <li data-aos="fade-up">Branding / Logo Design</li>
     </ul>
 </div>
 
 <!--Middle-->
 <div id="pieChartSide">
-    <img id="pieChart" src="assets/images/white-part-designer-part-coder.png" title="pie-chart" alt="image" width="250">
+    <img data-aos="fade-down" id="pieChart" src="assets/images/white-part-designer-part-coder.png" title="pie-chart" alt="image" width="250">
 </div>
 
 
 <!--Right Side-->
 <div id="coderSide">
 
-    <h3 id="coder" style="font-family: Electrolize, sans-serif;font-weight: 600;font-style: normal;">Part Coder <hr color="black" width="80px"></h3>
+    <h3 data-aos="fade-up" id="coder" style="font-family: Electrolize, sans-serif;font-weight: 600;font-style: normal;">Part Coder <hr color="black" width="80px"></h3>
     <ul class="coder">
-        <li>Front End Development</li>
-        <li>HTML</li>
-        <li>CSS / SASS</li>
-        <li>JavaScript</li>
-        <li>Application Development</li>
-        <li>Content Management</li>
+        <li data-aos="fade-up" >Front End Development</li>
+        <li data-aos="fade-up" >HTML</li>
+        <li data-aos="fade-up" >CSS / SASS</li>
+        <li data-aos="fade-up" >JavaScript</li>
+        <li data-aos="fade-up" >Application Development</li>
+        <li data-aos="fade-up" >Content Management</li>
     </ul>
 
 </div>
@@ -165,51 +168,51 @@
 </section>
 
 <!--Hobbies Right Side-->
-<div id="coding"><img src="assets/images/coding.webp" title="hobbies" alt="image"></div>
+<div id="coding"><img  data-aos="fade-up-right"  src="assets/images/coding.webp" title="hobbies" alt="image"></div>
 
 <!--Hobbies Left Side-->
 <section id="hobbiesLeftSide">
 
     <h3 id="vrticlHobbies"> HOBBIES <hr color="black" width="50px"> </h3>
-    <h1 id="hobbies" style="font-family: Electrolize, sans-serif;font-weight: 590;font-style: normal;">Hobbies <hr color="black" width="80px"> </h1>
-    <h1 id="blurHobbies">HOBBIES</h1>
+    <h1  data-aos="fade-up"  id="hobbies" style="font-family: Electrolize, sans-serif;font-weight: 590;font-style: normal;">Hobbies <hr color="black" width="80px"> </h1>
+    <h1  data-aos="fade-up" id="blurHobbies">HOBBIES</h1>
 
     <div class="hobbies">
-    <ul> <li>Apart from my profession being my primary hobby,<br>I enjoy playing football, traveling, riding, music, reading and gaming.</li>
+    <ul> <li  data-aos="fade-up" >Apart from my profession being my primary hobby,<br>I enjoy playing football, traveling, riding, music, reading and gaming.</li>
         <li style="visibility: hidden"></li>
         <li style="visibility: hidden"></li>
 
     </ul>
 
-    <h3>Reading</h3>
+    <h3 data-aos="fade-up" >Reading</h3>
 
         <ul>
-            <li> Some books leave us free and some books make us free. – Ralph Waldo Emerson </li>
+            <li data-aos="fade-up"> Some books leave us free and some books make us free. – Ralph Waldo Emerson </li>
             <li style="visibility: hidden"></li>
-            <li> I think books are like people, in the sense that they’ll turn up in your life when <br> you most need them. </li>
+            <li data-aos="fade-up"> I think books are like people, in the sense that they’ll turn up in your life when <br> you most need them. </li>
             <li style="visibility: hidden"></li>
             <li style="visibility: hidden"></li>
 
         </ul>
 
-    <h3>Travelling</h3>
+    <h3 data-aos="fade-up">Travelling</h3>
 
         <ul>
-            <li>Travel makes one modest. You see what a tiny place you occupy in the world.</li>
+            <li data-aos="fade-up" >Travel makes one modest. You see what a tiny place you occupy in the world.</li>
             <li style="visibility: hidden"></li>
-            <li>To me, the greatest reward and luxury of travel is to be able to experience <br>
+            <li data-aos="fade-up" >To me, the greatest reward and luxury of travel is to be able to experience <br>
                 everyday things as if for the first time, to be in a position in which almost nothing <br>
                 is so familiar it is taken for granted.</li>
             <li style="visibility: hidden"></li>
             <li style="visibility: hidden"></li>
         </ul>
 
-    <h3>Gaming</h3>
+    <h3 data-aos="fade-up" >Gaming</h3>
 
         <ul>
-            <li>I developed my gaming interest during my years in the School when participating to <br> gaming events.</li>
+            <li data-aos="fade-up" >I developed my gaming interest during my years in the School when participating to <br> gaming events.</li>
             <li style="visibility: hidden"></li>
-            <li>It not only helped me explore the varieties of games <br> but also helped me explore some of my artistic skills altogether.</li>
+            <li data-aos="fade-up" >It not only helped me explore the varieties of games <br> but also helped me explore some of my artistic skills altogether.</li>
         </ul>
 
     </div>
@@ -217,58 +220,58 @@
 
 <!--Goals Left Side-->
 <h3 id="vrticlGoals"> GOALS <hr color="black" width="50px"> </h3>
-<div id="goalsPNG"><img src="assets/images/goals-business-brand-launch-corporate-success-concept.jpg" title="goals" alt="image" width="375"></div>
-<h1 id="blurGoals">GOALS</h1>
+<div id="goalsPNG"><img data-aos="fade-up-right" src="assets/images/goals-business-brand-launch-corporate-success-concept.jpg" title="goals" alt="image" width="375"></div>
+<h1 data-aos="fade-up" id="blurGoals">GOALS</h1>
 
 <!--Goals Right Side-->
 <section id="goals">
     <div>
-        <h1 style="font-family: Electrolize, sans-serif;font-weight: 590;font-style: normal;">Goals <hr color="black" width="70px"> </h1>
+        <h1 data-aos="fade-up" style="font-family: Electrolize, sans-serif;font-weight: 590;font-style: normal;">Goals <hr data-aos="fade-up" color="black" width="70px"> </h1>
 
 
         <ul>
             <li style="visibility: hidden"></li>
         </ul>
 
-        <h3>Academic goals</h3>
+        <h3 data-aos="fade-up">Academic goals</h3>
     <ul>
-        <li>Achieve a certain GPA or maintain a consistent level of academic performance.</li>
+        <li data-aos="fade-up">Achieve a certain GPA or maintain a consistent level of academic performance.</li>
         <li style="visibility: hidden"></li>
-        <li>Set specific goals for challenging subjects and work on improving in those areas.</li>
+        <li data-aos="fade-up">Set specific goals for challenging subjects and work on improving in those areas.</li>
         <li style="visibility: hidden"></li>
-        <li>Participate actively in class discussions and extracurricular academic activities.</li>
+        <li data-aos="fade-up">Participate actively in class discussions and extracurricular academic activities.</li>
     </ul>
     </div>
 
     <ul> <li style="visibility: hidden"></li> </ul>
 
     <div>
-        <h3>Social and Interpersonal Goals:</h3>
+        <h3 data-aos="fade-up">Social and Interpersonal Goals:</h3>
     <ul>
-        <li>Strengthen existing friendships and make an effort to build new connections.</li>
+        <li data-aos="fade-up">Strengthen existing friendships and make an effort to build new connections.</li>
         <li style="visibility: hidden"></li>
-        <li>Develop effective communication skills, including active listening and expressing <br> thoughts clearly.</li>
+        <li data-aos="fade-up">Develop effective communication skills, including active listening and expressing <br> thoughts clearly.</li>
         <li style="visibility: hidden"></li>
-        <li>Volunteer for community service or engage in activities that contribute to the <br> well-being of others.</li>
+        <li data-aos="fade-up">Volunteer for community service or engage in activities that contribute to the <br> well-being of others.</li>
     </ul>
     </div>
 
     <ul> <li style="visibility: hidden"></li> </ul>
 
     <div>
-       <h3>Career Exploration:</h3>
+       <h3 data-aos="fade-up">Career Exploration:</h3>
     <ul>
-        <li>Explore potential career interests through internships, job shadowing, <br> or informational interviews.</li>
+        <li data-aos="fade-up">Explore potential career interests through internships, job shadowing, <br> or informational interviews.</li>
         <li style="visibility: hidden"></li>
-        <li>Set educational and vocational goals based on career aspirations.</li>
+        <li data-aos="fade-up">Set educational and vocational goals based on career aspirations.</li>
         <li style="visibility: hidden"></li>
-        <li>Develop a resume and engage in activities that enhance employability skills.</li>
+        <li data-aos="fade-up">Develop a resume and engage in activities that enhance employability skills.</li>
     </ul>
    </div>
 </section>
 
 <!--Left footer-->
-<footer id="FooterBlackBackground">
+<footer data-aos="fade-up" id="FooterBlackBackground">
     <div>
         <img id="phoneIcon" src="assets/images/white-phone.png" title="phone icon" alt="Image" width="15">
         <h6 id="mobileNo">+94-761-686-324</h6>
@@ -310,6 +313,7 @@
     <div id="infoLink"><img src="assets/images/icons8-america-100.png"> &nbsp info.veshonmabima.com &nbsp | &nbsp Designed by <a href="">Veshon Mabima</a></div>
 </footer>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
 
     window.onload = function (){
@@ -322,6 +326,9 @@
         })
     }
 
+</script>
+<script>
+    AOS.init();
 </script>
 
 </body>
