@@ -63,8 +63,8 @@
         <div class="bg">
             <div class="inner-bg"></div>
             <div class="inner-title">
-                <h1 id="whoIs">HOW TO</h1>
-                <h1 id="veshon"> CONTACT ?</h1>
+                <h1 class="animate__animated animate__bounce"  id="whoIs">HOW TO</h1>
+                <h1 class="animate__animated animate__bounce"  id="veshon"> CONTACT ?</h1>
             </div>
         </div>
     </div>
@@ -74,30 +74,30 @@
 
 <section id="main">
 
-    <div id="location">
+    <div  data-aos="fade-up" id="location">
         
-        <div><img src="assets/images/icons8-location-100.png" title="locationImg" alt="locationImg"><h3>LOCATION</h3></div>
+        <div><img data-aos="fade-right" src="assets/images/icons8-location-100.png" title="locationImg" alt="locationImg"><h3>LOCATION</h3></div>
         <div>
-            <h4 style="width: fit-content">Texas office</h4>
-            <h5>Robert Robertson, 1234 NW Bobcat Lane, St. Robert, MO 65584-5678.</h5>
+            <h4 data-aos="fade-down" style="width: fit-content">Texas office</h4>
+            <h5  data-aos="fade-up" >Robert Robertson, 1234 NW Bobcat Lane, St. Robert, MO 65584-5678.</h5>
         </div>
 
     </div>
-    <div id="phone">
+    <div data-aos="fade-down"  id="phone">
 
-        <div><img src="assets/images/icons8-phone-100.png" title="phoneImg" alt="phoneImg"><h3>PHONE</h3></div>
+        <div><img data-aos="fade-right"  src="assets/images/icons8-phone-100.png" title="phoneImg" alt="phoneImg"><h3>PHONE</h3></div>
         <div>
-            <h4 style="width: fit-content">Texas office</h4>
-            <h5>234 NW Bobcat Lane, St. Robert, MO 65584-5678.</h5>
+            <h4 data-aos="fade-down" style="width: fit-content">Texas office</h4>
+            <h5 data-aos="fade-up" >234 NW Bobcat Lane, St. Robert, MO 65584-5678.</h5>
         </div>
 
     </div>
-    <div id="e-mail">
+    <div data-aos="fade-up"  id="e-mail">
 
-        <div><img src="assets/images/icons8-message-100.png" title="emailImg" alt="emailImg"><h3>EMAIL</h3></div>
+        <div><img data-aos="fade-right" src="assets/images/icons8-message-100.png" title="emailImg" alt="emailImg"><h3>EMAIL</h3></div>
         <div>
-            <h4 style="width: fit-content">Tell Free</h4>
-            <h5>veshonmabima17@gmail.com</h5>
+            <h4 data-aos="fade-down" style="width: fit-content">Tell Free</h4>
+            <h5 data-aos="fade-up">veshonmabima17@gmail.com</h5>
         </div>
 
     </div>
@@ -105,7 +105,7 @@
 </section>
 
 <!--Left footer-->
-<footer id="FooterBlackBackground">
+<footer  data-aos="fade-up"  id="FooterBlackBackground">
     <div>
         <img id="phoneIcon" src="assets/images/white-phone.png" title="phone icon" alt="Image" width="15">
         <h6 id="mobileNo">+94-761-686-324</h6>
@@ -146,6 +146,7 @@
     <div id="infoLink"><img src="assets/images/icons8-america-100.png"> &nbsp info.veshonmabima.com &nbsp | &nbsp Designed by <a href="">Veshon Mabima</a></div>
 </footer>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
 
     window.onload = function (){
@@ -158,6 +159,9 @@
         })
     }
 
+</script>
+<script>
+    AOS.init();
 </script>
 
 </body>
