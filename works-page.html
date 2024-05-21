@@ -25,6 +25,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
 
@@ -64,8 +66,8 @@
         <div class="bg">
             <div class="inner-bg"></div>
             <div class="inner-title">
-                <h1 id="whoIs">PROJECTS I'VE</h1>
-                <h1 id="veshon"> DONE </h1>
+                <h1 class="animate__animated animate__bounce" id="whoIs">PROJECTS I'VE</h1>
+                <h1 class="animate__animated animate__bounce" id="veshon"> DONE </h1>
             </div>
         </div>
     </div>
@@ -93,7 +95,7 @@
 <!--Projects-->
 <section class="projects">
 
-    <div>
+    <div data-aos="fade-up">
 
         <img src="assets/images/Page%201%20-%20Web%20Site%20(mac%20book)%20-%20Google%20Chrome%205_14_2024%203_07_10%20PM.png" title="project 1" alt="image"> <br>
 
@@ -104,7 +106,7 @@
     </div>
 
 
-    <div>
+    <div data-aos="fade-up">
 
         <img src="assets/images/Page%201%20-%20Web%20Site%20(mac%20book)%20-%20Google%20Chrome%205_14_2024%204_03_08%20PM.png" title="project 2" alt="image"> <br>
 
@@ -115,7 +117,7 @@
 
     </div>
 
-    <div>
+    <div data-aos="fade-up">
 
         <img src="assets/images/1%20-%20Google%20Chrome%205_14_2024%204_09_54%20PM.png" title="project 3" alt="image"> <br>
 
@@ -126,7 +128,7 @@
 
     </div>
 
-    <div>
+    <div data-aos="fade-up">
 
         <img src="assets/images/Case6%20-%20Google%20Chrome%205_14_2024%204_14_08%20PM.png" title="project 4" alt="image"> <br>
 
@@ -137,7 +139,7 @@
 
     </div>
 
-    <div>
+    <div data-aos="fade-up">
 
         <img src="assets/images/About%20Me%20-%20Google%20Chrome%205_14_2024%204_18_45%20PM.png" title="project 5" alt="image"> <br>
 
@@ -148,7 +150,7 @@
 
     </div>
 
-    <div>
+    <div data-aos="fade-up">
 
         <img src="assets/images/About%20Me%20-%20Google%20Chrome%205_14_2024%204_20_58%20PM.png" title="project 6" alt="image"> <br>
 
@@ -159,7 +161,7 @@
 
     </div>
 
-    <div>
+    <div data-aos="fade-up">
 
         <img src="assets/images/Customer%20Manage%20-%20Google%20Chrome%205_14_2024%204_25_02%20PM.png" title="project 6" alt="image"> <br>
 
@@ -170,7 +172,7 @@
 
     </div>
 
-    <div>
+    <div data-aos="fade-up">
 
         <img src="assets/images/Customer%20Manage%20-%20Google%20Chrome%205_14_2024%204_31_18%20PM.png" title="project 6" alt="image"> <br>
 
@@ -181,7 +183,7 @@
 
     </div>
 
-    <div>
+    <div data-aos="fade-up">
 
         <img src="assets/images/Internet-Technologies-Assignment-9%20–%20index.html%205_14_2024%206_43_48%20PM.png" title="project 6" alt="image"> <br>
 
@@ -192,7 +194,7 @@
 
     </div>
 
-    <div>
+    <div data-aos="fade-up">
 
         <img src="assets/images/Internet-Technologies-Assignment-9%20–%20index.html%205_14_2024%206_43_48%20PM.png" title="project 6" alt="image"> <br>
 
@@ -203,7 +205,7 @@
 
     </div>
 
-    <div>
+    <div data-aos="fade-up">
 
         <img src="assets/images/Customer%20Manage%20-%20Google%20Chrome%205_14_2024%204_25_02%20PM.png" title="project 6" alt="image"> <br>
 
@@ -214,7 +216,7 @@
 
     </div>
 
-    <div>
+    <div data-aos="fade-up">
 
         <img src="assets/images/Customer%20Manage%20-%20Google%20Chrome%205_14_2024%204_25_02%20PM.png" title="project 6" alt="image"> <br>
 
@@ -228,7 +230,7 @@
 </section>
 
 <!--Left footer-->
-<footer id="FooterBlackBackground">
+<footer data-aos="fade-up" id="FooterBlackBackground">
     <div>
         <img id="phoneIcon" src="assets/images/white-phone.png" title="phone icon" alt="Image" width="15">
         <h6 id="mobileNo">+94-761-686-324</h6>
@@ -270,6 +272,7 @@
     <div id="infoLink"><img src="assets/images/icons8-america-100.png"> &nbsp info.veshonmabima.com &nbsp | &nbsp Designed by <a href="">Veshon Mabima</a></div>
 </footer>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
 
     window.onload = function (){
@@ -282,6 +285,9 @@
         })
     }
 
+</script>
+<script>
+    AOS.init();
 </script>
 
 </body>
