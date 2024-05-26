@@ -155,7 +155,7 @@
 }
 
 .vision{
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #mission{
@@ -165,7 +165,7 @@
 }
 
 .mission{
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #quotes{
@@ -175,7 +175,7 @@
 }
 
 .quotes{
-    font-size: 15px;
+    font-size: 18px;
 }
 
 
@@ -954,6 +954,22 @@
         left: 100px;
     }
 
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 999px){
+    .vision{
+        font-size: 15px;
+    }
+
+    .mission{
+        font-size: 15px;
+    }
+
+    .quotes{
+        font-size: 15px;
+    }
 }
 
 
