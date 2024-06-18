@@ -1389,3 +1389,109 @@
         font-size: 12px;
     }
 }
+
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 495px){
+
+    #mirrorSelfi{
+        position: relative;
+        left: -30px;
+    }
+
+    #about{
+        position: relative;
+        left: -30px;
+    }
+
+   #pic1{
+       position: relative;
+       top: -900px;
+       left: -150px;
+   }
+
+   #pic2{
+       position: relative;
+       top: -650px;
+   }
+
+    #pic3{
+        position: relative;
+        top: -630px;
+        left: 340px;
+        max-width: fit-content;
+    }
+
+    #pic4{
+        display: none;
+    }
+
+    #blurGallery{
+        font-size: 60px;
+    }
+
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 3490px;
+        left: 5%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 10px;
+    }
+
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 454px){
+
+    #whoIs{
+        display: none;
+    }
+
+    #veshon{
+        display: none;
+    }
+
+    #mirrorSelfi{
+        position: relative;
+        left: -50px;
+    }
+
+    #about{
+        position: relative;
+        left: -50px;
+        font-size: 13px;
+    }
+
+    #pic2{
+        display: none;
+    }
+
+    #pic5{
+        display: none;
+    }
+
+    #blurGallery{
+        font-size: 60px;
+        display: none;
+    }
+
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 3490px;
+        left: 5%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 10px;
+        display: none;
+    }
+
+}
