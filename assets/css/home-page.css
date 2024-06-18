@@ -1448,12 +1448,14 @@
 /*------------------------------------------------------------------------------------------------------*/
 @media all and (max-width: 454px){
 
-    #whoIs{
-        display: none;
-    }
-
-    #veshon{
-        display: none;
+    #blackBackground > .bg > .inner-title {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        font-size: 10px;
     }
 
     #mirrorSelfi{
@@ -1476,8 +1478,13 @@
     }
 
     #blurGallery{
-        font-size: 60px;
-        display: none;
+        font-size: 50px;
+    }
+
+    #gallery {
+        position: absolute;
+        font-size: 20px;
+        top: 1320px;
     }
 
     #infoLink {
