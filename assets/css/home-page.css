@@ -1613,7 +1613,6 @@
 @media all and (max-width: 433px){
 
     #mirrorSelfi{
-        max-width: fit-content;
         display: none;
     }
 
